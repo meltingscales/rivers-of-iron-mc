@@ -6,11 +6,11 @@ Look it up on Twitch (`Mods > MC > Browse Modpacks > Search > [Rivers of Iron]`)
 
 Or...
 
-`Mods > MC > My Modpacks > Create Custom Profile > or (import) a ...` and supply it this repo as a .ZIP file.
+`Mods > MC > My Modpacks > Create Custom Profile > or (import) a ...` and supply it the folder `rivers-of-iron` as a .ZIP file.
 
 ### DIY/MultiMC
 
-Download this repo as a .ZIP file and import in MultiMC
+Download this repo, compress the folder `rivers-of-iron` as a .ZIP file and import in MultiMC
 
 ## Redistributing this modpack
 
