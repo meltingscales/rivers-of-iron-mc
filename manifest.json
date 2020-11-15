@@ -1,0 +1,49 @@
+{
+  "minecraft": {
+    "version": "1.12.2",
+    "modLoaders": [
+      {
+        "id": "forge-14.23.5.2854",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "Rivers of Iron",
+  "version": "0.0.1",
+  "author": "henryfbp",
+  "files": [
+    {
+      "projectID": 293327,
+      "fileID": 3107885,
+      "required": true
+    },
+    {
+      "projectID": 240630,
+      "fileID": 2728585,
+      "required": true
+    },
+    {
+      "projectID": 238222,
+      "fileID": 3040523,
+      "required": true
+    },
+    {
+      "projectID": 302113,
+      "fileID": 2847346,
+      "required": true
+    },
+    {
+      "projectID": 242223,
+      "fileID": 3056137,
+      "required": true
+    },
+    {
+      "projectID": 242818,
+      "fileID": 2779848,
+      "required": true
+    }
+  ],
+  "overrides": "overrides"
+}
