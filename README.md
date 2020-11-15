@@ -1,6 +1,10 @@
-## Downloading
+## Mods
 
-## Generating ZIP file
+See <rivers-of-iron/modlist.html>.
+
+## Playing
+
+### Generating ZIP file
 
 Run one of the scripts in this folder, or make a ZIP file containing all the files in `rivers-of-iron/`, NOT INCLUDING the folder itself.
 
