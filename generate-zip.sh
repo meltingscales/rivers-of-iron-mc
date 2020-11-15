@@ -1,0 +1,1 @@
+zip -r rivers-of-iron-$(cat VERSION).zip rivers-of-iron/*
