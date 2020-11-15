@@ -1,5 +1,7 @@
 echo "This script will copy and overwrite all files from 'input/*.zip' INTO the folder 'rivers-of-iron/'."
 
+md -Path input -Force
+
 $filenum = Get-ChildItem input/*.zip -Recurse -File | Measure-Object | %{$_.Count}
 
 echo "$filenum files in 'input/*.zip' "
