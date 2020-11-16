@@ -38,3 +38,7 @@ Read <https://authors.curseforge.com/knowledge-base/game-specific-support/120-ho
 
 1. Put the ZIP file in `input/`
 2. Execute the file `./scripts/import-zip-and-clobber-files.\[ps1/sh\]`. NOTE that this can delete files in `rivers-of-iron/`.
+
+### Adding mods
+
+Use Twitch/CurseForge to do this, OR run `./scripts/add-mod-to-manifest.py`. Be aware this script does not download dependencies.
