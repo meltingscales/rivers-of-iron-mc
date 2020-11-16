@@ -1,17 +1,17 @@
-echo "This script will copy and overwrite all files from 'input/*.zip' INTO the folder 'rivers-of-iron/'."
+Write-Output "This script will copy and overwrite all files from 'input/*.zip' INTO the folder 'rivers-of-iron/'."
 
-md -Path input -Force
+New-Item -Type Directory -Path input -Force
 
 $filenum = Get-ChildItem input/*.zip -Recurse -File | Measure-Object | %{$_.Count}
 
-echo "$filenum files in 'input/*.zip' "
+Write-Output "$filenum files in 'input/*.zip' "
 
 if ( "1" -ne $filenum )
 {
-	echo "Less or more than 1 zip file in 'input/*.zip'. Halting."
+	Write-Output "Less or more than 1 zip file in 'input/*.zip'. Halting."
 	Exit(1)
 } else {
-	echo "1 File detected in 'input/*.zip'... Extracting..."
+	Write-Output "1 File detected in 'input/*.zip'... Extracting..."
 }
 
 $filepath = Get-ChildItem input/*.zip

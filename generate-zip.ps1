@@ -1,4 +1,4 @@
-md -Path output -Force
+New-Item -Type Directory -Path output -Force
 
 $version = Get-Content -Path "VERSION"
 
