@@ -1,3 +1,12 @@
+## General
+
+- Quests
+- LUA/CC tutorial
+- A guide for literally mod available in game
+  - Could be links or books, etc.
+
+## Mods
+
 https://www.curseforge.com/minecraft/mc-mods/opencubicchunks
 https://www.curseforge.com/minecraft/mc-mods/cwg-far-plane-view
 https://www.curseforge.com/minecraft/mc-mods/cubicworldgen
