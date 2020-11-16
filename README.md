@@ -4,13 +4,15 @@ See <rivers-of-iron/modlist.html>.
 
 ## Scripts
 
+You must NOT `cd` into `scripts/`. The working directory must be the git root.
+
 Install PowerShell for Linux if you want maximum use of scripts.
 
 ## Playing
 
 ### Generating ZIP file
 
-Run one of the scripts in this folder, or make a ZIP file containing all the files in `rivers-of-iron/`, NOT INCLUDING the folder itself.
+Run one of the scripts in `scripts/`, or make a ZIP file containing all the files in `rivers-of-iron/`, NOT INCLUDING the folder itself.
 
 ### Twitch
 
@@ -35,4 +37,4 @@ Read <https://authors.curseforge.com/knowledge-base/game-specific-support/120-ho
 ### Importing edited CurseForge zip files 
 
 1. Put the ZIP file in `input/`
-2. Run `import-zip-and-clobber-files.\[ps1/sh\]`. NOTE that this can delete files in `rivers-of-iron/`.
+2. Execute the file `./scripts/import-zip-and-clobber-files.\[ps1/sh\]`. NOTE that this can delete files in `rivers-of-iron/`.
