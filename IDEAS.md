@@ -7,14 +7,20 @@
 
 ## Mods
 
+### Broken
+
+Crashes/doesn't work with other mods.
+
 https://www.curseforge.com/minecraft/mc-mods/opencubicchunks
 https://www.curseforge.com/minecraft/mc-mods/cwg-far-plane-view
 https://www.curseforge.com/minecraft/mc-mods/cubicworldgen
 
+### Candidates
+
 https://www.curseforge.com/minecraft/mc-mods/dank-null
 https://www.curseforge.com/minecraft/mc-mods/more-buckets
 https://www.curseforge.com/minecraft/mc-mods/energy-converters
-https://www.curseforge.com/minecraft/mc-mods/unidict/files
+https://www.curseforge.com/minecraft/mc-mods/unidict/
 
 https://www.curseforge.com/minecraft/mc-mods/opencomputers
 https://www.curseforge.com/minecraft/mc-mods/actuallycomputers
