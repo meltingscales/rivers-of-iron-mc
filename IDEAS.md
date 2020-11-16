@@ -52,9 +52,4 @@ https://www.curseforge.com/minecraft/mc-mods/old-combat
 https://www.curseforge.com/minecraft/mc-mods/better-combat-rebirth
 https://www.curseforge.com/minecraft/mc-mods/xl-food-mod
 
-#### Additional Optimizations
 
-https://www.curseforge.com/minecraft/mc-mods/performant
-https://www.curseforge.com/minecraft/mc-mods/ai-improvements
-https://www.curseforge.com/minecraft/mc-mods/tiquality
-https://www.curseforge.com/minecraft/mc-mods/tick-dynamic
