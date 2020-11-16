@@ -2,6 +2,10 @@
 
 See <rivers-of-iron/modlist.html>.
 
+## Scripts
+
+Install PowerShell for Linux if you want maximum use of scripts.
+
 ## Playing
 
 ### Generating ZIP file
