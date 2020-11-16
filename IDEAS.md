@@ -27,3 +27,7 @@ https://www.curseforge.com/minecraft/mc-mods/old-combat
 https://www.curseforge.com/minecraft/mc-mods/better-combat-rebirth
 
 https://www.curseforge.com/minecraft/mc-mods/modular-forcefield-system
+
+#Optional
+
+http://optifine.net/adloadx?f=OptiFine_1.12.2_HD_U_F5.jar
