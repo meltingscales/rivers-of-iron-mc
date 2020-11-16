@@ -2,7 +2,7 @@ Write-Output "This script will copy and overwrite all files from 'input/*.zip' I
 
 New-Item -Type Directory -Path input -Force
 
-$filenum = Get-ChildItem input/*.zip -Recurse -File | Measure-Object | %{$_.Count}
+$filenum = Get-ChildItem input/*.zip -Recurse -File | Measure-Object | ForEach-Object{$_.Count}
 
 Write-Output "$filenum files in 'input/*.zip' "
 
