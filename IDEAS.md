@@ -28,6 +28,9 @@ https://www.curseforge.com/minecraft/mc-mods/cubicworldgen
 
 https://www.curseforge.com/minecraft/mc-mods/cyclops-core
 https://www.curseforge.com/minecraft/mc-mods/colossal-chests
+https://www.curseforge.com/minecraft/mc-mods/dark-utilities
+https://www.curseforge.com/minecraft/mc-mods/torohealth-damage-indicators
+https://www.curseforge.com/minecraft/mc-mods/scaling-health
 
 https://www.curseforge.com/minecraft/mc-mods/mcjtylib
 https://www.curseforge.com/minecraft/mc-mods/rftools
