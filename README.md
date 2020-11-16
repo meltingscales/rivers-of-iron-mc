@@ -34,6 +34,10 @@ Read <https://authors.curseforge.com/knowledge-base/game-specific-support/120-ho
 
 ## Tools
 
+### PackWiz
+
+<https://github.com/comp500/packwiz>
+
 ### Importing edited CurseForge zip files 
 
 1. Put the ZIP file in `input/`
