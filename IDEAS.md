@@ -23,8 +23,14 @@ Crashes/doesn't work with other mods.
 https://www.curseforge.com/minecraft/mc-mods/opencubicchunks
 https://www.curseforge.com/minecraft/mc-mods/cubicworldgen
 
-### Candidates
+#### Additional Optimizations
+ 
+https://www.curseforge.com/minecraft/mc-mods/performant
+https://www.curseforge.com/minecraft/mc-mods/ai-improvements
+https://www.curseforge.com/minecraft/mc-mods/tiquality
+https://www.curseforge.com/minecraft/mc-mods/tick-dynamic
 
+### Candidates
 
 https://www.curseforge.com/minecraft/mc-mods/cyclops-core
 https://www.curseforge.com/minecraft/mc-mods/colossal-chests
