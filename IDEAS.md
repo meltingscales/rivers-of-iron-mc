@@ -29,6 +29,11 @@ https://www.curseforge.com/minecraft/mc-mods/cubicworldgen
 https://www.curseforge.com/minecraft/mc-mods/cyclops-core
 https://www.curseforge.com/minecraft/mc-mods/colossal-chests
 
+https://www.curseforge.com/minecraft/mc-mods/mcjtylib
+https://www.curseforge.com/minecraft/mc-mods/rftools
+https://www.curseforge.com/minecraft/mc-mods/rftools-dimensions
+https://www.curseforge.com/minecraft/mc-mods/rftools-power
+
 
 https://www.curseforge.com/minecraft/mc-mods/dank-null
 https://www.curseforge.com/minecraft/mc-mods/more-buckets
