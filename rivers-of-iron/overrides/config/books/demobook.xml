@@ -5,6 +5,7 @@
     <include ref="gbook:xml/standard.xml"/>
 
     <conditions>
+    <!--
         <all name="water_and_earth">
             <item-exists registry-name="minecraft:iron_ingot"/>
             <true/>
@@ -19,6 +20,7 @@
         <not name="alt_true"><false /></not>
         <advancement-unlocked name="advancement_test" advancement="minecraft:end/root" />
         <stage-unlocked name="test1" stage="test1" />
+    -->
     </conditions>
 
     <chapter>
@@ -58,8 +60,8 @@
             <p>Test (<link ref="chapter2">Click me</link>) test</p>
             <link href="https://minecraft.curseforge.com/projects/guidebook">Click me 2</link>
             <link action="copyText" text="Text to copy to the clipboard">Click me 3</link>
-            <p>An image <image src="minecraft:item/coal" tw="16" th="16"/> mixed into the text.</p>
-            <p>An image <image src="minecraft:item/coal" tw="16" th="16" scale="3.0"/> mixed into the text.</p>
+            <p>An image <image src="minecraft:items/coal" tw="16" th="16"/> mixed into the text.</p>
+            <p>An image <image src="minecraft:items/coal" tw="16" th="16" scale="3.0"/> mixed into the text.</p>
         </section>
     </chapter>
     <chapter id="chapter2" condition="test1">
@@ -91,7 +93,7 @@
             <title>Using the recipe tag</title>
             <minecraft:recipe type="gbook:crafting" key="minecraft:iron_pickaxe"/>
             <recipe type="gbook:crafting" key="minecraft:quartz_block"/>
-            <recipe type="crafting">
+            <recipe type="shaped">
                 <recipe.result>
                     <stack item="minecraft:comparator"/>
                 </recipe.result>
