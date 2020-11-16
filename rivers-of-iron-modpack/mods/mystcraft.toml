@@ -1,0 +1,14 @@
+name = "Mystcraft"
+filename = "mystcraft-1.12.2-0.13.7.06.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2958/490/mystcraft-1.12.2-0.13.7.06.jar"
+hash-format = "murmur2"
+hash = "861772466"
+
+[update]
+[update.curseforge]
+file-id = 2958490
+project-id = 224599
+release-channel = "beta"

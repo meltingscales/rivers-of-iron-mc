@@ -1,0 +1,14 @@
+name = "Linking Through the Ages (LTTA)"
+filename = "ltta-1.12.2-1.4.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2741/521/ltta-1.12.2-1.4.0.jar"
+hash-format = "murmur2"
+hash = "1949623228"
+
+[update]
+[update.curseforge]
+file-id = 2741521
+project-id = 295624
+release-channel = "beta"

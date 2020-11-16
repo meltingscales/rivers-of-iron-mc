@@ -1,0 +1,14 @@
+name = "mystcraft-info"
+filename = "mystcraft_info-1.12.2-1.0.5.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2782/214/mystcraft_info-1.12.2-1.0.5.0.jar"
+hash-format = "murmur2"
+hash = "2269886873"
+
+[update]
+[update.curseforge]
+file-id = 2782214
+project-id = 297638
+release-channel = "beta"

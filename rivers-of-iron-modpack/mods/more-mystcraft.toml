@@ -1,0 +1,14 @@
+name = "More Mystcraft"
+filename = "moremystcraft-1.12.2-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2959/961/moremystcraft-1.12.2-1.0.0.jar"
+hash-format = "murmur2"
+hash = "1130724094"
+
+[update]
+[update.curseforge]
+file-id = 2959961
+project-id = 302888
+release-channel = "beta"

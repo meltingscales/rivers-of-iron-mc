@@ -1,0 +1,14 @@
+name = "linking-tweaks"
+filename = "linking_tweaks-1.12.2-1.0.0.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2600/881/linking_tweaks-1.12.2-1.0.0.0.jar"
+hash-format = "murmur2"
+hash = "521726435"
+
+[update]
+[update.curseforge]
+file-id = 2600881
+project-id = 300462
+release-channel = "beta"
