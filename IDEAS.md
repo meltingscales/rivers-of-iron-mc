@@ -9,6 +9,7 @@
 
 ### Added
 
+https://www.curseforge.com/minecraft/mc-mods/default-world-generator-port
 https://www.curseforge.com/minecraft/mc-mods/opencomputers
 https://www.curseforge.com/minecraft/mc-mods/actuallycomputers
 https://www.curseforge.com/minecraft/mc-mods/openperipheralcore
@@ -24,12 +25,18 @@ https://www.curseforge.com/minecraft/mc-mods/cubicworldgen
 
 ### Candidates
 
+
+https://www.curseforge.com/minecraft/mc-mods/cyclops-core
+https://www.curseforge.com/minecraft/mc-mods/colossal-chests
+
+
 https://www.curseforge.com/minecraft/mc-mods/dank-null
 https://www.curseforge.com/minecraft/mc-mods/more-buckets
 https://www.curseforge.com/minecraft/mc-mods/energy-converters
 https://www.curseforge.com/minecraft/mc-mods/unidict/
 
 https://www.curseforge.com/minecraft/mc-mods/modular-forcefield-system
+
 
 https://www.curseforge.com/minecraft/mc-mods/special-ai
 https://www.curseforge.com/minecraft/mc-mods/sword-blocking-combat
