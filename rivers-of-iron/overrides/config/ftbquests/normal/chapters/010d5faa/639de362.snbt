@@ -15,7 +15,27 @@
 		}]
 	}],
 	rewards: [{
-		uid: "658f6d36",
+		uid: "4b2cf1fa",
+		type: "item",
+		item: "ftbquests:book"
+	},
+	{
+		uid: "c69f8d8a",
+		type: "item",
+		item: "actuallyadditions:item_booklet"
+	},
+	{
+		uid: "ac6ad3fe",
+		type: "item",
+		item: "opencomputers:tool 1 4"
+	},
+	{
+		uid: "8eeec997",
+		type: "item",
+		item: "logisticspipes:guide_book"
+	},
+	{
+		uid: "a01f4fa9",
 		type: "item",
 		item: {
 			id: "gbook:guidebook",
@@ -25,13 +45,23 @@
 		}
 	},
 	{
-		uid: "4b2cf1fa",
+		uid: "b7029fc4",
 		type: "item",
-		item: "ftbquests:book"
+		item: {
+			id: "gbook:guidebook",
+			tag: {
+				Book: "ltta:xml/narayan_book.xml"
+			}
+		}
 	},
 	{
-		uid: "c69f8d8a",
+		uid: "55560d39",
 		type: "item",
-		item: "actuallyadditions:item_booklet"
+		item: {
+			id: "gbook:guidebook",
+			tag: {
+				Book: "ltta:xml/ltta.xml"
+			}
+		}
 	}]
 }
