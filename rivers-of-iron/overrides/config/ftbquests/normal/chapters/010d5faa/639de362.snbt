@@ -63,5 +63,15 @@
 				Book: "ltta:xml/ltta.xml"
 			}
 		}
+	},
+	{
+		uid: "9bff35f9",
+		type: "item",
+		item: {
+			id: "gbook:guidebook",
+			tag: {
+				Book: "gbook:riversofironguide.xml"
+			}
+		}
 	}]
 }
