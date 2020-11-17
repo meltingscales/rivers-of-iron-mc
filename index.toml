@@ -607,11 +607,6 @@ hash = "763a688ee77550d2405ef3af861598059fa6b5dfd2f2cb2df6c405953363cee5"
 metafile = true
 
 [[files]]
-file = "mods/laggoggles.toml"
-hash = "e5a0b95591c0b056fd406756aeb2ce62063e01168862d8ddabca49591eba10da"
-metafile = true
-
-[[files]]
 file = "mods/less-lag.toml"
 hash = "776da9eba33d90d9244e29ea0f120079ba1d3d983927bf56e22ba1a6087e1fe3"
 metafile = true
