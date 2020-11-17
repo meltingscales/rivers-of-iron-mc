@@ -31,6 +31,12 @@ https://www.curseforge.com/minecraft/mc-mods/better-combat-rebirth
 https://www.curseforge.com/minecraft/mc-mods/xl-food-mod
 
 
+https://www.curseforge.com/minecraft/mc-mods/mcjtylib
+https://www.curseforge.com/minecraft/mc-mods/rftools
+https://www.curseforge.com/minecraft/mc-mods/rftools-dimensions
+https://www.curseforge.com/minecraft/mc-mods/rftools-power
+
+
 ### Broken
 
 Crashes/doesn't work with other mods.
@@ -46,11 +52,6 @@ https://www.curseforge.com/minecraft/mc-mods/dark-utilities
 https://www.curseforge.com/minecraft/mc-mods/torohealth-damage-indicators
 https://www.curseforge.com/minecraft/mc-mods/scaling-health
 
-https://www.curseforge.com/minecraft/mc-mods/mcjtylib
-https://www.curseforge.com/minecraft/mc-mods/rftools
-https://www.curseforge.com/minecraft/mc-mods/rftools-dimensions
-https://www.curseforge.com/minecraft/mc-mods/rftools-power
-
 
 https://www.curseforge.com/minecraft/mc-mods/dank-null
 https://www.curseforge.com/minecraft/mc-mods/more-buckets
@@ -60,4 +61,6 @@ https://www.curseforge.com/minecraft/mc-mods/unidict/
 https://www.curseforge.com/minecraft/mc-mods/modular-forcefield-system
 
 
+### MORE
 
+Galacticraft, More Planets, Botania sky, expandable inventory
