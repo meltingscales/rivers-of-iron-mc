@@ -9,6 +9,14 @@ file = "config/EffortlessBuilding.cfg"
 hash = "80d9c8f48b79d0d28760cc512d27c325abfe139c07b18189446bd4d99c343d4d"
 
 [[files]]
+file = "config/Special_AI.cfg"
+hash = "ef4114772e5ba194f3efa9bae60fd0831897e8a924fb18c07fda8bc60bed2010"
+
+[[files]]
+file = "config/bettercombatmod.cfg"
+hash = "0fcff9b80f74b2bdca543ba20359dec3a9892052c0d85242a7f4448fe0abe1c4"
+
+[[files]]
 file = "config/bettersprinting.cfg"
 hash = "c9b634db3b1230ac863f56d760402ab1665c8cf0feb96738cf5a8a2d7af87acd"
 
@@ -26,7 +34,7 @@ hash = "37f5bead96f44d360fff75192f4bf834d9a2fc550f00d3b817af86e8433ee38e"
 
 [[files]]
 file = "config/defaultworldgenerator-port/worldsettings.data"
-hash = "9c686593c3eb3930be803352199cd5bb829dba91eea6aa34d2bd5d41238d835c"
+hash = "85880494cbfdb18fe7b3ab3242eb2d25390c702f0da8fcf08f0da9dd94098234"
 
 [[files]]
 file = "config/foamfix.cfg"
@@ -286,7 +294,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/oreexcavation.cfg"
-hash = "41bc05ced1c296c382358096344e57d88a91bc07095f52ab609a519fa59f95cb"
+hash = "b22e45a66223073733767a9d2d5ad4bcd2f1921b66aa8d05b7bd4f659f9c253a"
 
 [[files]]
 file = "config/refinedstorage.cfg"
@@ -594,11 +602,6 @@ hash = "8d7c98449e6ecebe85cfbe07555f958605878d35f14849ab9face0a41774bd56"
 metafile = true
 
 [[files]]
-file = "mods/more-mystcraft.toml"
-hash = "adf9e8a971d2ae52de57c4756a0a7f3b8c4074e82b2cd9d65b1b0744e89cf5cd"
-metafile = true
-
-[[files]]
 file = "mods/more-planets-gc-addon.toml"
 hash = "b3fced7a49b233b7e15c3a578b4c0d8719eae5358458dc8222cf3d1567d0f7c9"
 metafile = true
@@ -805,7 +808,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "cc01d7b13a10ca7f4b55e295bdc6c7879c54b33fb080725aa3b614e686096c88"
+hash = "09ab2d7a0c9bee8ccb19438f3b92032e09087b511029836f871f3c5f691cf1ac"
 
 [[files]]
 file = "optionsof.txt"
