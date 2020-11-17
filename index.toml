@@ -492,6 +492,46 @@ hash = "a6ddf1e340e276c067b0320775bf5a9ed932e9ccf13c2e1cede1f6c11f9377af"
 metafile = true
 
 [[files]]
+file = "mods/ender-io-base.toml"
+hash = "5f3c3b67bd020726c660707cc73372b355d1bb9b840e541d076a8e5808e954a4"
+metafile = true
+
+[[files]]
+file = "mods/ender-io-conduits.toml"
+hash = "f844d62a2e3f989913a1760f0cc904d69bb69b47d6d1086e2815eab88b2fe42b"
+metafile = true
+
+[[files]]
+file = "mods/ender-io-endergy.toml"
+hash = "ef318b074581e960d8d3a64c32d0cd10ada7902d176da8c33887235918977c08"
+metafile = true
+
+[[files]]
+file = "mods/ender-io-machines.toml"
+hash = "0003e1ba34e6537078fb698718fb2959018b7c2dbe6358f65213de8b0c10dae5"
+metafile = true
+
+[[files]]
+file = "mods/ender-io-rs-conduits.toml"
+hash = "6cb46f63468e3a91d88e8cc2e6a864a95de4fa2e8f763bcc3e6e380f48d38e4d"
+metafile = true
+
+[[files]]
+file = "mods/ender-io-zoo.toml"
+hash = "6ee1e8d01da8d8907d61371d3f2b6c8ec06e9616b783a1cdb9e2c4d44d31788a"
+metafile = true
+
+[[files]]
+file = "mods/endercore.toml"
+hash = "29fab396bfc16400541918c2afa8d504da54046639e6555d8f52dbd02de72923"
+metafile = true
+
+[[files]]
+file = "mods/enderio-fluxified.toml"
+hash = "d78434cbd62c2e8db6a8f56288d0692a8653afcb91be99cdd16b1803faef1bda"
+metafile = true
+
+[[files]]
 file = "mods/energy-converters.toml"
 hash = "ac4979e47682e8853388f0b5d75bda0be2f3055402244748c528d8220f1e53bb"
 metafile = true
@@ -524,6 +564,11 @@ metafile = true
 [[files]]
 file = "mods/ftb-quests.toml"
 hash = "7e13deb9609d991cec55d6072927021f368cc7c651c958ebf7e4a3059cb5e765"
+metafile = true
+
+[[files]]
+file = "mods/gas-conduits.toml"
+hash = "ff5c326f9600916df3a2d65ff3c417292c40c6358dd4abe246b985ffa4a70765"
 metafile = true
 
 [[files]]
@@ -594,6 +639,16 @@ metafile = true
 [[files]]
 file = "mods/mcjtylib.toml"
 hash = "6eada4314fd82fe43f23670ce92041ba0887d5a1bf050fd84a01e62f6d3cc135"
+metafile = true
+
+[[files]]
+file = "mods/mekanism-generators.toml"
+hash = "4b6d9002f2cbbc1494432dff85fb94bd7147c4fe0c97d4b95df7399f613976f3"
+metafile = true
+
+[[files]]
+file = "mods/mekanism-tools.toml"
+hash = "058e9298c63fa239e5aa714c708d29d9720eb8ef2d53110842fd3741de99a4e9"
 metafile = true
 
 [[files]]
