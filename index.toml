@@ -5,6 +5,10 @@ file = "DUMMY"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
+file = "MODS.md"
+hash = "85bf459caf4fbffd8418955b4703460394cfe40d4ecb1ec2f4f0302807f2ac4c"
+
+[[files]]
 file = "config/EffortlessBuilding.cfg"
 hash = "80d9c8f48b79d0d28760cc512d27c325abfe139c07b18189446bd4d99c343d4d"
 
@@ -15,6 +19,10 @@ hash = "ef4114772e5ba194f3efa9bae60fd0831897e8a924fb18c07fda8bc60bed2010"
 [[files]]
 file = "config/bettercombatmod.cfg"
 hash = "0fcff9b80f74b2bdca543ba20359dec3a9892052c0d85242a7f4448fe0abe1c4"
+
+[[files]]
+file = "config/betternether.cfg"
+hash = "45d69a7671e5a6fae60cb950433d1c310b0b24926493d9bb604b9c6fbcaa0c85"
 
 [[files]]
 file = "config/bettersprinting.cfg"
@@ -29,16 +37,24 @@ file = "config/books/riversOfIronGuide.xml"
 hash = "d58ad1bcfc8e64b61d69c9c49d05c8201b14114788413cef3f03bf2ad5bc778e"
 
 [[files]]
+file = "config/botania.cfg"
+hash = "78d9163811910fd238bf0befb7bfbf3c57f4ff86da829e7433e9bd70bfb92b92"
+
+[[files]]
 file = "config/chunkgenlimit.cfg"
 hash = "37f5bead96f44d360fff75192f4bf834d9a2fc550f00d3b817af86e8433ee38e"
 
 [[files]]
 file = "config/defaultworldgenerator-port/worldsettings.data"
-hash = "85880494cbfdb18fe7b3ab3242eb2d25390c702f0da8fcf08f0da9dd94098234"
+hash = "c139e17baa6cd6ba5283ba912733e357c887bce7c9cc4c889901ed7f87611949"
 
 [[files]]
 file = "config/dimdoors.cfg"
 hash = "b5aa95257dc415b90e3355c6245ffaf6184ad9355d81338650d223abfb872ea9"
+
+[[files]]
+file = "config/elenaidodge.cfg"
+hash = "9c25279580513230ea297aab3b898d27d06b9b8abd13a4cd261109d758d4ff27"
 
 [[files]]
 file = "config/foamfix.cfg"
@@ -350,6 +366,11 @@ hash = "21b2bbbaf642c0fb2de50ef8b20cab75c5e4aea007efe35155247a5d076aff1e"
 metafile = true
 
 [[files]]
+file = "mods/armor-underwear-mod.toml"
+hash = "332316e63d8951e9819ce605b9e510cd9858329042e0d1516b05d6e3960dbf6f"
+metafile = true
+
+[[files]]
 file = "mods/auto-pickup.toml"
 hash = "a8fea44c2a4e00aa9cc283e46aa2a9113ab781cbc121a990e62ef8dee4e0fbab"
 metafile = true
@@ -425,6 +446,11 @@ hash = "e223c7fe07335ac5a40538dd4fcdc99fbac50a7ec6f551411a7160f182ef0cdb"
 metafile = true
 
 [[files]]
+file = "mods/carrots-lib.toml"
+hash = "01f8a2a15435466949f86efff4b63730e5d5ec9c10eed0e7bd329912f7d337df"
+metafile = true
+
+[[files]]
 file = "mods/carry-on.toml"
 hash = "08f2ec28684a6836a1c89858c10486657a8377f0d82a94f46fded01aa4a192bb"
 metafile = true
@@ -437,11 +463,6 @@ metafile = true
 [[files]]
 file = "mods/chameleon.toml"
 hash = "0c8fb1975d4eb96fcf5fdaf6cc0f77b2312f24bbbbea9316c424029eb9f047d6"
-metafile = true
-
-[[files]]
-file = "mods/charset-lib.toml"
-hash = "ebc3a1f294e34395b74d2e4670a992c4539bd7abb1570b2119cc4b4a8eb4b0cc"
 metafile = true
 
 [[files]]
@@ -590,6 +611,11 @@ hash = "5541585a2c7093d01377ace93ba65b0d548c6c60b93ca4302585830a16b3dcd3"
 metafile = true
 
 [[files]]
+file = "mods/fastworkbench.toml"
+hash = "7ed2d25a5708a4df04ef9bfb7d3ac6ab45e93d77c454f8ee3b0504db40c7a1fb"
+metafile = true
+
+[[files]]
 file = "mods/fence-jumper.toml"
 hash = "d876d44686f48813bd06953df733c0244889e9ba03f500c232611d06260f5aa6"
 metafile = true
@@ -655,6 +681,11 @@ hash = "6d9babc564e526ea623a5b85e4d831e1a27d615271be7f6a3b2721c6a21fd781"
 metafile = true
 
 [[files]]
+file = "mods/ivtoolkit.toml"
+hash = "27ac888fb6b020e5f89cb155c4c019da1d751b45c52c6dabb6b5c0acd1ba9123"
+metafile = true
+
+[[files]]
 file = "mods/jei-integration.toml"
 hash = "5d1f363d9a6daed54fd0d8b30a5951f4d63ecba4e3617a5e442b87d535f42130"
 metafile = true
@@ -687,6 +718,11 @@ metafile = true
 [[files]]
 file = "mods/libvulpes.toml"
 hash = "072677e8c67ca0fbb286091060ab15289c931f51c2bffddc05659e63c490ddf2"
+metafile = true
+
+[[files]]
+file = "mods/loading-profiler.toml"
+hash = "afcbb8cf4f13c907b98fa1be88b3570cdeb9347c008329fce3ab2d0983d5b6fd"
 metafile = true
 
 [[files]]
@@ -755,11 +791,6 @@ hash = "636b9ba90d3f0b7d739586d0660ce9c8c5ff7d032aabb855a73bd4c1258ae2e2"
 metafile = true
 
 [[files]]
-file = "mods/move-plus.toml"
-hash = "bcc5a49013c300d41fbcef6ecd791c558fd4e96e68a4df275aea06fae289fc09"
-metafile = true
-
-[[files]]
 file = "mods/multi-mine.toml"
 hash = "f230ce59fe1bccbbbc5c907ab8b1bc59ee7b4c6ab4760b86c921016c067b7571"
 metafile = true
@@ -782,6 +813,11 @@ metafile = true
 [[files]]
 file = "mods/nofog.toml"
 hash = "c4cb2272bf275d0b57fd0d19975a13b813ed8ea8286bb3d4ec3beea47437f95a"
+metafile = true
+
+[[files]]
+file = "mods/novam-terram.toml"
+hash = "6df7c802b5e0f4152f80ae76cab1bac68737346699931f0d80e6036ef50023f9"
 metafile = true
 
 [[files]]
@@ -840,6 +876,16 @@ hash = "19970e8a5983a27eb3df2b24ff6e6709761e9ea0d4c89faaf451f6903fa066f5"
 metafile = true
 
 [[files]]
+file = "mods/phosphor-forge.toml"
+hash = "19e54f56be909d7236e88943c3faada5b3388e5438a5b8e0507d8306f6ceb408"
+metafile = true
+
+[[files]]
+file = "mods/placebo.toml"
+hash = "d922cb34f5cdfab26ad314521f2c0dda694bddf9b640e19492d363e9979d69ef"
+metafile = true
+
+[[files]]
 file = "mods/project-intelligence.toml"
 hash = "9d117184cf2a6e9cc2bb5d613917b6d39c9e27f8cd80751f7966d41b8b128d9c"
 metafile = true
@@ -867,6 +913,11 @@ metafile = true
 [[files]]
 file = "mods/rebornstorage.toml"
 hash = "671989feb1f13f73765307ad19e06029b76f14b351af33fd21ca446740ffa853"
+metafile = true
+
+[[files]]
+file = "mods/recurrent-complex.toml"
+hash = "d26399d69d8b1294e6a541e2aff7520b532c77c75957d0caa03ee8c013c22efa"
 metafile = true
 
 [[files]]
@@ -990,11 +1041,6 @@ hash = "b725577f37462da10dc185bcc14228d3b1e5de5ce06a852ebfefc8c507e82571"
 metafile = true
 
 [[files]]
-file = "mods/tick-dynamic.toml"
-hash = "524be2c7e81deaddec011b007df42b08773ef4f4c73e98b09e7106510507c7df"
-metafile = true
-
-[[files]]
 file = "mods/torohealth-damage-indicators.toml"
 hash = "6364c011679a0f842791f00244889e4b3d864db8d683c5242534119b257d4fa3"
 metafile = true
@@ -1061,7 +1107,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "ad5eaa671889bec881d0e3640ea86db2b27bb867f2f220a61e6601b3e6317bf3"
+hash = "cb2fc77f048015b86cb1e4286e5585404fa4a87684986f507ce4d08f612532cf"
 
 [[files]]
 file = "optionsof.txt"

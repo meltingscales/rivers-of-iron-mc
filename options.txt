@@ -72,7 +72,7 @@ key_key.togglePerspective:63
 key_key.smoothCamera:0
 key_key.fullscreen:87
 key_key.spectatorOutlines:0
-key_key.swapHands:33
+key_key.swapHands:0
 key_key.saveToolbarActivator:46
 key_key.loadToolbarActivator:0
 key_key.advancements:38
@@ -164,6 +164,7 @@ key_key.effortlessbuilding.mode.desc:56
 key_key.effortlessbuilding.undo.desc:44:CONTROL
 key_key.effortlessbuilding.redo.desc:21:CONTROL
 key_key.effortlessbuilding.altplacement.desc:29
+key_key.elenaidodge.dodge:33
 key_key.refinedstorage.focusSearchBar:15
 key_key.refinedstorage.clearGridCraftingMatrix:45:CONTROL
 key_key.refinedstorage.openWirelessGrid:0
@@ -177,7 +178,10 @@ key_mekanism.key.voice:22
 key_invtweaks.key.sort:19
 key_jecalculation.key.gui_craft:0
 key_jecalculation.key.gui_math:0
+key_Mo' Bends Menu:34
+key_Refresh Animations:68
 key_keybind.fovfixtoggle:0
+key_overloaded.key.noclip:47
 key_pi.key.open_pi:23
 key_pi.key.et_gui:23
 key_pi.key.et_world:23:CONTROL
@@ -187,6 +191,7 @@ key_key.porterPrevDestination:26
 key_key.debugDumpNBTItem:0
 key_key.debugDumpNBTBlock:0
 key_key.mcreator.speed_blast:0
+key_squeedometer.key.settings:25
 key_WorldEdit Reference:38
 key_gui.xaero_switch_waypoint_set:0
 key_gui.xaero_instant_waypoint:78
@@ -238,7 +243,7 @@ key_enderio.keybind.fovminus:0
 key_enderio.keybind.fovplusfast:0
 key_enderio.keybind.fovminusfast:0
 soundCategory_master:1.0
-soundCategory_music:1.0
+soundCategory_music:0.15492958
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
