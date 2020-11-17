@@ -765,4 +765,8 @@ metafile = true
 
 [[files]]
 file = "optionsof.txt"
-hash = "7553ef9a76d05d60109f4333364fb6c5feae7f5d414a1d4672002e9573dd5275"
+hash = "fbe10f4d216ab992962ab7c5e6d82cfd20aa06bb5d56808a833c633af84b3a78"
+
+[[files]]
+file = "output/rivers-of-iron-0.0.2.zip"
+hash = "5af5338366871d17c2247248910d25efd00c43d7687f9b16864f244d00fccf15"
