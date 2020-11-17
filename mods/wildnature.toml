@@ -1,0 +1,14 @@
+name = "WildNature | A Wilder Experience"
+filename = "wildnature-1.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2746/389/wildnature-1.2.jar"
+hash-format = "murmur2"
+hash = "1025034686"
+
+[update]
+[update.curseforge]
+file-id = 2746389
+project-id = 320975
+release-channel = "beta"

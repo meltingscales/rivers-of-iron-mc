@@ -1,0 +1,14 @@
+name = "Sword Blocking Combat"
+filename = "SwordBlockingCombat-v1.2.3-1.12.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3061/50/SwordBlockingCombat-v1.2.3-1.12.2.jar"
+hash-format = "murmur2"
+hash = "1128627289"
+
+[update]
+[update.curseforge]
+file-id = 3061050
+project-id = 352074
+release-channel = "beta"

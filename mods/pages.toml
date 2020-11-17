@@ -1,0 +1,14 @@
+name = "Pages"
+filename = "pages-1.12.2-2.0.0.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2962/347/pages-1.12.2-2.0.0.1.jar"
+hash-format = "murmur2"
+hash = "3302443047"
+
+[update]
+[update.curseforge]
+file-id = 2962347
+project-id = 310443
+release-channel = "beta"
