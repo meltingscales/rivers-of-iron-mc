@@ -3,7 +3,7 @@ name = "Rivers of Iron"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "1afdc2c6ab5e004ecec40cf24efdbcc22123dd8b307c6810b2001f304c05be9a"
+hash = "1010bc6df08f447e15170ee9ccd6e77fb8e28d14398be110a39c1e9a0cc0313f"
 
 [versions]
 forge = "14.23.5.2854"
