@@ -574,6 +574,11 @@ hash = "adf9e8a971d2ae52de57c4756a0a7f3b8c4074e82b2cd9d65b1b0744e89cf5cd"
 metafile = true
 
 [[files]]
+file = "mods/mouse-tweaks.toml"
+hash = "636b9ba90d3f0b7d739586d0660ce9c8c5ff7d032aabb855a73bd4c1258ae2e2"
+metafile = true
+
+[[files]]
 file = "mods/neat.toml"
 hash = "d4025d2389912281fc6171e0310acb7031c5e0f34c74c5cd23cc9de8bc2dd697"
 metafile = true
