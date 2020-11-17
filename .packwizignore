@@ -1,5 +1,10 @@
 .git/**
 .gitattributes
 .gitignore
+
+scripts/**
+other/**
+
+VERSION
 README.md
 export.zip
