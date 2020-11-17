@@ -517,11 +517,6 @@ hash = "7e13deb9609d991cec55d6072927021f368cc7c651c958ebf7e4a3059cb5e765"
 metafile = true
 
 [[files]]
-file = "mods/galaxy-space-addon-for-galacticraft.toml"
-hash = "7ef2bacb86bde52f8e35ab00d2e76dffbb288ea31d827c9ddd3bedb3bfc62bc9"
-metafile = true
-
-[[files]]
 file = "mods/gregtechce.toml"
 hash = "7afa8b574a02346cce1fd9240061d5e8d418bf6aa4bf628229d77d0d70e39acc"
 metafile = true
@@ -572,11 +567,6 @@ hash = "072677e8c67ca0fbb286091060ab15289c931f51c2bffddc05659e63c490ddf2"
 metafile = true
 
 [[files]]
-file = "mods/linking-tweaks.toml"
-hash = "41c0fe82a5f5b6347d2e48c3398529ded379837b559457e36511ed1f1fa35e7a"
-metafile = true
-
-[[files]]
 file = "mods/logistics-pipes.toml"
 hash = "10dd168dab50f0e1b7eea4778d7045af95dcedfd40e8d9a22255895d7d06e78e"
 metafile = true
@@ -602,8 +592,8 @@ hash = "8d7c98449e6ecebe85cfbe07555f958605878d35f14849ab9face0a41774bd56"
 metafile = true
 
 [[files]]
-file = "mods/more-planets-gc-addon.toml"
-hash = "b3fced7a49b233b7e15c3a578b4c0d8719eae5358458dc8222cf3d1567d0f7c9"
+file = "mods/minecolonies.toml"
+hash = "ba86ddd0b3c07986f073442668a89360473191d7cbc8e4ae5f2a032ac9cfc10b"
 metafile = true
 
 [[files]]
@@ -644,11 +634,6 @@ metafile = true
 [[files]]
 file = "mods/p455w0rds-library.toml"
 hash = "b9b65bf81850b6586eb09df098a8c61d786e30ebb1b9b25c2ec9548abb6df34c"
-metafile = true
-
-[[files]]
-file = "mods/pages.toml"
-hash = "2778912d545b3fe23f18d2f0fe752d766e6251a44edeecc269965e295b9cf005"
 metafile = true
 
 [[files]]
@@ -709,6 +694,11 @@ metafile = true
 [[files]]
 file = "mods/rftools.toml"
 hash = "14f323e28af2f71bd00eaaafa43d2856e7e33080402b255920af79319274ab27"
+metafile = true
+
+[[files]]
+file = "mods/rocket-boots.toml"
+hash = "012a6abbfdc330b0eaf6766796c285be57cdc4765a97c982bda719b9e55c23cd"
 metafile = true
 
 [[files]]
