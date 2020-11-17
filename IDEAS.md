@@ -17,7 +17,6 @@ https://www.curseforge.com/minecraft/mc-mods/openscreens
 https://www.curseforge.com/minecraft/mc-mods/cc-tweaked
 
 
-https://www.curseforge.com/minecraft/mc-mods/old-combat
 https://www.curseforge.com/minecraft/mc-mods/performant
 https://www.curseforge.com/minecraft/mc-mods/ai-improvements
 https://www.curseforge.com/minecraft/mc-mods/tiquality
@@ -25,8 +24,12 @@ https://www.curseforge.com/minecraft/mc-mods/tick-dynamic
 
 
 
-https://www.curseforge.com/minecraft/mc-mods/special-ai
 https://www.curseforge.com/minecraft/mc-mods/sword-blocking-combat
+https://www.curseforge.com/minecraft/mc-mods/special-ai
+https://www.curseforge.com/minecraft/mc-mods/old-combat
+https://www.curseforge.com/minecraft/mc-mods/better-combat-rebirth
+https://www.curseforge.com/minecraft/mc-mods/xl-food-mod
+
 
 ### Broken
 
@@ -56,8 +59,5 @@ https://www.curseforge.com/minecraft/mc-mods/unidict/
 
 https://www.curseforge.com/minecraft/mc-mods/modular-forcefield-system
 
-
-https://www.curseforge.com/minecraft/mc-mods/better-combat-rebirth
-https://www.curseforge.com/minecraft/mc-mods/xl-food-mod
 
 
