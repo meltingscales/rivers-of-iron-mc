@@ -5,6 +5,18 @@ file = "DUMMY"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
+file = "IDEAS.md"
+hash = "86682835a8dda89e1c03c2e2b8be389d24c13638b2dcbd8a670f4a519d886a02"
+
+[[files]]
+file = "NOTES.md"
+hash = "b096315cdad201663ba14a2b798f1f5b21929fa6d80049a39aeef058c7299045"
+
+[[files]]
+file = "TESTING.md"
+hash = "0efd69c357f710f5764511a5c0c593ae948b0ae0070f9e84f912aba02c58c0e5"
+
+[[files]]
 file = "config/EffortlessBuilding.cfg"
 hash = "4ac21ca4f921f20c074cb48cd8795b86c7ad5cdb3a480b4362839fb7a097289f"
 
@@ -409,6 +421,11 @@ hash = "bff090ee22a97bc2bd8197049c44c7acb4b8641d39a8f43fed9368a50ad2ead6"
 metafile = true
 
 [[files]]
+file = "mods/dank-null.toml"
+hash = "a25bd382599a425ce82d44ca7c3a3b9924ca821cf72cfa78c38f39aef2e464f7"
+metafile = true
+
+[[files]]
 file = "mods/default-lan-port.toml"
 hash = "e58ce89e451464971ad5643d33959c3296cd3da79a02c824244953476aed95cb"
 metafile = true
@@ -566,6 +583,11 @@ metafile = true
 [[files]]
 file = "mods/ore-excavation.toml"
 hash = "45907d0db26bcee036a61d6ac11348f1d2c7ca13792d16a26a52347992943643"
+metafile = true
+
+[[files]]
+file = "mods/p455w0rds-library.toml"
+hash = "b9b65bf81850b6586eb09df098a8c61d786e30ebb1b9b25c2ec9548abb6df34c"
 metafile = true
 
 [[files]]
