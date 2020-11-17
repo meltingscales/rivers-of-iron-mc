@@ -4,6 +4,7 @@
 
 scripts/**
 other/**
+output/**
 
 VERSION
 README.md
