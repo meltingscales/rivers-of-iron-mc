@@ -4,7 +4,7 @@ mouseSensitivity:0.5
 fov:1.0
 gamma:1.0
 saturation:0.0
-renderDistance:16
+renderDistance:8
 guiScale:3
 particles:0
 bobView:true
@@ -24,9 +24,9 @@ chatColors:true
 chatLinks:true
 chatLinksPrompt:true
 chatOpacity:1.0
-snooperEnabled:true
-fullscreen:true
-enableVsync:true
+snooperEnabled:false
+fullscreen:false
+enableVsync:false
 useVbo:true
 hideServerAddress:false
 advancedItemTooltips:true
@@ -113,7 +113,7 @@ key_smoothfont.key.guiOpen:199
 key_key.clipboardPaste:210
 key_key.cofh.multimode:47
 key_Ignore Blacklist:56
-key_Disable Auto Pickup:45
+key_Disable Auto Pickup:0
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.toggleCheatMode:0
@@ -126,7 +126,7 @@ key_key.jei.nextPage:209
 key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
 key_nei.options.keys.gui.botania_corporea_request:46
-key_bs.sprint.toggle:34
+key_bs.sprint.toggle:42
 key_bs.sneak.toggle:21
 key_bs.menu:24
 key_key.carry.desc:42
@@ -177,6 +177,7 @@ key_mekanism.key.voice:22
 key_invtweaks.key.sort:19
 key_jecalculation.key.gui_craft:0
 key_jecalculation.key.gui_math:0
+key_keybind.fovfixtoggle:0
 key_pi.key.open_pi:23
 key_pi.key.et_gui:23
 key_pi.key.et_world:23:CONTROL
@@ -207,13 +208,13 @@ key_gui.xaero_open_settings:27
 key_gui.xaero_map_zoom_in:0
 key_gui.xaero_map_zoom_out:0
 key_gui.xaero_quick_confirm:54
-key_Toggle Jetpack:45
+key_Toggle Jetpack:-97
 key_Open Rocket GUI:46
 key_Toggle RCS:19
 key_Rotate Vehicle Right:32
 key_Rotate Vehicle Left:30
 key_Move Vehicle Up:44
-key_Move Vehicle Down:45
+key_Move Vehicle Down:46
 key_key.control:29
 key_enderio.keybind.inventory:23
 key_enderio.keybind.dsu:0
