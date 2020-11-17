@@ -1,0 +1,14 @@
+name = "ChunkGenLimiter"
+filename = "chunkgenlimiter-1.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2803/941/chunkgenlimiter-1.1.jar"
+hash-format = "murmur2"
+hash = "707805242"
+
+[update]
+[update.curseforge]
+file-id = 2803941
+project-id = 346014
+release-channel = "beta"

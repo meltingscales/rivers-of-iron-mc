@@ -1,6 +1,314 @@
 hash-format = "sha256"
 
 [[files]]
+file = "DUMMY"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "config/EffortlessBuilding.cfg"
+hash = "80d9c8f48b79d0d28760cc512d27c325abfe139c07b18189446bd4d99c343d4d"
+
+[[files]]
+file = "config/bettersprinting.cfg"
+hash = "c9b634db3b1230ac863f56d760402ab1665c8cf0feb96738cf5a8a2d7af87acd"
+
+[[files]]
+file = "config/books/resources/textures/demo.png"
+hash = "cba1d88b4188f8018959500bb6898ce401c1e375cc90834ad4bb6d86919d5f3e"
+
+[[files]]
+file = "config/books/riversOfIronGuide.xml"
+hash = "d58ad1bcfc8e64b61d69c9c49d05c8201b14114788413cef3f03bf2ad5bc778e"
+
+[[files]]
+file = "config/chunkgenlimit.cfg"
+hash = "37f5bead96f44d360fff75192f4bf834d9a2fc550f00d3b817af86e8433ee38e"
+
+[[files]]
+file = "config/defaultworldgenerator-port/worldsettings.data"
+hash = "9c686593c3eb3930be803352199cd5bb829dba91eea6aa34d2bd5d41238d835c"
+
+[[files]]
+file = "config/foamfix.cfg"
+hash = "827d98c8420300d8054ea3ff16750e726ab748de746e43d1b1fe01a4fdb6c799"
+
+[[files]]
+file = "config/forge.cfg"
+hash = "c71f1da321fb7983604d9ddbdd51b4b358c9ef78b75c0740496ab805089cbe2e"
+
+[[files]]
+file = "config/forgeChunkLoading.cfg"
+hash = "45db4110ebc8c6b614d368981c24392e904fafa985350193cedf59c0809c5a53"
+
+[[files]]
+file = "config/ftbquests/normal/chapters/010d5faa/639de362.snbt"
+hash = "34f376d251c6497dcda4fe234c19219f404ef267ad9b2bb87b8d713917892285"
+
+[[files]]
+file = "config/ftbquests/normal/chapters/010d5faa/chapter.snbt"
+hash = "5fcbc2837ed9ea58483fe392d2cdc18c1321b01055e0189504de938a9859b5f5"
+
+[[files]]
+file = "config/ftbquests/normal/chapters/02a99642/chapter.snbt"
+hash = "d574b880ba97060a8f3c34ec5125b22119c6f1d04a797bf9527098bda09f2a8a"
+
+[[files]]
+file = "config/ftbquests/normal/chapters/index.snbt"
+hash = "1b0a1c879135f160157fddac675e804bc5e005af88bba226a6cc4543431f7e98"
+
+[[files]]
+file = "config/ftbquests/normal/file.snbt"
+hash = "282a2c784c8f7c2b2309881b1b8f233a879f62ad20c3df976399fb1d7f8d74f3"
+
+[[files]]
+file = "config/ftbquests/normal/reward_tables/index.snbt"
+hash = "99a4abdf45e283c112c3d7f144619c7dbc6c44547962737dd4188503a75138f9"
+
+[[files]]
+file = "config/gregtech.cfg"
+hash = "3aa69b61efed92d709bc6dc00f04f48b538ad89fb83c5eb42b1ce51dec5470e3"
+
+[[files]]
+file = "config/gregtech/worldgen/end/beryllium_vein.json"
+hash = "a88b9882b4246f53c1287222704af71963b857716f48f5da14b7db572eb8adda"
+
+[[files]]
+file = "config/gregtech/worldgen/end/lapis_vein.json"
+hash = "2766d2ab4ab30a9ac8a9be3ef42db40b10db25ce705436cd937be62cf18a0f23"
+
+[[files]]
+file = "config/gregtech/worldgen/end/manganese_vein.json"
+hash = "6c7e7ffff7ad0a6778ff2c78e48329be71096ee43dbfd0a98bba6f7bf6753be4"
+
+[[files]]
+file = "config/gregtech/worldgen/end/molybdenum_vein.json"
+hash = "5b177dd724889f866499b2c9ece00c0d830c0d0b6067eb5b8d6ccf43544c5aaa"
+
+[[files]]
+file = "config/gregtech/worldgen/end/naquadah_vein.json"
+hash = "653241423401f66bb6037b464ae943b341f9a06dc861d15b3e57457278237ae5"
+
+[[files]]
+file = "config/gregtech/worldgen/end/nickel_vein.json"
+hash = "5a7edba04db375e4350584402985037caf739732be50789951d6875c72305080"
+
+[[files]]
+file = "config/gregtech/worldgen/end/olivine_vein.json"
+hash = "069bbfcaff40ecc1081f09a6e3da9d6088915f90eae8d5479a4e733c651a3fb5"
+
+[[files]]
+file = "config/gregtech/worldgen/end/platinum_vein.json"
+hash = "acfa499f642cd99d74245d6cec6630c963f35cafd577874fd4a1013ea0eba39e"
+
+[[files]]
+file = "config/gregtech/worldgen/end/tungstate_vein.json"
+hash = "5715503e3deed24929e373ff65394357588224e73076b7a229bd399856ced121"
+
+[[files]]
+file = "config/gregtech/worldgen/nether/chalcopyrite_vein.json"
+hash = "91b3cc55a43196749f1748d770586e7b0e59d3385db3b52636146f230604f1f4"
+
+[[files]]
+file = "config/gregtech/worldgen/nether/iron_vein.json"
+hash = "df98e89e07aa170d6a47435fd9651445273be2bd0af2a8bc89d5966b10fa0738"
+
+[[files]]
+file = "config/gregtech/worldgen/nether/magnetite_vein.json"
+hash = "94b7ad924aa97d302172439638682c56e668d6abef5811e5d2e2be9da231c055"
+
+[[files]]
+file = "config/gregtech/worldgen/nether/netherquartz_vein.json"
+hash = "57a4c233bc688409f625b540715bdf6f788d2af6ff3c6987b4887adc1c15beaa"
+
+[[files]]
+file = "config/gregtech/worldgen/nether/nickel_vein.json"
+hash = "b947ad530a8fb59b820715edbab0a332af2fd2e9644451195811ddfed0cdd420"
+
+[[files]]
+file = "config/gregtech/worldgen/nether/redstone_vein.json"
+hash = "1dda8350bc89a7482bddd4fc8444887a40c1f08fe792246be697a9b3dd17e74c"
+
+[[files]]
+file = "config/gregtech/worldgen/nether/sulfur_vein.json"
+hash = "7a82bb31a0589b445ede3614be2b526523b2a8c47aa531bc64d8e89b6e8f1d83"
+
+[[files]]
+file = "config/gregtech/worldgen/nether/tetrahedrite_vein.json"
+hash = "dae9cb6f137ce7ae7eb310c3de467a4632c6f23ded396b6ed7a3ab4090537c2e"
+
+[[files]]
+file = "config/gregtech/worldgen/overworld/apatite_vein.json"
+hash = "0a1aa1d6bd58724c5f24b1216bd230e0a6da897a0a297ae039845e08cfebfaf0"
+
+[[files]]
+file = "config/gregtech/worldgen/overworld/basalt_sphere.json"
+hash = "afca222efd3339f299c027b88a2cadaa096096253ea8512c4834544617e57bbb"
+
+[[files]]
+file = "config/gregtech/worldgen/overworld/bauxite_vein.json"
+hash = "108a41ac43feb50a1a6a224707316c28b7f0ce750a663c0f53af41843eb8e520"
+
+[[files]]
+file = "config/gregtech/worldgen/overworld/beryllium_vein.json"
+hash = "db16993cadb2cf64871b237554e6a7692f1560da180115c6a3a646aefd36b238"
+
+[[files]]
+file = "config/gregtech/worldgen/overworld/black_granite_sphere.json"
+hash = "6f51cf143db2b63e635109899f45a4ccb1c250971ae9644851d56588a5a7a562"
+
+[[files]]
+file = "config/gregtech/worldgen/overworld/bornite_vein.json"
+hash = "3985954002e7dc6ba1a6efbaa54439b5c283876aaa2e661762edff015022f7f7"
+
+[[files]]
+file = "config/gregtech/worldgen/overworld/chalcopyrite_vein.json"
+hash = "1bd510593ae56de5684bcae1bf252a3daeee3e43390a80be500faf7010c51531"
+
+[[files]]
+file = "config/gregtech/worldgen/overworld/coal_vein.json"
+hash = "ad854ef2b0fddc69f9b1f527a9cf41291eeac9d08dc01e5ff163b023e75e6476"
+
+[[files]]
+file = "config/gregtech/worldgen/overworld/diamond_vein.json"
+hash = "528ab4e818afe3d957f39e103c801e80a90aacb286205e7092afe1f8473abbc5"
+
+[[files]]
+file = "config/gregtech/worldgen/overworld/galena_vein.json"
+hash = "ce3ba497ad0b3db8f4f0b6fcf7445195dfddf42aa07ef4e1e5577dd0139d03b7"
+
+[[files]]
+file = "config/gregtech/worldgen/overworld/heavy_oil_sphere.json"
+hash = "6ddfe6bac7eada8a7cd363918e07c5b84f88e6e5db39a66b59212c881b744f01"
+
+[[files]]
+file = "config/gregtech/worldgen/overworld/iron_vein.json"
+hash = "350c07231e4e4731fe00f3bc7b9c37799d38a94d38378c34602c3a93bdf7c785"
+
+[[files]]
+file = "config/gregtech/worldgen/overworld/lapis_vein.json"
+hash = "41c25c7b21f80a2dc1953139dc43ceab9c7e38de53292f72c8a05c52dbf053df"
+
+[[files]]
+file = "config/gregtech/worldgen/overworld/light_oil_sphere.json"
+hash = "3b30b69ea02ee7ecb96231c9889d4da5dc441c344915855f1b02245b8c6bad52"
+
+[[files]]
+file = "config/gregtech/worldgen/overworld/lignitecoal_vein.json"
+hash = "668412cc46d0ef868abdfd2070ea65839c45f5653b28d3711c3cd8e0186b390e"
+
+[[files]]
+file = "config/gregtech/worldgen/overworld/magnetite_vein.json"
+hash = "c93dbd643b70db75c0206075ea4952aa86a08b4e01f6843fc1928057646ad509"
+
+[[files]]
+file = "config/gregtech/worldgen/overworld/manganese_vein.json"
+hash = "dbd5ad2780bed7f872072d9308221724215496d29cf94b879a1af110e30f3d3e"
+
+[[files]]
+file = "config/gregtech/worldgen/overworld/marble_sphere.json"
+hash = "5957e93c9e4b3faa74500a35370267e4c4625f39ec878d22ac0466a349a768a7"
+
+[[files]]
+file = "config/gregtech/worldgen/overworld/medium_oil_sphere.json"
+hash = "3e7f9fcec5586363757d4d7ad7d940234b2be1e01cb14d3ea726f566a4e76e3a"
+
+[[files]]
+file = "config/gregtech/worldgen/overworld/molybdenum_vein.json"
+hash = "cdad6f10f2a757a305ddb9ac51aa24b479461247713f2cdf4ee2c8a765124b9b"
+
+[[files]]
+file = "config/gregtech/worldgen/overworld/monazite_vein.json"
+hash = "7bca754ddfcdf27a2d3aeefd02e080ce00df7dd9ad16dd5ab1a983cc0b203279"
+
+[[files]]
+file = "config/gregtech/worldgen/overworld/natural_gas_plate.json"
+hash = "1ca3297171c4302f37ed5898f1b3fea3c676fe26b56cc733904d6096e8ad62a2"
+
+[[files]]
+file = "config/gregtech/worldgen/overworld/nickel_vein.json"
+hash = "58c55ac837c3d06ff3d04615df8d29af7e39bdb13bcf40e340b95eb4dd3b06fe"
+
+[[files]]
+file = "config/gregtech/worldgen/overworld/olivine_vein.json"
+hash = "e199de6d3271a6f8487597dc8eec2b3b86339cbf32c21545395817623a2211ef"
+
+[[files]]
+file = "config/gregtech/worldgen/overworld/pitchblende_vein.json"
+hash = "01e116c701be0a2c8c7204a05d5bf3d4e4ddd61bb80c9f56b560e6e6008313b2"
+
+[[files]]
+file = "config/gregtech/worldgen/overworld/platinum_vein.json"
+hash = "52bf548362374dc78f54e6890b4464c1e73f62671eb43eae4e5475279f363a2b"
+
+[[files]]
+file = "config/gregtech/worldgen/overworld/quartz_vein.json"
+hash = "54245f8b879ea9ab28231ddb27598c2e7114924423cae25aa5ed1b6c33a481b0"
+
+[[files]]
+file = "config/gregtech/worldgen/overworld/red_granite_sphere.json"
+hash = "6d47ae44825cfd00ebb50de4b913bbdce115a2fdae3deebcfd8e13f8cb96cce4"
+
+[[files]]
+file = "config/gregtech/worldgen/overworld/redstone_vein.json"
+hash = "afee36a67821706738e64884af12aefe7ffb4a4da55cf5e98443f6d4ed0d9110"
+
+[[files]]
+file = "config/gregtech/worldgen/overworld/salts_vein.json"
+hash = "e13425568ec780b992002ddfcec341fa66f7ebe5af92254ea24b3544dfc7d9d0"
+
+[[files]]
+file = "config/gregtech/worldgen/overworld/sapphire_vein.json"
+hash = "71849df2de9c358243e7eedd725fcb10f2d3dfa36fec935fba5bf9e4841acf95"
+
+[[files]]
+file = "config/gregtech/worldgen/overworld/soapstone_vein.json"
+hash = "510ae82f5d45c6eb24a845a76cef429371275f10cd061deb0728cc467ffabd13"
+
+[[files]]
+file = "config/gregtech/worldgen/overworld/tenorite_vein.json"
+hash = "75c8c06074a76f8cbd79f967d0fe4074610b27cf0bd2ea7fd942868feaf65a69"
+
+[[files]]
+file = "config/gregtech/worldgen/overworld/tetrahedrite_vein.json"
+hash = "1267bf78dc272ff7ca816422a56223720c49ee6a57f9ff1b196db76990d29ab5"
+
+[[files]]
+file = "config/gregtech/worldgen/overworld/tin_vein.json"
+hash = "4654d3a661febf324eb6d7af741d9584e0a83d6ffc39d551560631cc9fcaf15d"
+
+[[files]]
+file = "config/gregtech/worldgen/overworld/tungstate_vein.json"
+hash = "d59f536adfef066fd6f9dead85e947151897a8ee0eea52823bce96a358269e12"
+
+[[files]]
+file = "config/gregtech/worldgen_extracted"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "config/oreexcavation.cfg"
+hash = "f444fabc12bbb7b58fe620810abf25c24c6d849d220c4a038c64f4c7d3238841"
+
+[[files]]
+file = "config/refinedstorage.cfg"
+hash = "3dbd46b3134f01dbdbf8e119480dc86b7708d1abc70bda0b1b34b66cf2777e66"
+
+[[files]]
+file = "config/refinedstorageaddons.cfg"
+hash = "ec9cdd2c88d1e2fcd2fb2ef4309a96d9243fecfa7bce9a4d0d835aa3c4672b8c"
+
+[[files]]
+file = "config/smoothfont/smoothfont.cfg"
+hash = "852ef76b336e10eeeefd94815d1b2b9fff1368f91a9a4d18f8469495008f16ac"
+
+[[files]]
+file = "config/xaerominimap.txt"
+hash = "a497e506337c7d7e6759ed57353063fb60767e14cca4dd6a9b368d79527268c0"
+
+[[files]]
+file = "config/xaeroworldmap.txt"
+hash = "733ad8b4a6c9fd7571f54d2460918d66ea7fd93470cbbb2f2d18a2341b0d98ee"
+
+[[files]]
 file = "mods/actually-additions.toml"
 hash = "93ae689c922329e679854659f8385a90e425ff9fadf09b13a3b96d2ea9cd7402"
 metafile = true
@@ -108,6 +416,11 @@ metafile = true
 [[files]]
 file = "mods/custom-main-menu.toml"
 hash = "bff090ee22a97bc2bd8197049c44c7acb4b8641d39a8f43fed9368a50ad2ead6"
+metafile = true
+
+[[files]]
+file = "mods/dank-null.toml"
+hash = "a25bd382599a425ce82d44ca7c3a3b9924ca821cf72cfa78c38f39aef2e464f7"
 metafile = true
 
 [[files]]
@@ -301,6 +614,11 @@ hash = "45907d0db26bcee036a61d6ac11348f1d2c7ca13792d16a26a52347992943643"
 metafile = true
 
 [[files]]
+file = "mods/p455w0rds-library.toml"
+hash = "b9b65bf81850b6586eb09df098a8c61d786e30ebb1b9b25c2ec9548abb6df34c"
+metafile = true
+
+[[files]]
 file = "mods/pages.toml"
 hash = "2778912d545b3fe23f18d2f0fe752d766e6251a44edeecc269965e295b9cf005"
 metafile = true
@@ -444,3 +762,367 @@ metafile = true
 file = "mods/xl-food-mod.toml"
 hash = "4b29537eb79904f79060246d48b5fca879674fd65a3bb88d8783e20cb7d619b4"
 metafile = true
+
+[[files]]
+file = "optionsof.txt"
+hash = "fbe10f4d216ab992962ab7c5e6d82cfd20aa06bb5d56808a833c633af84b3a78"
+
+[[files]]
+file = "output/rivers-of-iron-0.0.2.zip"
+hash = "5af5338366871d17c2247248910d25efd00c43d7687f9b16864f244d00fccf15"
+
+[[files]]
+file = "rivers-of-iron/mods/actually-additions.toml"
+hash = "93ae689c922329e679854659f8385a90e425ff9fadf09b13a3b96d2ea9cd7402"
+
+[[files]]
+file = "rivers-of-iron/mods/actually-baubles.toml"
+hash = "04ed0f734da36fecb0cb34321da00c3c6d9410a27295fae461b7b903edd6e128"
+
+[[files]]
+file = "rivers-of-iron/mods/actuallycomputers.toml"
+hash = "f815fc71b4638215d66904425bbf779127192c530f480bb8134b68b2ad29d60e"
+
+[[files]]
+file = "rivers-of-iron/mods/avaritia-1-10.toml"
+hash = "e75dce16f6408fd30ae76e864dedace224d7d41f4e4f16bc75548b340b53625c"
+
+[[files]]
+file = "rivers-of-iron/mods/avaritia-complement.toml"
+hash = "b2261af9b4f75eda0228b38f469021a70e3b9708706df7a9e41b7c223543f860"
+
+[[files]]
+file = "rivers-of-iron/mods/baubles.toml"
+hash = "c753e5872ef229ff88ad5e1e0aeee78a8db2084017acee1bf9a45c4807037250"
+
+[[files]]
+file = "rivers-of-iron/mods/better-combat-rebirth.toml"
+hash = "5b2fe70b68685f2e0586d2405678fcff2ded084fb45acaca9ba69fb0b7c22b98"
+
+[[files]]
+file = "rivers-of-iron/mods/better-sprinting.toml"
+hash = "d6ec9f5364b2a9674d23e8520370c67732b14ae1a9a13a2a2f97fe0cee5c5d06"
+
+[[files]]
+file = "rivers-of-iron/mods/bookshelf.toml"
+hash = "7c7d4da458ab082669f11975bad5fda167877dbabf8775eef22a8e230424831a"
+
+[[files]]
+file = "rivers-of-iron/mods/brandons-core.toml"
+hash = "2d1d09f8f2b15b97c2434a5759f275099a1efd808b3dc1388c00eba069bbf535"
+
+[[files]]
+file = "rivers-of-iron/mods/bspkrscore-updated.toml"
+hash = "e223c7fe07335ac5a40538dd4fcdc99fbac50a7ec6f551411a7160f182ef0cdb"
+
+[[files]]
+file = "rivers-of-iron/mods/cc-tweaked.toml"
+hash = "3f1c26109b342f51f7a583bc9f100380934288de2293ba4c25feedc805b34096"
+
+[[files]]
+file = "rivers-of-iron/mods/chameleon.toml"
+hash = "0c8fb1975d4eb96fcf5fdaf6cc0f77b2312f24bbbbea9316c424029eb9f047d6"
+
+[[files]]
+file = "rivers-of-iron/mods/chunkgenlimited.toml"
+hash = "3b9d43d2a751b9fe7961b8a5c2ed85661af3d2f7ff21bbf4efd3301da32cfa0c"
+
+[[files]]
+file = "rivers-of-iron/mods/clumps.toml"
+hash = "3f524e92f6681e549c2fe1d5f5d085c774eed10f3fe0ab3f6e5c69afc7b53f3c"
+
+[[files]]
+file = "rivers-of-iron/mods/codechicken-lib-1-8.toml"
+hash = "75f02a3259510376753cdb714e30430d82db0011e84c0b9b05deb5cb4d2ddead"
+
+[[files]]
+file = "rivers-of-iron/mods/cofh-core.toml"
+hash = "41c389de8c99e7861932cdf35ad32b68cbdce698904c8bc294622fac5c7ccaa4"
+
+[[files]]
+file = "rivers-of-iron/mods/cofh-world.toml"
+hash = "addeba42e92d45f278fa79b94f3b359b5f9ce69eee7438ef7480aa3764bda0e1"
+
+[[files]]
+file = "rivers-of-iron/mods/controlling.toml"
+hash = "9e95e85e1901f88818d6c18d82d68ea4342206979ad861f884299e241ad4b195"
+
+[[files]]
+file = "rivers-of-iron/mods/crafting-tweaks.toml"
+hash = "0b85963f825c706f7ad8fe180263babd1aeb68c749b0b4d8d7acc775aeab5938"
+
+[[files]]
+file = "rivers-of-iron/mods/crafttweaker.toml"
+hash = "a572379bd1f3f014e991b1747e7792783ad9b73df30e4e622e3f3188c83ed671"
+
+[[files]]
+file = "rivers-of-iron/mods/custom-main-menu.toml"
+hash = "bff090ee22a97bc2bd8197049c44c7acb4b8641d39a8f43fed9368a50ad2ead6"
+
+[[files]]
+file = "rivers-of-iron/mods/dark-utilities.toml"
+hash = "e6ea67bce6e772adf5e5859958b9abea4bfb88d225a80f739a87eaa177079e69"
+
+[[files]]
+file = "rivers-of-iron/mods/default-lan-port.toml"
+hash = "e58ce89e451464971ad5643d33959c3296cd3da79a02c824244953476aed95cb"
+
+[[files]]
+file = "rivers-of-iron/mods/default-world-generator-port.toml"
+hash = "7b49d22ae4d8747606a0389d89aa361fbd472e91a3616921fec00db3ea286f1a"
+
+[[files]]
+file = "rivers-of-iron/mods/draconic-evolution.toml"
+hash = "57ff8d1b91abeb5f6e57e905a31c28c12bbb05391ead15031c7d95e01b2a825c"
+
+[[files]]
+file = "rivers-of-iron/mods/draconicadditions.toml"
+hash = "31eaadb54e56407ce96621081dc91353ce756ffb8445a000339ac8e295e19ec3"
+
+[[files]]
+file = "rivers-of-iron/mods/effortless-building.toml"
+hash = "a6ddf1e340e276c067b0320775bf5a9ed932e9ccf13c2e1cede1f6c11f9377af"
+
+[[files]]
+file = "rivers-of-iron/mods/energy-converters.toml"
+hash = "ac4979e47682e8853388f0b5d75bda0be2f3055402244748c528d8220f1e53bb"
+
+[[files]]
+file = "rivers-of-iron/mods/fast-leaf-decay.toml"
+hash = "8239fcc9487edacf660e8a72b2fb9b9a2757c77df232a0ff409e5a8d9dadcc77"
+
+[[files]]
+file = "rivers-of-iron/mods/faster-ladder-climbing.toml"
+hash = "5541585a2c7093d01377ace93ba65b0d548c6c60b93ca4302585830a16b3dcd3"
+
+[[files]]
+file = "rivers-of-iron/mods/foamfix-optimization-mod.toml"
+hash = "0473430ad8d5f380cf514741a4231acbc2a6b73cd0226c9a275e2efe36c89f94"
+
+[[files]]
+file = "rivers-of-iron/mods/forge-multipart-cbe.toml"
+hash = "43f0e754ab26b5434510719dcf9ace01eef1b54df72efc54d962861754261eac"
+
+[[files]]
+file = "rivers-of-iron/mods/ftb-library.toml"
+hash = "016bc703be18098ed8b1f4ff840f3aa4b97154a2bcbae48ca53d3bc28e2f588a"
+
+[[files]]
+file = "rivers-of-iron/mods/ftb-quests.toml"
+hash = "7e13deb9609d991cec55d6072927021f368cc7c651c958ebf7e4a3059cb5e765"
+
+[[files]]
+file = "rivers-of-iron/mods/gregtechce.toml"
+hash = "7afa8b574a02346cce1fd9240061d5e8d418bf6aa4bf628229d77d0d70e39acc"
+
+[[files]]
+file = "rivers-of-iron/mods/guidebook.toml"
+hash = "d3a73b2aa8260e376b26afd4f2cfdc4f427259726f7c1dc41452ecd148c7e738"
+
+[[files]]
+file = "rivers-of-iron/mods/infinite-water-source.toml"
+hash = "23d6c77ac70a36f59396b3036bd2b83b69145f2629a05081d033c3d3fbd816b3"
+
+[[files]]
+file = "rivers-of-iron/mods/inventory-tweaks.toml"
+hash = "d683929fb11eb223d1fa0e3dbfed21fe735ae1bd5a1d2a2f9273cbfead4a7f7c"
+
+[[files]]
+file = "rivers-of-iron/mods/item-filters.toml"
+hash = "6d9babc564e526ea623a5b85e4d831e1a27d615271be7f6a3b2721c6a21fd781"
+
+[[files]]
+file = "rivers-of-iron/mods/jei-integration.toml"
+hash = "5d1f363d9a6daed54fd0d8b30a5951f4d63ecba4e3617a5e442b87d535f42130"
+
+[[files]]
+file = "rivers-of-iron/mods/jei.toml"
+hash = "5dc4edd68c74875cc28caeccf9ab0f08377371e60d4127a24464c317eee7d16b"
+
+[[files]]
+file = "rivers-of-iron/mods/just-enough-calculation.toml"
+hash = "e4a1b5fdab31e71ea9646a6379f2bb08857fa72fc3b5675665e40b54512e756a"
+
+[[files]]
+file = "rivers-of-iron/mods/just-enough-resources-jer.toml"
+hash = "763a688ee77550d2405ef3af861598059fa6b5dfd2f2cb2df6c405953363cee5"
+
+[[files]]
+file = "rivers-of-iron/mods/linking-tweaks.toml"
+hash = "41c0fe82a5f5b6347d2e48c3398529ded379837b559457e36511ed1f1fa35e7a"
+
+[[files]]
+file = "rivers-of-iron/mods/logistics-pipes.toml"
+hash = "10dd168dab50f0e1b7eea4778d7045af95dcedfd40e8d9a22255895d7d06e78e"
+
+[[files]]
+file = "rivers-of-iron/mods/long-fall-boots.toml"
+hash = "8b32fa5d49b1d52b60b894da0bd376a146a7e44c6bc4fe9ba2f35aebaa77205c"
+
+[[files]]
+file = "rivers-of-iron/mods/ltta.toml"
+hash = "a1fc148bb393eb24b0c2469ecc8f23b3cc66a3cc1f52f81306874f3d89a039f8"
+
+[[files]]
+file = "rivers-of-iron/mods/mcjtylib.toml"
+hash = "6eada4314fd82fe43f23670ce92041ba0887d5a1bf050fd84a01e62f6d3cc135"
+
+[[files]]
+file = "rivers-of-iron/mods/mekanism.toml"
+hash = "8d7c98449e6ecebe85cfbe07555f958605878d35f14849ab9face0a41774bd56"
+
+[[files]]
+file = "rivers-of-iron/mods/more-mystcraft.toml"
+hash = "adf9e8a971d2ae52de57c4756a0a7f3b8c4074e82b2cd9d65b1b0744e89cf5cd"
+
+[[files]]
+file = "rivers-of-iron/mods/mystcraft-info.toml"
+hash = "601dadc2268f1b4ad6400e2d4bf368644adffe81ee2bcec23ab1a782b5d5b4a2"
+
+[[files]]
+file = "rivers-of-iron/mods/mystcraft.toml"
+hash = "4fe81b3a0b12a49a25988a6ef76afc8ea5c38ffb11ac02dad69ed2001b2fd2cd"
+
+[[files]]
+file = "rivers-of-iron/mods/mystlibrary.toml"
+hash = "48565b833636c01efa75b542f6e948a20271dcaa058f6209899cdb414924e9d5"
+
+[[files]]
+file = "rivers-of-iron/mods/neat.toml"
+hash = "d4025d2389912281fc6171e0310acb7031c5e0f34c74c5cd23cc9de8bc2dd697"
+
+[[files]]
+file = "rivers-of-iron/mods/nodami.toml"
+hash = "354ebbc5bff60e9dd598859786fc985f472c9a34b62e15012dc56af35f4ca797"
+
+[[files]]
+file = "rivers-of-iron/mods/old-combat.toml"
+hash = "607d3cf9a6c92408ca65992cb411c9dbd36ddf8cd7e8498375d6fb549eaf097f"
+
+[[files]]
+file = "rivers-of-iron/mods/opencomputers.toml"
+hash = "851c192825d06e355cc870b6cf643910b4c34dd7e248a7f844f465d361609f04"
+
+[[files]]
+file = "rivers-of-iron/mods/openscreens.toml"
+hash = "bb15ca86dd7e29f2506d4a368badc2303add9d9140657ff3658452deb336ce24"
+
+[[files]]
+file = "rivers-of-iron/mods/ore-excavation.toml"
+hash = "45907d0db26bcee036a61d6ac11348f1d2c7ca13792d16a26a52347992943643"
+
+[[files]]
+file = "rivers-of-iron/mods/pages.toml"
+hash = "2778912d545b3fe23f18d2f0fe752d766e6251a44edeecc269965e295b9cf005"
+
+[[files]]
+file = "rivers-of-iron/mods/phosphor-forge.toml"
+hash = "414c86590cf1c323ecc6c231225fb414dde8c485224e03a35a67f9ee20c23b23"
+
+[[files]]
+file = "rivers-of-iron/mods/project-intelligence.toml"
+hash = "9d117184cf2a6e9cc2bb5d613917b6d39c9e27f8cd80751f7966d41b8b128d9c"
+
+[[files]]
+file = "rivers-of-iron/mods/reauth.toml"
+hash = "be8ce0a6292dd1bc62cfd066f7317ad29e3e3eb050631369c2d9a1022562347f"
+
+[[files]]
+file = "rivers-of-iron/mods/reborncore.toml"
+hash = "c7008ce33ade755dbb24766fd4fe3e8ae87b4a2613f070193673fab884277b2f"
+
+[[files]]
+file = "rivers-of-iron/mods/rebornstorage.toml"
+hash = "671989feb1f13f73765307ad19e06029b76f14b351af33fd21ca446740ffa853"
+
+[[files]]
+file = "rivers-of-iron/mods/redstone-flux.toml"
+hash = "2d46c70dfa56a3fcb4c789616b9da9240b89a2c5c2affdf75790f6a624bca726"
+
+[[files]]
+file = "rivers-of-iron/mods/refined-avaritia.toml"
+hash = "15b237a19ff72a5a01a1b6171a15e9771f72256987e1653d72922a3bf399cd04"
+
+[[files]]
+file = "rivers-of-iron/mods/refined-storage-addons.toml"
+hash = "e653638517d91da9b99aebda52999ef2e5db5c6e06de0a1b9b64babdbedf3296"
+
+[[files]]
+file = "rivers-of-iron/mods/refined-storage.toml"
+hash = "8222afd78b5c0aed8fd390b8aa4464e444615adaa3fcc163a6592a8660480883"
+
+[[files]]
+file = "rivers-of-iron/mods/rftools-dimensions.toml"
+hash = "3c2df3b7a9631b74662ab4db6874e2ea466f9de1ffea33b59f230b7010e0513d"
+
+[[files]]
+file = "rivers-of-iron/mods/rftools-power.toml"
+hash = "1ae92ba980b929e0176b0397e68badc60485cbddf345bcb6b96b68568f18e8ee"
+
+[[files]]
+file = "rivers-of-iron/mods/rftools.toml"
+hash = "14f323e28af2f71bd00eaaafa43d2856e7e33080402b255920af79319274ab27"
+
+[[files]]
+file = "rivers-of-iron/mods/shadowfacts-forgelin.toml"
+hash = "131c93b64f168057a684dbc6c953498f9837e83a585e5185451b9a1c942dcc9a"
+
+[[files]]
+file = "rivers-of-iron/mods/smooth-font.toml"
+hash = "c1ecd1478acc63c403587c6bdd5963cc1dbb710252041177c5a02931f4ed04b1"
+
+[[files]]
+file = "rivers-of-iron/mods/special-ai.toml"
+hash = "952b29d5a6cdae6428f404691415dbb8d2df6faf3e315f20726ebf523c761227"
+
+[[files]]
+file = "rivers-of-iron/mods/storage-drawers.toml"
+hash = "e657fcefd418fe32d8ceadc423defe57f75cc6afe11c3b9ada164794d56e5b82"
+
+[[files]]
+file = "rivers-of-iron/mods/surge.toml"
+hash = "f9ed03a5878d4dc86fd19bc1ab0657425d5f3fdbdc3011e49852a7ce2ac2f5bb"
+
+[[files]]
+file = "rivers-of-iron/mods/sword-blocking-combat.toml"
+hash = "463478609162281cde18d061190fd2817d523edf99d07e4b093a9cea2b9e2d0f"
+
+[[files]]
+file = "rivers-of-iron/mods/the-one-probe.toml"
+hash = "439e3f7e6e7fa3160fd46739826258107fb9d465f32b658f6102aabc34a03b37"
+
+[[files]]
+file = "rivers-of-iron/mods/thermal-dynamics.toml"
+hash = "d43bea3e65cd2ac34bd918091846f16bafed4099c0fac95a023d32a33e547b64"
+
+[[files]]
+file = "rivers-of-iron/mods/thermal-foundation.toml"
+hash = "b725577f37462da10dc185bcc14228d3b1e5de5ce06a852ebfefc8c507e82571"
+
+[[files]]
+file = "rivers-of-iron/mods/torohealth-damage-indicators.toml"
+hash = "6364c011679a0f842791f00244889e4b3d864db8d683c5242534119b257d4fa3"
+
+[[files]]
+file = "rivers-of-iron/mods/treecapitator-updated.toml"
+hash = "4728760939a2ac00202b1b3aaa7787b1627133d26a555afcf974a78f2b3d6f42"
+
+[[files]]
+file = "rivers-of-iron/mods/wildnature.toml"
+hash = "e527571aefaf7dd0ee1695f19918f3cfa7ea67eebd0a0372890e666a9203e89b"
+
+[[files]]
+file = "rivers-of-iron/mods/worldedit.toml"
+hash = "235d0ebcf0e72d3de0d074f402cdbfbc0da7edc7da37ebba92088299fd906768"
+
+[[files]]
+file = "rivers-of-iron/mods/xaeros-minimap.toml"
+hash = "538b3ecd451abe8f0cf6065e10abd956fd6be517ce10c570e02bb9dfc3943ab9"
+
+[[files]]
+file = "rivers-of-iron/mods/xaeros-world-map.toml"
+hash = "f8a4ca83e85029e0e1e0fbe2c924d521df7f221f0eb76c0d3afdb544ea0dba2d"
+
+[[files]]
+file = "rivers-of-iron/mods/xl-food-mod.toml"
+hash = "4b29537eb79904f79060246d48b5fca879674fd65a3bb88d8783e20cb7d619b4"

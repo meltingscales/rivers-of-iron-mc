@@ -1,0 +1,14 @@
+name = "Phosphor (Forge)"
+filename = "phosphor-1.12.2-0.2.6+build50-universal.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2747/710/phosphor-1.12.2-0.2.6+build50-universal.jar"
+hash-format = "murmur2"
+hash = "229203232"
+
+[update]
+[update.curseforge]
+file-id = 2747710
+project-id = 318255
+release-channel = "beta"
