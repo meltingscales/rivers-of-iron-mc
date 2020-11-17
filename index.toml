@@ -286,7 +286,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/oreexcavation.cfg"
-hash = "f444fabc12bbb7b58fe620810abf25c24c6d849d220c4a038c64f4c7d3238841"
+hash = "41bc05ced1c296c382358096344e57d88a91bc07095f52ab609a519fa59f95cb"
 
 [[files]]
 file = "config/refinedstorage.cfg"
@@ -579,21 +579,6 @@ hash = "636b9ba90d3f0b7d739586d0660ce9c8c5ff7d032aabb855a73bd4c1258ae2e2"
 metafile = true
 
 [[files]]
-file = "mods/mystcraft-info.toml"
-hash = "601dadc2268f1b4ad6400e2d4bf368644adffe81ee2bcec23ab1a782b5d5b4a2"
-metafile = true
-
-[[files]]
-file = "mods/mystcraft.toml"
-hash = "4fe81b3a0b12a49a25988a6ef76afc8ea5c38ffb11ac02dad69ed2001b2fd2cd"
-metafile = true
-
-[[files]]
-file = "mods/mystlibrary.toml"
-hash = "48565b833636c01efa75b542f6e948a20271dcaa058f6209899cdb414924e9d5"
-metafile = true
-
-[[files]]
 file = "mods/neat.toml"
 hash = "d4025d2389912281fc6171e0310acb7031c5e0f34c74c5cd23cc9de8bc2dd697"
 metafile = true
@@ -782,6 +767,10 @@ metafile = true
 file = "mods/xl-food-mod.toml"
 hash = "4b29537eb79904f79060246d48b5fca879674fd65a3bb88d8783e20cb7d619b4"
 metafile = true
+
+[[files]]
+file = "options.txt"
+hash = "cc01d7b13a10ca7f4b55e295bdc6c7879c54b33fb080725aa3b614e686096c88"
 
 [[files]]
 file = "optionsof.txt"
