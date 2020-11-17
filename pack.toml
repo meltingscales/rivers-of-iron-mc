@@ -1,0 +1,10 @@
+name = "Rivers of Iron"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "456da1e09610c66d771edf04bb93085681591778923dcc85bf82352ce63b0486"
+
+[versions]
+forge = "14.23.5.2854"
+minecraft = "1.12.2"

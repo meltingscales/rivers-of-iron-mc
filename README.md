@@ -4,15 +4,13 @@ See <rivers-of-iron/modlist.html>.
 
 ## Scripts
 
-You must NOT `cd` into `scripts/`. The working directory must be the git root.
-
-Install PowerShell for Linux if you want maximum use of scripts.
+Mostly deprecated. Use `packwiz`.
 
 ## Playing
 
 ### Generating ZIP file
 
-Run one of the scripts in `scripts/`, or make a ZIP file containing all the files in `rivers-of-iron/`, NOT INCLUDING the folder itself.
+    packwiz cf export
 
 ### Twitch
 
@@ -45,4 +43,4 @@ Read <https://authors.curseforge.com/knowledge-base/game-specific-support/120-ho
 
 ### Adding mods
 
-Use Twitch/CurseForge to do this, OR run `./scripts/add-mod-to-manifest.py`. Be aware this script does not download dependencies.
+    packwiz cf install
