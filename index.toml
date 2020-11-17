@@ -342,6 +342,11 @@ hash = "c3ed6c8e44d90a71a7cb0d327d9398f7d688fea99dbedc1a5f0008eb170db810"
 metafile = true
 
 [[files]]
+file = "mods/auto-pickup.toml"
+hash = "a8fea44c2a4e00aa9cc283e46aa2a9113ab781cbc121a990e62ef8dee4e0fbab"
+metafile = true
+
+[[files]]
 file = "mods/avaritia-1-10.toml"
 hash = "e75dce16f6408fd30ae76e864dedace224d7d41f4e4f16bc75548b340b53625c"
 metafile = true
@@ -384,6 +389,11 @@ metafile = true
 [[files]]
 file = "mods/bspkrscore-updated.toml"
 hash = "e223c7fe07335ac5a40538dd4fcdc99fbac50a7ec6f551411a7160f182ef0cdb"
+metafile = true
+
+[[files]]
+file = "mods/carry-on.toml"
+hash = "08f2ec28684a6836a1c89858c10486657a8377f0d82a94f46fded01aa4a192bb"
 metafile = true
 
 [[files]]
@@ -734,6 +744,16 @@ metafile = true
 [[files]]
 file = "mods/sword-blocking-combat.toml"
 hash = "463478609162281cde18d061190fd2817d523edf99d07e4b093a9cea2b9e2d0f"
+metafile = true
+
+[[files]]
+file = "mods/tektopia-information.toml"
+hash = "3e7e6b8d89034841f3651fc78e49beeb174b7c7555a75834091ea40d5ed2fe99"
+metafile = true
+
+[[files]]
+file = "mods/tektopia.toml"
+hash = "0f0b46af34c8cd2b98e384a0ebe54570f3bf9dbead8be46a531cc4f30a642bef"
 metafile = true
 
 [[files]]
