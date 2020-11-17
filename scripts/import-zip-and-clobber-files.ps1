@@ -1,4 +1,6 @@
-Write-Output "This script will copy and overwrite all files from 'input/*.zip' INTO the folder 'rivers-of-iron/'."
+$destination = "./"
+
+Write-Output "This script will copy and overwrite all files from 'input/*.zip' INTO the folder '$destination'."
 
 New-Item -Type Directory -Path input -Force
 
@@ -17,4 +19,4 @@ if ( "1" -ne $filenum )
 $filepath = Get-ChildItem input/*.zip
 
 
-Expand-Archive -LiteralPath $filepath -DestinationPath rivers-of-iron/ -Force
+Expand-Archive -LiteralPath $filepath -DestinationPath $destination -Force

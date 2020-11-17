@@ -39,7 +39,7 @@ Read <https://authors.curseforge.com/knowledge-base/game-specific-support/120-ho
 ### Importing edited CurseForge zip files 
 
 1. Put the ZIP file in `input/`
-2. Execute the file `./scripts/import-zip-and-clobber-files.\[ps1/sh\]`. NOTE that this can delete files in `rivers-of-iron/`.
+2. Execute the file `./scripts/import-zip-and-clobber-files.\[ps1/sh\]`. NOTE that this can delete files in `./`.
 
 ### Adding mods
 
