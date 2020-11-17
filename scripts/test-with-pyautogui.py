@@ -1,5 +1,7 @@
 import pyautogui
+import time
 import os
+import subprocess
 import psutil
 import distutils.spawn
 import platform
@@ -65,17 +67,19 @@ def ensure_multimc_closed():
         raise Exception("MultiMC must be CLOSED for this to work.")
 
 
-def open_multimc():
+def open_multimc() -> subprocess.Popen:
     path = get_multimc_path()
-    print("Exec {}".format(path))
-    os.system(path)
+    print("Exec {} in background".format(path))
+    # os.system(path) # NOTE: this blocks.
+    return subprocess.Popen([path])
+
 
 if __name__ == '__main__':
     ensure_packwiz_installed()
     ensure_multimc_installed()
 
     ensure_multimc_closed()
-    open_multimc()
+    mmc_proc=open_multimc()
 
     '''
     <ESC>
@@ -90,3 +94,12 @@ if __name__ == '__main__':
     terminate mmc
     exit 0 or 1!
     '''
+
+    print("potato")
+
+    time.sleep(10)
+    mmc_proc.kill() # kill MMC after 10s for testing
+
+    print("killed mmc.")
+
+    exit(1)
