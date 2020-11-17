@@ -1,0 +1,14 @@
+name = "AsmodeusCore"
+filename = "AsmodeusCore-1.12.2-0.0.21.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3096/822/AsmodeusCore-1.12.2-0.0.21.jar"
+hash-format = "murmur2"
+hash = "3971941388"
+
+[update]
+[update.curseforge]
+file-id = 3096822
+project-id = 303101
+release-channel = "beta"

@@ -324,6 +324,16 @@ hash = "f815fc71b4638215d66904425bbf779127192c530f480bb8134b68b2ad29d60e"
 metafile = true
 
 [[files]]
+file = "mods/advanced-rocketry.toml"
+hash = "21b2bbbaf642c0fb2de50ef8b20cab75c5e4aea007efe35155247a5d076aff1e"
+metafile = true
+
+[[files]]
+file = "mods/asmodeuscore.toml"
+hash = "c3ed6c8e44d90a71a7cb0d327d9398f7d688fea99dbedc1a5f0008eb170db810"
+metafile = true
+
+[[files]]
 file = "mods/avaritia-1-10.toml"
 hash = "e75dce16f6408fd30ae76e864dedace224d7d41f4e4f16bc75548b340b53625c"
 metafile = true
@@ -351,6 +361,11 @@ metafile = true
 [[files]]
 file = "mods/bookshelf.toml"
 hash = "42ddbbad711fbfe21b506e78464cacffc41cca6b7f1f483d32fb440db21431c8"
+metafile = true
+
+[[files]]
+file = "mods/botania.toml"
+hash = "ee1079260915e7b1caf14afecc7aa9866560c63c14bc18b4bb1d42a957e8ae18"
 metafile = true
 
 [[files]]
@@ -494,6 +509,11 @@ hash = "7e13deb9609d991cec55d6072927021f368cc7c651c958ebf7e4a3059cb5e765"
 metafile = true
 
 [[files]]
+file = "mods/galaxy-space-addon-for-galacticraft.toml"
+hash = "7ef2bacb86bde52f8e35ab00d2e76dffbb288ea31d827c9ddd3bedb3bfc62bc9"
+metafile = true
+
+[[files]]
 file = "mods/gregtechce.toml"
 hash = "7afa8b574a02346cce1fd9240061d5e8d418bf6aa4bf628229d77d0d70e39acc"
 metafile = true
@@ -539,6 +559,11 @@ hash = "763a688ee77550d2405ef3af861598059fa6b5dfd2f2cb2df6c405953363cee5"
 metafile = true
 
 [[files]]
+file = "mods/libvulpes.toml"
+hash = "072677e8c67ca0fbb286091060ab15289c931f51c2bffddc05659e63c490ddf2"
+metafile = true
+
+[[files]]
 file = "mods/linking-tweaks.toml"
 hash = "41c0fe82a5f5b6347d2e48c3398529ded379837b559457e36511ed1f1fa35e7a"
 metafile = true
@@ -571,6 +596,11 @@ metafile = true
 [[files]]
 file = "mods/more-mystcraft.toml"
 hash = "adf9e8a971d2ae52de57c4756a0a7f3b8c4074e82b2cd9d65b1b0744e89cf5cd"
+metafile = true
+
+[[files]]
+file = "mods/more-planets-gc-addon.toml"
+hash = "b3fced7a49b233b7e15c3a578b4c0d8719eae5358458dc8222cf3d1567d0f7c9"
 metafile = true
 
 [[files]]
@@ -691,6 +721,11 @@ metafile = true
 [[files]]
 file = "mods/special-ai.toml"
 hash = "952b29d5a6cdae6428f404691415dbb8d2df6faf3e315f20726ebf523c761227"
+metafile = true
+
+[[files]]
+file = "mods/stevekungs-lib.toml"
+hash = "9b7b78c0bebc2c94af18976d706c122f16f46760678a11842648c97470706af4"
 metafile = true
 
 [[files]]

@@ -1,0 +1,14 @@
+name = "SteveKunG's Lib"
+filename = "SteveKunG's-Lib-1.12.2-1.1.9.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3051/418/SteveKunG's-Lib-1.12.2-1.1.9.jar"
+hash-format = "murmur2"
+hash = "1619335160"
+
+[update]
+[update.curseforge]
+file-id = 3051418
+project-id = 296019
+release-channel = "beta"
