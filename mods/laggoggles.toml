@@ -1,0 +1,14 @@
+name = "LagGoggles"
+filename = "LagGoggles-1.12.2-5.8-132.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2947/622/LagGoggles-1.12.2-5.8-132.jar"
+hash-format = "murmur2"
+hash = "58555158"
+
+[update]
+[update.curseforge]
+file-id = 2947622
+project-id = 283525
+release-channel = "beta"
