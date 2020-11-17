@@ -439,6 +439,11 @@ hash = "7b49d22ae4d8747606a0389d89aa361fbd472e91a3616921fec00db3ea286f1a"
 metafile = true
 
 [[files]]
+file = "mods/dimensionaldoors.toml"
+hash = "d4f57c530614d0b0cf2b5b25203b19f06a8a50910ac43eb6f767bc21abdf3561"
+metafile = true
+
+[[files]]
 file = "mods/draconic-evolution.toml"
 hash = "57ff8d1b91abeb5f6e57e905a31c28c12bbb05391ead15031c7d95e01b2a825c"
 metafile = true
