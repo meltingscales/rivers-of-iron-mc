@@ -1,0 +1,14 @@
+name = "Compact Solars"
+filename = "CompactSolars-1.12.2-5.0.18.341-universal.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2633/646/CompactSolars-1.12.2-5.0.18.341-universal.jar"
+hash-format = "murmur2"
+hash = "1685666679"
+
+[update]
+[update.curseforge]
+file-id = 2633646
+project-id = 228759
+release-channel = "beta"

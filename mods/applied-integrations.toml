@@ -1,0 +1,14 @@
+name = "Applied Integrations"
+filename = "AppliedIntegrations-1.12.2-e2884e6f.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2866/504/AppliedIntegrations-1.12.2-e2884e6f.jar"
+hash-format = "murmur2"
+hash = "1927750889"
+
+[update]
+[update.curseforge]
+file-id = 2866504
+project-id = 301924
+release-channel = "beta"

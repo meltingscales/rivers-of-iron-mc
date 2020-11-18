@@ -1,0 +1,14 @@
+name = "Hardcore Battle Towers"
+filename = "Hardcore Battle Towers AV 2.0.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2902/713/Hardcore Battle Towers AV 2.0.1.jar"
+hash-format = "murmur2"
+hash = "3777278508"
+
+[update]
+[update.curseforge]
+file-id = 2902713
+project-id = 323868
+release-channel = "beta"

@@ -365,6 +365,11 @@ hash = "f815fc71b4638215d66904425bbf779127192c530f480bb8134b68b2ad29d60e"
 metafile = true
 
 [[files]]
+file = "mods/advanced-generators.toml"
+hash = "1815793b03e5e2ad0b23709b9cd3e8cabb55c60f29423576b8238d4ba5f0ce8b"
+metafile = true
+
+[[files]]
 file = "mods/advanced-rocketry.toml"
 hash = "21b2bbbaf642c0fb2de50ef8b20cab75c5e4aea007efe35155247a5d076aff1e"
 metafile = true
@@ -380,8 +385,23 @@ hash = "2242972ac10ccfe66c307098116cfca10724d621a651b5554bae63d33a72a76e"
 metafile = true
 
 [[files]]
+file = "mods/applied-energistics-2.toml"
+hash = "4294eab4a53211921fa5ed9599cbdd05e7532d99dd7d332bcfd819c13d484926"
+metafile = true
+
+[[files]]
+file = "mods/applied-integrations.toml"
+hash = "af992084d72dc7f58b29aca716507ec2a3393a97159f9d23e03a20ef523348cd"
+metafile = true
+
+[[files]]
 file = "mods/armor-underwear-mod.toml"
 hash = "332316e63d8951e9819ce605b9e510cd9858329042e0d1516b05d6e3960dbf6f"
+metafile = true
+
+[[files]]
+file = "mods/auto-feeder-helmet.toml"
+hash = "e527f270afe575952c09a210ed6ee2b374d7ead610ca4acdf33335eebbeb81e9"
 metafile = true
 
 [[files]]
@@ -407,6 +427,11 @@ metafile = true
 [[files]]
 file = "mods/baubles.toml"
 hash = "c753e5872ef229ff88ad5e1e0aeee78a8db2084017acee1bf9a45c4807037250"
+metafile = true
+
+[[files]]
+file = "mods/bdlib.toml"
+hash = "f27e8eb3b896f8771ce9a83c7ba5bde35590a4e9ac1f019b244b5d72a7f669f5"
 metafile = true
 
 [[files]]
@@ -502,6 +527,11 @@ metafile = true
 [[files]]
 file = "mods/colossal-chests.toml"
 hash = "c40b5b6750f07c51b035ce48126003fee8c4b0c2cd6515e8bb97d1185ed19d8f"
+metafile = true
+
+[[files]]
+file = "mods/compact-solars.toml"
+hash = "7f36482edb79598aaf2306e476f398d8c2cea51a9c601ee9bd7f090c0b5246ec"
 metafile = true
 
 [[files]]
@@ -630,6 +660,11 @@ hash = "6ee1e8d01da8d8907d61371d3f2b6c8ec06e9616b783a1cdb9e2c4d44d31788a"
 metafile = true
 
 [[files]]
+file = "mods/ender-io.toml"
+hash = "1740501b1a5bb50cb3a87adb11d9d8fd33816f153855d22436ab851d6b99db6f"
+metafile = true
+
+[[files]]
 file = "mods/endercore.toml"
 hash = "29fab396bfc16400541918c2afa8d504da54046639e6555d8f52dbd02de72923"
 metafile = true
@@ -705,13 +740,28 @@ hash = "ff5c326f9600916df3a2d65ff3c417292c40c6358dd4abe246b985ffa4a70765"
 metafile = true
 
 [[files]]
+file = "mods/gravitation-suite.toml"
+hash = "189ffa6c8234f8a85f6f37f87f0cf47c629845c858c035cb965994f3e56841ef"
+metafile = true
+
+[[files]]
 file = "mods/gregtechce.toml"
 hash = "7afa8b574a02346cce1fd9240061d5e8d418bf6aa4bf628229d77d0d70e39acc"
 metafile = true
 
 [[files]]
+file = "mods/guide-api.toml"
+hash = "b9db7d42f0024e3063cc79b177fafb05039258549662d144246611693b01c739"
+metafile = true
+
+[[files]]
 file = "mods/guidebook.toml"
 hash = "d3a73b2aa8260e376b26afd4f2cfdc4f427259726f7c1dc41452ecd148c7e738"
+metafile = true
+
+[[files]]
+file = "mods/hardcore-battle-towers.toml"
+hash = "d8418ff499c4781aaf13e8ff20cc6b944f43e2a5a7ba146b0ca5582ff0c2cfc1"
 metafile = true
 
 [[files]]
@@ -727,6 +777,11 @@ metafile = true
 [[files]]
 file = "mods/infinite-water-source.toml"
 hash = "23d6c77ac70a36f59396b3036bd2b83b69145f2629a05081d033c3d3fbd816b3"
+metafile = true
+
+[[files]]
+file = "mods/instrumental-mobs.toml"
+hash = "0633a2761679466d7cc4c665d54d4173ae4827bfc7b0059001ed122c4a0a3b8d"
 metafile = true
 
 [[files]]
@@ -835,6 +890,16 @@ hash = "eefc848fb4ca99edaa75b487e0dcf84e20a6b31499718427117c8979e13c9e5a"
 metafile = true
 
 [[files]]
+file = "mods/mobs-properties-randomness.toml"
+hash = "07e293e02fa876f0f71369c40066c20f823a17e06ee3aaf1054f623066387c75"
+metafile = true
+
+[[files]]
+file = "mods/modular-forcefield-system.toml"
+hash = "98033cc0a7f04c62c27e3955a3c3be20d621eb9e92ccbea54b105737c5fb66a4"
+metafile = true
+
+[[files]]
 file = "mods/modular-powersuits.toml"
 hash = "9c613313dc1852cd7fc39d1a0a199c80cf5e6d3d6b1f681c3e19018d389a523a"
 metafile = true
@@ -885,6 +950,11 @@ hash = "6df7c802b5e0f4152f80ae76cab1bac68737346699931f0d80e6036ef50023f9"
 metafile = true
 
 [[files]]
+file = "mods/nukepowered-utils.toml"
+hash = "c716485781ff5bbdb80c83ddf6b6f56ba01cd1c0bc37aed55725f598bef9651b"
+metafile = true
+
+[[files]]
 file = "mods/numina.toml"
 hash = "db4b57f53fe984d75bc715147c043c353a8a8029afe20b3420a04bd4cc5b6077"
 metafile = true
@@ -897,6 +967,16 @@ metafile = true
 [[files]]
 file = "mods/old-combat.toml"
 hash = "607d3cf9a6c92408ca65992cb411c9dbd36ddf8cd7e8498375d6fb549eaf097f"
+metafile = true
+
+[[files]]
+file = "mods/omlib.toml"
+hash = "29ce143f70349e1ac86c6b729669d48e89a09de156986db33fa4655e0bdf2e8b"
+metafile = true
+
+[[files]]
+file = "mods/ompd.toml"
+hash = "2f1c84c831013f987342f656fb24d228a671433d6aa0f69fce3be5cf8d18c319"
 metafile = true
 
 [[files]]
@@ -952,6 +1032,11 @@ metafile = true
 [[files]]
 file = "mods/placebo.toml"
 hash = "d922cb34f5cdfab26ad314521f2c0dda694bddf9b640e19492d363e9979d69ef"
+metafile = true
+
+[[files]]
+file = "mods/project-74246.toml"
+hash = "b04ecb4f9ec27ccc86521f6764caf99cd357609f263430e43fd1ceca3b12c829"
 metafile = true
 
 [[files]]
@@ -1040,6 +1125,11 @@ hash = "012a6abbfdc330b0eaf6766796c285be57cdc4765a97c982bda719b9e55c23cd"
 metafile = true
 
 [[files]]
+file = "mods/rsinfinitewireless.toml"
+hash = "79e02f0b95043716d57aa0a3efe345f3b33f796cd606a964a55570a86b4f13f2"
+metafile = true
+
+[[files]]
 file = "mods/server-tick-monitor.toml"
 hash = "b36dece3d7faf189e1472580b227602820d14013f709771dcc626a1a521c8498"
 metafile = true
@@ -1092,6 +1182,11 @@ metafile = true
 [[files]]
 file = "mods/storage-drawers.toml"
 hash = "e657fcefd418fe32d8ceadc423defe57f75cc6afe11c3b9ada164794d56e5b82"
+metafile = true
+
+[[files]]
+file = "mods/storage-tech.toml"
+hash = "f472ebb53368e3ddcb5303f0def29f1fb408e3c34d7e99a340da499d8b56e462"
 metafile = true
 
 [[files]]
