@@ -1,3 +1,9 @@
+'''
+Test the modpack by launching MultiMC, importing and running the pack.
+
+Exits with different error codes depending on what went wrong.
+'''
+
 import pyautogui
 import time
 import os
@@ -9,25 +15,18 @@ from pprint import pprint
 
 IS_WINDOWS = platform.system() == 'Windows'
 
-LINUX_MMC_PATHS = [
+MMC_PATHS = [
     '/opt/multimc/run.sh',
-]
 
-WINDOWS_MMC_PATHS = [
     'C:/tools/MultiMC/MultiMC.exe',
-    'C:/Program Files (x86)/MultiMC/MultiMC.exe'
-    'C:/Program Files/MultiMC/MultiMC.exe'
+    'C:/Program Files (x86)/MultiMC/MultiMC.exe',
+    'C:/Program Files/MultiMC/MultiMC.exe',
 ]
 
 def get_multimc_path():
-    if IS_WINDOWS:
-        for path in WINDOWS_MMC_PATHS:
-            if os.path.exists(path):
-                return path
-    else:
-        for path in LINUX_MMC_PATHS:
-            if os.path.exists(path):
-                return path
+    for path in MMC_PATHS:
+        if os.path.exists(path):
+            return path
     return None
 
 def ensure_packwiz_installed():
@@ -39,8 +38,7 @@ def ensure_packwiz_installed():
 def ensure_multimc_installed():
     if not get_multimc_path():
         print("Could not find MultiMC instance. Searched these paths:")
-        pprint(LINUX_MMC_PATHS)
-        pprint(WINDOWS_MMC_PATHS)
+        pprint(MMC_PATHS)
         raise Exception("Could not find MMC instance.")
 
 def ensure_multimc_closed():
@@ -73,13 +71,18 @@ def open_multimc() -> subprocess.Popen:
     # os.system(path) # NOTE: this blocks.
     return subprocess.Popen([path])
 
+def generate_modpack_zip():
+    if not os.path.exists("./pack.toml"):
+        raise Exception("Could not find pack.toml in current working directory!")
+
+    
 
 if __name__ == '__main__':
     ensure_packwiz_installed()
     ensure_multimc_installed()
 
-    ensure_multimc_closed()
-    mmc_proc=open_multimc()
+    # ensure_multimc_closed()
+    # mmc_proc=open_multimc()
 
     '''
     <ESC>
@@ -96,10 +99,10 @@ if __name__ == '__main__':
     '''
 
     print("potato")
+    # time.sleep(10)
+    # mmc_proc.kill() # kill MMC after 10s for testing
+    # print("killed mmc.")
 
-    time.sleep(10)
-    mmc_proc.kill() # kill MMC after 10s for testing
-
-    print("killed mmc.")
+    generate_modpack_zip()
 
     exit(1)
