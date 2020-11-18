@@ -19,16 +19,31 @@ import platform
 import timeit
 
 IS_WINDOWS = platform.system() == 'Windows'
+wmic_output = subprocess.check_output(
+    ['wmic', 'bios', 'get', 'serialnumber'], shell=True)
+wmic_output = wmic_output.decode()
+wmic_output = wmic_output.replace('SerialNumber', '')
+wmic_output = wmic_output.strip()
 
+IS_VM = False  # TODO linux
+if IS_WINDOWS:
+    IS_VM = (wmic_output == '0')
 
-MODPACK_NAME='.TMP.PYAUTOGUI-TEST-MODPACK-EXPORT.tmp'
+if IS_VM:
+    print("We are running in a VM!")
+else:
+    print("We are not running in a VM!")
+
+MODPACK_NAME = '.TMP.PYAUTOGUI-TEST-MODPACK-EXPORT.tmp'
 ZIP_NAME = MODPACK_NAME+'.zip'
 DEFAULT_ZIP_NAME = 'export.zip'
 
-SCRIPTS_FOLDER='scripts/pyautogui'
+SCRIPTS_FOLDER = 'scripts/pyautogui'
+
 
 def png_path(fp):
     return os.path.join(SCRIPTS_FOLDER, fp)
+
 
 MMC_BINARY_PATHS = [
     '/opt/multimc/run.sh',
@@ -38,13 +53,16 @@ MMC_BINARY_PATHS = [
     'C:/Program Files/MultiMC/MultiMC.exe',
 ]
 
+
 def cycle_windows_backwards():
     """Alt shift tab."""
-    pag.hotkey("alt","shift","tab")
+    pag.hotkey("alt", "shift", "tab")
+
 
 def altf4():
     """Alt-F4."""
-    pag.hotkey('alt', 'f4') 
+    pag.hotkey('alt', 'f4')
+
 
 def is_multimc(p: Process) -> bool:
     ismmc = False
@@ -78,10 +96,13 @@ def get_multimc_binary_path():
             return path
     return None
 
+
 def get_multimc_instances_path():
-    multimc_instances_folder=os.path.join(os.path.dirname(get_multimc_binary_path()), 'instances')
+    multimc_instances_folder = os.path.join(
+        os.path.dirname(get_multimc_binary_path()), 'instances')
     if not os.path.exists(multimc_instances_folder):
-        raise Exception("MMC Instances folder, {}, does not exist! Halting.",multimc_instances_folder)
+        raise Exception(
+            "MMC Instances folder, {}, does not exist! Halting.", multimc_instances_folder)
 
     return multimc_instances_folder
 
@@ -114,6 +135,7 @@ def open_multimc() -> subprocess.Popen:
     print("Exec {} in background".format(path))
     # os.system(path) # NOTE: this blocks.
     return subprocess.Popen([path])
+
 
 def get_multimc_window_title() -> str:
     windowTitles = gw.getAllTitles()
@@ -157,11 +179,10 @@ if __name__ == '__main__':
     generate_modpack_zip()
 
     mmc_proc = open_multimc()
-    time.sleep(2) # wait for mmc to open
+    time.sleep(2)  # wait for mmc to open
 
     mmc_window = get_multimc_window()
     # mmc_window.activate() # Also doesn't focus... Crashes.
-
 
     # Our focused window is NOT 'MultiMC'...SHIFT-ALT-TAB.
     if 'multimc' not in gw.getActiveWindow().title.lower():
@@ -171,9 +192,10 @@ if __name__ == '__main__':
 
     # Our focused window is STILL NOT 'MultiMC'...Abort.
     if 'multimc' not in gw.getActiveWindow().title.lower():
-        raise Exception("NOT FOCUSED ON MultiMC! Aborting. Currently focused window: {}".format(gw.getActiveWindow().title.lower()))
+        raise Exception("NOT FOCUSED ON MultiMC! Aborting. Currently focused window: {}".format(
+            gw.getActiveWindow().title.lower()))
 
-    pag.press('esc') #close any initial dialogues
+    pag.press('esc')  # close any initial dialogues
 
     # This very critical code ensures the kitty is always activated.
     location = pag.locateOnScreen(png_path('kitty-disabled.png'))
@@ -184,29 +206,33 @@ if __name__ == '__main__':
         print("Kitty already enabled.")
 
     # TODO: Delete old instances if they exist.
-    multimc_instances_folder=get_multimc_instances_path()
+    multimc_instances_folder = get_multimc_instances_path()
 
-    old_pack_folder=os.path.join(multimc_instances_folder, MODPACK_NAME)
+    old_pack_folder = os.path.join(multimc_instances_folder, MODPACK_NAME)
     if os.path.exists(old_pack_folder):
         print("Deleting old pack folder {}.".format(old_pack_folder))
         shutil.rmtree(old_pack_folder)
     else:
         print("No old pack folder detected.")
-    
+
     location = pag.locateOnScreen(png_path('add-instance.png'))
     if not location:
         raise Exception("Could not add instance!")
     pag.click(location)
 
-    pag.press(['tab', 'tab','tab','down'], interval=0.2) # get to import from zip screen
+    # get to import from zip screen
+    pag.press(['tab', 'tab', 'tab', 'down'], interval=0.5)
 
-    pag.press(['tab', 'tab'],interval=0.2) # to focus text box
+    pag.press(['tab', 'tab'], interval=0.5)  # to focus text box
 
-    pag.typewrite(os.path.realpath(ZIP_NAME)) # enter path
+    pag.typewrite(os.path.realpath(ZIP_NAME))  # enter path
+
     pag.press('enter')
+    time.sleep(20)
+
 
     # Window says "Please wait..."
-    n=5
+    n = 5
     time.sleep(n)
     print("Waiting for modpack install.")
     while True:
@@ -226,7 +252,7 @@ if __name__ == '__main__':
 
     # detect minecraft window name and start counting
     print("Waiting for modpack to load...")
-    n=5
+    n = 5
     time.sleep(n)
     while True:
         if 'minecraft' in gw.getActiveWindow().title.lower():
@@ -234,7 +260,7 @@ if __name__ == '__main__':
 
             print("Timer started!")
             START_TIME = time.time()
-            
+
             break
         else:
             print("Waiting {} seconds for minecraft window...".format(n))
@@ -242,7 +268,7 @@ if __name__ == '__main__':
 
     # detect mojang logo on loading screen
     print("Waiting for loading screen to show up...")
-    n=5
+    n = 5
     time.sleep(n)
     while True:
         if pag.locateOnScreen(png_path('mojang-logo.png')):
@@ -254,12 +280,12 @@ if __name__ == '__main__':
 
     # detect java logo in title
     print("Waiting for 'Java' logo in title...")
-    n=5
+    n = 5
     time.sleep(n)
     while True:
         if pag.locateOnScreen(png_path('java.png')):
             print("Java logo visible! We're on the main menu!")
-            
+
             END_TIME = time.time()
             print("Timer ended.")
 
@@ -268,21 +294,21 @@ if __name__ == '__main__':
             print("Waiting {} seconds for Java logo...".format(n))
         time.sleep(n)
 
-    TIME_TO_LOAD_INTO_MAIN_MENU=(END_TIME - START_TIME)
-    print("Pack took {:.2f} sec or {:.2f} min to load.".format(TIME_TO_LOAD_INTO_MAIN_MENU,TIME_TO_LOAD_INTO_MAIN_MENU/60))
+    TIME_TO_LOAD_INTO_MAIN_MENU = (END_TIME - START_TIME)
+    print("Pack took {:.2f} sec or {:.2f} min to load.".format(
+        TIME_TO_LOAD_INTO_MAIN_MENU, TIME_TO_LOAD_INTO_MAIN_MENU/60))
 
     print("killing mmc in 5s...")
     time.sleep(5)
-    mmc_proc.kill() # kill MMC after 10s for testing
+    mmc_proc.kill()  # kill MMC after 10s for testing
     print("killed mmc.")
 
     print("killing minecraft in 5s...")
     time.sleep(5)
-    active_window=gw.getActiveWindow()
+    active_window = gw.getActiveWindow()
     if 'minecraft 1.' in active_window.title.lower():
         print("ALT-F4 on MC Window...")
         altf4()
     else:
-        raise Exception("Minecraft 1.* window is not focused! Cannot close it.")
-
-
+        raise Exception(
+            "Minecraft 1.* window is not focused! Cannot close it.")
