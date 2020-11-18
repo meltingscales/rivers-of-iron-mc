@@ -760,11 +760,6 @@ hash = "7355aaa3c5be93ffc7e7e80b25985cf1ae1cccacd1cfbf6a799e8ee7c187d11d"
 metafile = true
 
 [[files]]
-file = "mods/icarus-mod.toml"
-hash = "6f7a4b69f3a071470598b07aea7fed45f1ff6c4975dbb7eb16fff3b513d710f0"
-metafile = true
-
-[[files]]
 file = "mods/industrial-craft.toml"
 hash = "2a0c6f035eebffa92d85d338194fd2c79034127e1254835eebe00d902dbfd5d4"
 metafile = true
@@ -1017,11 +1012,6 @@ metafile = true
 [[files]]
 file = "mods/overpowered-pickaxes-mod.toml"
 hash = "cc1991d7fce5cb85820e39bb31f72ca791a0923731d94e26832cba9b2c8e4805"
-metafile = true
-
-[[files]]
-file = "mods/overpowered.toml"
-hash = "a86ec1ab232173efec308a4a3c8400e3087d707273bc9564f25fdce9f84bd2c2"
 metafile = true
 
 [[files]]
