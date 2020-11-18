@@ -10,7 +10,7 @@ hash = "85bf459caf4fbffd8418955b4703460394cfe40d4ecb1ec2f4f0302807f2ac4c"
 
 [[files]]
 file = "Pipfile"
-hash = "c30654b77e26d57466d9f60f6e1dbb8d7f09b2fad005660e817eee074af2ae7d"
+hash = "f8c6f3d75e1ed333a0f7118ea4bfef2175a866e6e4a02d1e935a5009036b19b3"
 
 [[files]]
 file = "config/EffortlessBuilding.cfg"
@@ -671,6 +671,11 @@ hash = "6ee1e8d01da8d8907d61371d3f2b6c8ec06e9616b783a1cdb9e2c4d44d31788a"
 metafile = true
 
 [[files]]
+file = "mods/ender-storage-1-8.toml"
+hash = "62a88b7e34ac364b52f892b8d7fafd2ab51c1ed138010f39dbf50e26bfafc272"
+metafile = true
+
+[[files]]
 file = "mods/endercore.toml"
 hash = "29fab396bfc16400541918c2afa8d504da54046639e6555d8f52dbd02de72923"
 metafile = true
@@ -713,11 +718,6 @@ metafile = true
 [[files]]
 file = "mods/forge-multipart-cbe.toml"
 hash = "43f0e754ab26b5434510719dcf9ace01eef1b54df72efc54d962861754261eac"
-metafile = true
-
-[[files]]
-file = "mods/ftb-backups.toml"
-hash = "c98b6793744c0c1be408e63bd99962846cbe3b5572304250f0c786c6656789b4"
 metafile = true
 
 [[files]]
@@ -1143,6 +1143,11 @@ metafile = true
 [[files]]
 file = "mods/rsinfinitewireless.toml"
 hash = "79e02f0b95043716d57aa0a3efe345f3b33f796cd606a964a55570a86b4f13f2"
+metafile = true
+
+[[files]]
+file = "mods/secure-enderstorage.toml"
+hash = "8b699f9a50c3bf4c29611f85bdf45f955c33a9181eed5d03ea170358b17e49b9"
 metafile = true
 
 [[files]]
