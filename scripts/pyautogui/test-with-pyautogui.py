@@ -24,7 +24,8 @@ DEFAULT_ZIP_NAME = 'export.zip'
 
 SCRIPTS_FOLDER='scripts/pyautogui'
 
-KITTY_DISABLED_IMAGE_FILE=os.path.join(SCRIPTS_FOLDER,'kitty-disabled.png')
+def png_path(fp):
+    return os.path.join(SCRIPTS_FOLDER, fp)
 
 MMC_PATHS = [
     '/opt/multimc/run.sh',
@@ -54,7 +55,7 @@ def is_multimc(p: Process) -> bool:
         name = p.name()
         cmdline = p.cmdline()
     except (PermissionError, psutil.AccessDenied) as e:  # Windows can do this
-        print("Not allowed to view process {}".format(p.pid))
+        # print("Not allowed to view process {}".format(p.pid))
         pass
 
     # print(name, cmdline)
@@ -149,7 +150,7 @@ if __name__ == '__main__':
     generate_modpack_zip()
 
     mmc_proc = open_multimc()
-    time.sleep(3) # wait 3s for mmc to open
+    time.sleep(2) # wait for mmc to open
 
     mmc_window = get_multimc_window()
     # mmc_window.activate() # Also doesn't focus... Crashes.
@@ -168,26 +169,34 @@ if __name__ == '__main__':
     pag.press('esc') #close any initial dialogues
 
     # This very critical code ensures the kitty is always activated.
-    kittylocation = pag.locateOnScreen(KITTY_DISABLED_IMAGE_FILE)
-    if kittylocation:
+    location = pag.locateOnScreen(png_path('kitty-disabled.png'))
+    if location:
         print("Enabling kitty.")
-        pag.moveTo(kittylocation)
-        pag.click()
+        pag.click(location)
     else:
         print("Kitty already enabled.")
 
-    # TODO Add instance
-    # TODO Import from zip
-    # TODO paste path
-    # TODO click on ok
+
+    location = pag.locateOnScreen(png_path('add-instance.png'))
+    if not location:
+        raise Exception("Could not add instance!")
+    pag.click(location)
+
+    pag.press(['tab', 'tab','tab', 'down']) # get to import from zip screen
+
+    pag.press(['tab', 'tab']) # to focus text box
+
+    pag.typewrite(os.path.realpath(ZIP_NAME)) # enter path
+    pag.press('enter')
+
     # TODO wait for import
     # TODO launch
     # TODO wait and check for main menu, wait for crashes
 
 
-    print("killing mmc in 10s...")
-    time.sleep(10)
-    mmc_proc.kill() # kill MMC after 10s for testing
-    print("killed mmc.")
+    # print("killing mmc in 10s...")
+    # time.sleep(10)
+    # mmc_proc.kill() # kill MMC after 10s for testing
+    # print("killed mmc.")
 
     exit(1)
