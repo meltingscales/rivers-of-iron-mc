@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 pyautogui = "*"
 psutil = "*"
+py-cpuinfo = "*"
+pillow = "*"
 
 [dev-packages]
 
