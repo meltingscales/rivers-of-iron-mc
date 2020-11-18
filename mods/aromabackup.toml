@@ -1,0 +1,14 @@
+name = "AromaBackup"
+filename = "AromaBackup-1.12.2-3.0.0.0.b135.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3070/947/AromaBackup-1.12.2-3.0.0.0.b135.jar"
+hash-format = "murmur2"
+hash = "2130410980"
+
+[update]
+[update.curseforge]
+file-id = 3070947
+project-id = 225658
+release-channel = "beta"

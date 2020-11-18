@@ -396,18 +396,18 @@ hash = "2242972ac10ccfe66c307098116cfca10724d621a651b5554bae63d33a72a76e"
 metafile = true
 
 [[files]]
-file = "mods/applied-energistics-2.toml"
-hash = "4294eab4a53211921fa5ed9599cbdd05e7532d99dd7d332bcfd819c13d484926"
-metafile = true
-
-[[files]]
-file = "mods/applied-integrations.toml"
-hash = "af992084d72dc7f58b29aca716507ec2a3393a97159f9d23e03a20ef523348cd"
-metafile = true
-
-[[files]]
 file = "mods/armor-underwear-mod.toml"
 hash = "332316e63d8951e9819ce605b9e510cd9858329042e0d1516b05d6e3960dbf6f"
+metafile = true
+
+[[files]]
+file = "mods/aroma1997core.toml"
+hash = "31421272d186b674a6df39752231b49e6b3213f4b624a1e20a5ef449c97809ea"
+metafile = true
+
+[[files]]
+file = "mods/aromabackup.toml"
+hash = "6645c15620cc363fea1fea21a7cd199f38c11481634c688866cf59050922a271"
 metafile = true
 
 [[files]]
