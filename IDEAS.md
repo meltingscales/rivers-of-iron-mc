@@ -17,6 +17,16 @@ https://www.curseforge.com/minecraft/mc-mods/openscreens
 https://www.curseforge.com/minecraft/mc-mods/cc-tweaked
 
 
+
+https://www.curseforge.com/minecraft/mc-mods/dank-null
+https://www.curseforge.com/minecraft/mc-mods/more-buckets
+https://www.curseforge.com/minecraft/mc-mods/energy-converters
+https://www.curseforge.com/minecraft/mc-mods/unidict/
+
+https://www.curseforge.com/minecraft/mc-mods/modular-forcefield-system
+
+
+
 https://www.curseforge.com/minecraft/mc-mods/performant
 https://www.curseforge.com/minecraft/mc-mods/ai-improvements
 https://www.curseforge.com/minecraft/mc-mods/tiquality
@@ -46,21 +56,4 @@ https://www.curseforge.com/minecraft/mc-mods/cubicworldgen
 
 ### Candidates
 
-https://www.curseforge.com/minecraft/mc-mods/cyclops-core
-https://www.curseforge.com/minecraft/mc-mods/colossal-chests
-https://www.curseforge.com/minecraft/mc-mods/dark-utilities
-https://www.curseforge.com/minecraft/mc-mods/torohealth-damage-indicators
-https://www.curseforge.com/minecraft/mc-mods/scaling-health
-
-
-https://www.curseforge.com/minecraft/mc-mods/dank-null
-https://www.curseforge.com/minecraft/mc-mods/more-buckets
-https://www.curseforge.com/minecraft/mc-mods/energy-converters
-https://www.curseforge.com/minecraft/mc-mods/unidict/
-
-https://www.curseforge.com/minecraft/mc-mods/modular-forcefield-system
-
-
-### MORE
-
-Galacticraft, More Planets, Botania sky, expandable inventory
+Chunk Gen Limiter local testing.
