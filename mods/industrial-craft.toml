@@ -1,0 +1,14 @@
+name = "Industrial Craft"
+filename = "industrialcraft-2-2.8.221-ex112.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3078/604/industrialcraft-2-2.8.221-ex112.jar"
+hash-format = "murmur2"
+hash = "1700994969"
+
+[update]
+[update.curseforge]
+file-id = 3078604
+project-id = 242638
+release-channel = "beta"

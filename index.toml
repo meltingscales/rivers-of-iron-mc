@@ -366,6 +366,16 @@ hash = "21b2bbbaf642c0fb2de50ef8b20cab75c5e4aea007efe35155247a5d076aff1e"
 metafile = true
 
 [[files]]
+file = "mods/advanced-solar-panels.toml"
+hash = "453aec963751009db2741a88360487f33551a3e7c7c7bed239276749b6e7d6a1"
+metafile = true
+
+[[files]]
+file = "mods/ambientsounds.toml"
+hash = "2242972ac10ccfe66c307098116cfca10724d621a651b5554bae63d33a72a76e"
+metafile = true
+
+[[files]]
 file = "mods/armor-underwear-mod.toml"
 hash = "332316e63d8951e9819ce605b9e510cd9858329042e0d1516b05d6e3960dbf6f"
 metafile = true
@@ -656,6 +666,11 @@ hash = "43f0e754ab26b5434510719dcf9ace01eef1b54df72efc54d962861754261eac"
 metafile = true
 
 [[files]]
+file = "mods/ftb-backups.toml"
+hash = "c98b6793744c0c1be408e63bd99962846cbe3b5572304250f0c786c6656789b4"
+metafile = true
+
+[[files]]
 file = "mods/ftb-library.toml"
 hash = "016bc703be18098ed8b1f4ff840f3aa4b97154a2bcbae48ca53d3bc28e2f588a"
 metafile = true
@@ -693,6 +708,11 @@ metafile = true
 [[files]]
 file = "mods/huds-armor-status-damage-indicators.toml"
 hash = "7355aaa3c5be93ffc7e7e80b25985cf1ae1cccacd1cfbf6a799e8ee7c187d11d"
+metafile = true
+
+[[files]]
+file = "mods/industrial-craft.toml"
+hash = "2a0c6f035eebffa92d85d338194fd2c79034127e1254835eebe00d902dbfd5d4"
 metafile = true
 
 [[files]]
@@ -941,6 +961,11 @@ hash = "3f69120d1cc38fa3c7a5a8a8416039c498fa0ae7fa7f1961065b9ba303680739"
 metafile = true
 
 [[files]]
+file = "mods/raiders.toml"
+hash = "f65bb36a9d574dd4f3a3859589d269f79d9a2544362414b326f8ecf6ea6b949e"
+metafile = true
+
+[[files]]
 file = "mods/reauth.toml"
 hash = "be8ce0a6292dd1bc62cfd066f7317ad29e3e3eb050631369c2d9a1022562347f"
 metafile = true
@@ -1033,6 +1058,16 @@ metafile = true
 [[files]]
 file = "mods/smooth-font.toml"
 hash = "c1ecd1478acc63c403587c6bdd5963cc1dbb710252041177c5a02931f4ed04b1"
+metafile = true
+
+[[files]]
+file = "mods/solar-panels-reforged.toml"
+hash = "88c5759969485434e3c9fdde7408275e0660e132cdd893cba4ab577feea625ae"
+metafile = true
+
+[[files]]
+file = "mods/sound-filters.toml"
+hash = "758565dc769b47d66cd4b89056707bfdc7b3fae705331ad7ec0fa19a87c10f8d"
 metafile = true
 
 [[files]]
