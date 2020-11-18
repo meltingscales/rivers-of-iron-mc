@@ -50,7 +50,7 @@ hash = "c139e17baa6cd6ba5283ba912733e357c887bce7c9cc4c889901ed7f87611949"
 
 [[files]]
 file = "config/dimdoors.cfg"
-hash = "b5aa95257dc415b90e3355c6245ffaf6184ad9355d81338650d223abfb872ea9"
+hash = "ae8d960557c316cf585a6d7f7e8f2c0c42447c8c771ca927f2e047cc82f30732"
 
 [[files]]
 file = "config/elenaidodge.cfg"
@@ -486,6 +486,11 @@ hash = "addeba42e92d45f278fa79b94f3b359b5f9ce69eee7438ef7480aa3764bda0e1"
 metafile = true
 
 [[files]]
+file = "mods/colossal-chests.toml"
+hash = "c40b5b6750f07c51b035ce48126003fee8c4b0c2cd6515e8bb97d1185ed19d8f"
+metafile = true
+
+[[files]]
 file = "mods/controlling.toml"
 hash = "9e95e85e1901f88818d6c18d82d68ea4342206979ad861f884299e241ad4b195"
 metafile = true
@@ -506,6 +511,11 @@ hash = "a572379bd1f3f014e991b1747e7792783ad9b73df30e4e622e3f3188c83ed671"
 metafile = true
 
 [[files]]
+file = "mods/cucumber.toml"
+hash = "2e88ef2da54b7607e1bacd21360ea45e5608d1cdc55367518743c3245d6fe083"
+metafile = true
+
+[[files]]
 file = "mods/custom-main-menu.toml"
 hash = "bff090ee22a97bc2bd8197049c44c7acb4b8641d39a8f43fed9368a50ad2ead6"
 metafile = true
@@ -513,6 +523,11 @@ metafile = true
 [[files]]
 file = "mods/cxlibrary.toml"
 hash = "e16234a8f53979653a50eb0bd080320a530e3fa43d356add281976eb31aed033"
+metafile = true
+
+[[files]]
+file = "mods/cyclops-core.toml"
+hash = "8f365daa9995102dbb141810ae071d7ab533dc1c673cd7d677d636a8c4dec296"
 metafile = true
 
 [[files]]
@@ -553,6 +568,11 @@ metafile = true
 [[files]]
 file = "mods/effortless-building.toml"
 hash = "a6ddf1e340e276c067b0320775bf5a9ed932e9ccf13c2e1cede1f6c11f9377af"
+metafile = true
+
+[[files]]
+file = "mods/eleccore.toml"
+hash = "e05d0234d3239f6454951cd6385aa504edd2ef31b88ca53848675ed633994b9b"
 metafile = true
 
 [[files]]
@@ -663,6 +683,11 @@ metafile = true
 [[files]]
 file = "mods/guidebook.toml"
 hash = "d3a73b2aa8260e376b26afd4f2cfdc4f427259726f7c1dc41452ecd148c7e738"
+metafile = true
+
+[[files]]
+file = "mods/huds-armor-status-damage-indicators.toml"
+hash = "7355aaa3c5be93ffc7e7e80b25985cf1ae1cccacd1cfbf6a799e8ee7c187d11d"
 metafile = true
 
 [[files]]
@@ -778,6 +803,11 @@ metafile = true
 [[files]]
 file = "mods/modular-powersuits.toml"
 hash = "9c613313dc1852cd7fc39d1a0a199c80cf5e6d3d6b1f681c3e19018d389a523a"
+metafile = true
+
+[[files]]
+file = "mods/more-buckets.toml"
+hash = "57edd96c08e7e069f34ac9a259ca1b3e495096e430574c2a51b583fa08c4a7ff"
 metafile = true
 
 [[files]]
@@ -1107,7 +1137,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "cb2fc77f048015b86cb1e4286e5585404fa4a87684986f507ce4d08f612532cf"
+hash = "4e20b8e5f1b207c14d24c560ac50c6682af4da157b887615e24cac3cf6f69098"
 
 [[files]]
 file = "optionsof.txt"
