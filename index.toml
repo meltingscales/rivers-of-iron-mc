@@ -411,6 +411,11 @@ hash = "6645c15620cc363fea1fea21a7cd199f38c11481634c688866cf59050922a271"
 metafile = true
 
 [[files]]
+file = "mods/atomicstrykers-battle-towers.toml"
+hash = "20fd776ec1c0f63429a33e44069788a6200b1fd6f105543f4a475b641209b281"
+metafile = true
+
+[[files]]
 file = "mods/auto-feeder-helmet.toml"
 hash = "e527f270afe575952c09a210ed6ee2b374d7ead610ca4acdf33335eebbeb81e9"
 metafile = true
@@ -433,6 +438,11 @@ metafile = true
 [[files]]
 file = "mods/avaritia-furnace.toml"
 hash = "2cb9145527431e3b7bc05c2e19ae0e5fb3449c3dbb7f2a716650a4715dd2b62f"
+metafile = true
+
+[[files]]
+file = "mods/backups.toml"
+hash = "9d9f804690200d67e93839f6ad7f7e6ff2ebfcfc2de79f548bbeb49b278ca9fe"
 metafile = true
 
 [[files]]
@@ -513,6 +523,11 @@ metafile = true
 [[files]]
 file = "mods/chameleon.toml"
 hash = "0c8fb1975d4eb96fcf5fdaf6cc0f77b2312f24bbbbea9316c424029eb9f047d6"
+metafile = true
+
+[[files]]
+file = "mods/chunkgenlimited.toml"
+hash = "3b9d43d2a751b9fe7961b8a5c2ed85661af3d2f7ff21bbf4efd3301da32cfa0c"
 metafile = true
 
 [[files]]
@@ -721,6 +736,11 @@ hash = "43f0e754ab26b5434510719dcf9ace01eef1b54df72efc54d962861754261eac"
 metafile = true
 
 [[files]]
+file = "mods/ftb-backups.toml"
+hash = "c98b6793744c0c1be408e63bd99962846cbe3b5572304250f0c786c6656789b4"
+metafile = true
+
+[[files]]
 file = "mods/ftb-library.toml"
 hash = "016bc703be18098ed8b1f4ff840f3aa4b97154a2bcbae48ca53d3bc28e2f588a"
 metafile = true
@@ -786,6 +806,11 @@ hash = "23d6c77ac70a36f59396b3036bd2b83b69145f2629a05081d033c3d3fbd816b3"
 metafile = true
 
 [[files]]
+file = "mods/infinity-item-editor.toml"
+hash = "950e6076a2d7883838d60d67cb509eb533de0403dc526df948f9f99d767162d1"
+metafile = true
+
+[[files]]
 file = "mods/instrumental-mobs.toml"
 hash = "0633a2761679466d7cc4c665d54d4173ae4827bfc7b0059001ed122c4a0a3b8d"
 metafile = true
@@ -798,6 +823,11 @@ metafile = true
 [[files]]
 file = "mods/item-filters.toml"
 hash = "6d9babc564e526ea623a5b85e4d831e1a27d615271be7f6a3b2721c6a21fd781"
+metafile = true
+
+[[files]]
+file = "mods/itemphysic.toml"
+hash = "38e16723fa7c53b7c957aebb4d99d40c58aa1e8da108088f4efd4b7a8215b6eb"
 metafile = true
 
 [[files]]
@@ -1073,6 +1103,11 @@ metafile = true
 [[files]]
 file = "mods/raiders.toml"
 hash = "f65bb36a9d574dd4f3a3859589d269f79d9a2544362414b326f8ecf6ea6b949e"
+metafile = true
+
+[[files]]
+file = "mods/realistic-item-drops.toml"
+hash = "6a13fb67d86d396c9604521a71513f80e161cf23dd1516c99cdde6ebb3dc6e17"
 metafile = true
 
 [[files]]

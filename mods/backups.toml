@@ -1,0 +1,14 @@
+name = "Backups"
+filename = "Backups-1.12.2-1.5.6.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2982/470/Backups-1.12.2-1.5.6.jar"
+hash-format = "murmur2"
+hash = "1764105049"
+
+[update]
+[update.curseforge]
+file-id = 2982470
+project-id = 293610
+release-channel = "beta"
