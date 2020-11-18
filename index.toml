@@ -866,6 +866,11 @@ hash = "607d3cf9a6c92408ca65992cb411c9dbd36ddf8cd7e8498375d6fb549eaf097f"
 metafile = true
 
 [[files]]
+file = "mods/openblocks-elevator.toml"
+hash = "0089fdc36429a87393d5acf11b0784f364abd879aa573784d74a7ce3a9c2e84a"
+metafile = true
+
+[[files]]
 file = "mods/opencomputers.toml"
 hash = "851c192825d06e355cc870b6cf643910b4c34dd7e248a7f844f465d361609f04"
 metafile = true
