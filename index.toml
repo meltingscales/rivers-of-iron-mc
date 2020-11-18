@@ -375,11 +375,6 @@ hash = "21b2bbbaf642c0fb2de50ef8b20cab75c5e4aea007efe35155247a5d076aff1e"
 metafile = true
 
 [[files]]
-file = "mods/advanced-solar-panels.toml"
-hash = "453aec963751009db2741a88360487f33551a3e7c7c7bed239276749b6e7d6a1"
-metafile = true
-
-[[files]]
 file = "mods/ambientsounds.toml"
 hash = "2242972ac10ccfe66c307098116cfca10724d621a651b5554bae63d33a72a76e"
 metafile = true
@@ -660,11 +655,6 @@ hash = "6ee1e8d01da8d8907d61371d3f2b6c8ec06e9616b783a1cdb9e2c4d44d31788a"
 metafile = true
 
 [[files]]
-file = "mods/ender-io.toml"
-hash = "1740501b1a5bb50cb3a87adb11d9d8fd33816f153855d22436ab851d6b99db6f"
-metafile = true
-
-[[files]]
 file = "mods/endercore.toml"
 hash = "29fab396bfc16400541918c2afa8d504da54046639e6555d8f52dbd02de72923"
 metafile = true
@@ -767,6 +757,11 @@ metafile = true
 [[files]]
 file = "mods/huds-armor-status-damage-indicators.toml"
 hash = "7355aaa3c5be93ffc7e7e80b25985cf1ae1cccacd1cfbf6a799e8ee7c187d11d"
+metafile = true
+
+[[files]]
+file = "mods/icarus-mod.toml"
+hash = "6f7a4b69f3a071470598b07aea7fed45f1ff6c4975dbb7eb16fff3b513d710f0"
 metafile = true
 
 [[files]]
@@ -1012,6 +1007,21 @@ metafile = true
 [[files]]
 file = "mods/overloaded.toml"
 hash = "a1d3ab9a5edad53e66d4ff662107be94b234a7db1610f882e7e01ba64f7d3325"
+metafile = true
+
+[[files]]
+file = "mods/overpowered-mending.toml"
+hash = "51207ad0573ea554b9496abafd37443d1dd16a74bfd94d8440fc95c523690fa2"
+metafile = true
+
+[[files]]
+file = "mods/overpowered-pickaxes-mod.toml"
+hash = "cc1991d7fce5cb85820e39bb31f72ca791a0923731d94e26832cba9b2c8e4805"
+metafile = true
+
+[[files]]
+file = "mods/overpowered.toml"
+hash = "a86ec1ab232173efec308a4a3c8400e3087d707273bc9564f25fdce9f84bd2c2"
 metafile = true
 
 [[files]]
