@@ -7,6 +7,7 @@ from pprint import pprint
 import distutils.spawn
 import psutil
 import subprocess
+import shutil
 import os
 import time
 from pygetwindow import BaseWindow
@@ -19,7 +20,8 @@ import platform
 IS_WINDOWS = platform.system() == 'Windows'
 
 
-ZIP_NAME = '.PYAUTOGUI-TEST-MODPACK-EXPORT.tmp.zip'
+MODPACK_NAME='.TMP.PYAUTOGUI-TEST-MODPACK-EXPORT.tmp'
+ZIP_NAME = MODPACK_NAME+'.zip'
 DEFAULT_ZIP_NAME = 'export.zip'
 
 SCRIPTS_FOLDER='scripts/pyautogui'
@@ -27,7 +29,7 @@ SCRIPTS_FOLDER='scripts/pyautogui'
 def png_path(fp):
     return os.path.join(SCRIPTS_FOLDER, fp)
 
-MMC_PATHS = [
+MMC_BINARY_PATHS = [
     '/opt/multimc/run.sh',
 
     'C:/tools/MultiMC/MultiMC.exe',
@@ -72,11 +74,18 @@ def remove_file(fp):
         os.remove(fp)
 
 
-def get_multimc_path():
-    for path in MMC_PATHS:
+def get_multimc_binary_path():
+    for path in MMC_BINARY_PATHS:
         if os.path.exists(path):
             return path
     return None
+
+def get_multimc_instances_path():
+    multimc_instances_folder=os.path.join(os.path.dirname(get_multimc_binary_path()), 'instances')
+    if not os.path.exists(multimc_instances_folder):
+        raise Exception("MMC Instances folder, {}, does not exist! Halting.",multimc_instances_folder)
+
+    return multimc_instances_folder
 
 
 def ensure_packwiz_installed():
@@ -86,9 +95,9 @@ def ensure_packwiz_installed():
 
 
 def ensure_multimc_installed():
-    if not get_multimc_path():
-        print("Could not find MultiMC instance. Searched these paths:")
-        pprint(MMC_PATHS)
+    if not get_multimc_binary_path():
+        print("Could not find MultiMC binary. Searched these paths:")
+        pprint(MMC_BINARY_PATHS)
         raise Exception("Could not find MMC instance.")
 
 
@@ -103,7 +112,7 @@ def ensure_multimc_closed():
 
 
 def open_multimc() -> subprocess.Popen:
-    path = get_multimc_path()
+    path = get_multimc_binary_path()
     print("Exec {} in background".format(path))
     # os.system(path) # NOTE: this blocks.
     return subprocess.Popen([path])
@@ -176,20 +185,35 @@ if __name__ == '__main__':
     else:
         print("Kitty already enabled.")
 
+    # TODO: Delete old instances if they exist.
+    multimc_instances_folder=get_multimc_instances_path()
+
+    old_pack_folder=os.path.join(multimc_instances_folder, MODPACK_NAME)
+    if os.path.exists(old_pack_folder):
+        print("Deleting old pack folder {}.".format(old_pack_folder))
+        shutil.rmtree(old_pack_folder)
+    else:
+        print("No old pack folder detected.")
+    
+    exit(1)
 
     location = pag.locateOnScreen(png_path('add-instance.png'))
     if not location:
         raise Exception("Could not add instance!")
     pag.click(location)
 
-    pag.press(['tab', 'tab','tab', 'down']) # get to import from zip screen
+    pag.press(['tab', 'tab','tab','down'], interval=0.2) # get to import from zip screen
 
-    pag.press(['tab', 'tab']) # to focus text box
+    pag.press(['tab', 'tab'],interval=0.2) # to focus text box
 
     pag.typewrite(os.path.realpath(ZIP_NAME)) # enter path
     pag.press('enter')
 
-    # TODO wait for import
+    # # TODO wait for import
+    # time.sleep(5)
+    # while True:
+    #     pass
+
     # TODO launch
     # TODO wait and check for main menu, wait for crashes
 
