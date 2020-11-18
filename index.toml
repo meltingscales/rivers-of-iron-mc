@@ -9,12 +9,24 @@ file = "MODS.md"
 hash = "85bf459caf4fbffd8418955b4703460394cfe40d4ecb1ec2f4f0302807f2ac4c"
 
 [[files]]
+file = "Pipfile"
+hash = "c30654b77e26d57466d9f60f6e1dbb8d7f09b2fad005660e817eee074af2ae7d"
+
+[[files]]
 file = "config/EffortlessBuilding.cfg"
 hash = "80d9c8f48b79d0d28760cc512d27c325abfe139c07b18189446bd4d99c343d4d"
 
 [[files]]
 file = "config/Special_AI.cfg"
 hash = "ef4114772e5ba194f3efa9bae60fd0831897e8a924fb18c07fda8bc60bed2010"
+
+[[files]]
+file = "config/ambientsounds-client.json"
+hash = "a9008f4492901dd053f204c949ab827e4a0a86316a4a934ec6068febb3390840"
+
+[[files]]
+file = "config/ambientsounds.cfg"
+hash = "1126bb70caa6948abe27d5b152204b0e549aa8d114d32924b31489ad14588e16"
 
 [[files]]
 file = "config/bettercombatmod.cfg"
@@ -67,6 +79,10 @@ hash = "c71f1da321fb7983604d9ddbdd51b4b358c9ef78b75c0740496ab805089cbe2e"
 [[files]]
 file = "config/forgeChunkLoading.cfg"
 hash = "45db4110ebc8c6b614d368981c24392e904fafa985350193cedf59c0809c5a53"
+
+[[files]]
+file = "config/ftbbackups.cfg"
+hash = "03d053e004d0d796c696cf9f36e8868dbf94ddbe898a0099eac6e8971e275145"
 
 [[files]]
 file = "config/ftbquests/normal/chapters/010d5faa/639de362.snbt"
@@ -820,6 +836,11 @@ hash = "072c1f32c61a04fa91ec80eeac656f5c0faae109fe66b98209ea5810e419316c"
 metafile = true
 
 [[files]]
+file = "mods/laggoggles.toml"
+hash = "be56915346d8fd17fd0551448dce9a48c99c10316203fe2cd317958869ef694c"
+metafile = true
+
+[[files]]
 file = "mods/libvulpes.toml"
 hash = "072677e8c67ca0fbb286091060ab15289c931f51c2bffddc05659e63c490ddf2"
 metafile = true
@@ -1160,11 +1181,6 @@ hash = "88c5759969485434e3c9fdde7408275e0660e132cdd893cba4ab577feea625ae"
 metafile = true
 
 [[files]]
-file = "mods/sound-filters.toml"
-hash = "758565dc769b47d66cd4b89056707bfdc7b3fae705331ad7ec0fa19a87c10f8d"
-metafile = true
-
-[[files]]
 file = "mods/special-ai.toml"
 hash = "952b29d5a6cdae6428f404691415dbb8d2df6faf3e315f20726ebf523c761227"
 metafile = true
@@ -1212,6 +1228,16 @@ metafile = true
 [[files]]
 file = "mods/thermal-foundation.toml"
 hash = "b725577f37462da10dc185bcc14228d3b1e5de5ce06a852ebfefc8c507e82571"
+metafile = true
+
+[[files]]
+file = "mods/tickcentral.toml"
+hash = "a74639b092e87c179f27fbe53ec225ca92026ddadfbc4027c5eb0208dda5b212"
+metafile = true
+
+[[files]]
+file = "mods/tiquality.toml"
+hash = "54c52174cbcac0db935465d1a20cdda39197f6d71e95f0c776036ce37e30f0a3"
 metafile = true
 
 [[files]]
