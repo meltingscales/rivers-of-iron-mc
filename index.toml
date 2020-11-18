@@ -621,6 +621,11 @@ hash = "ac4979e47682e8853388f0b5d75bda0be2f3055402244748c528d8220f1e53bb"
 metafile = true
 
 [[files]]
+file = "mods/expandable-inventory.toml"
+hash = "0eddea09517f0920b8e462d2f91e9c216425040927398970947a3ddbfe9bd60f"
+metafile = true
+
+[[files]]
 file = "mods/fast-leaf-decay.toml"
 hash = "8239fcc9487edacf660e8a72b2fb9b9a2757c77df232a0ff409e5a8d9dadcc77"
 metafile = true
