@@ -16,6 +16,7 @@ import pyautogui as pag
 from psutil import Process
 from os import remove
 import platform
+import timeit
 
 IS_WINDOWS = platform.system() == 'Windows'
 
@@ -39,14 +40,11 @@ MMC_BINARY_PATHS = [
 
 def cycle_windows_backwards():
     """Alt shift tab."""
-    pag.keyDown('alt') 
-    pag.keyDown('shift')
-    pag.press('tab')
+    pag.hotkey("alt","shift","tab")
 
-    pag.keyUp('alt') 
-    pag.keyUp('shift')
-
-
+def altf4():
+    """Alt-F4."""
+    pag.hotkey('alt', 'f4') 
 
 def is_multimc(p: Process) -> bool:
     ismmc = False
@@ -195,8 +193,6 @@ if __name__ == '__main__':
     else:
         print("No old pack folder detected.")
     
-    exit(1)
-
     location = pag.locateOnScreen(png_path('add-instance.png'))
     if not location:
         raise Exception("Could not add instance!")
@@ -209,18 +205,84 @@ if __name__ == '__main__':
     pag.typewrite(os.path.realpath(ZIP_NAME)) # enter path
     pag.press('enter')
 
-    # # TODO wait for import
-    # time.sleep(5)
-    # while True:
-    #     pass
+    # Window says "Please wait..."
+    n=5
+    time.sleep(n)
+    print("Waiting for modpack install.")
+    while True:
+        if 'please wait' in gw.getActiveWindow().title.lower():
+            print("Window is telling me to wait, I think I will...")
+        else:
+            print("We're done waiting! Modpack installed.")
+            break
+        time.sleep(n)
+    time.sleep(n)
 
-    # TODO launch
-    # TODO wait and check for main menu, wait for crashes
+    # launch
+    location = pag.locateOnScreen(png_path('launch.png'))
+    if not location:
+        raise Exception("Could not launch pack!")
+    pag.click(location)
+
+    # detect minecraft window name and start counting
+    print("Waiting for modpack to load...")
+    n=5
+    time.sleep(n)
+    while True:
+        if 'minecraft' in gw.getActiveWindow().title.lower():
+            print("Minecraft window has been opened!")
+
+            print("Timer started!")
+            START_TIME = time.time()
+            
+            break
+        else:
+            print("Waiting {} seconds for minecraft window...".format(n))
+        time.sleep(n)
+
+    # detect mojang logo on loading screen
+    print("Waiting for loading screen to show up...")
+    n=5
+    time.sleep(n)
+    while True:
+        if pag.locateOnScreen(png_path('mojang-logo.png')):
+            print("Mojang logo visible!")
+            break
+        else:
+            print("Waiting {} seconds for mojang logo...".format(n))
+        time.sleep(n)
+
+    # detect java logo in title
+    print("Waiting for 'Java' logo in title...")
+    n=5
+    time.sleep(n)
+    while True:
+        if pag.locateOnScreen(png_path('java.png')):
+            print("Java logo visible! We're on the main menu!")
+            
+            END_TIME = time.time()
+            print("Timer ended.")
+
+            break
+        else:
+            print("Waiting {} seconds for Java logo...".format(n))
+        time.sleep(n)
+
+    TIME_TO_LOAD_INTO_MAIN_MENU=(END_TIME - START_TIME)
+    print("Pack took {:.2f} sec or {:.2f} min to load.".format(TIME_TO_LOAD_INTO_MAIN_MENU,TIME_TO_LOAD_INTO_MAIN_MENU/60))
+
+    print("killing mmc in 5s...")
+    time.sleep(5)
+    mmc_proc.kill() # kill MMC after 10s for testing
+    print("killed mmc.")
+
+    print("killing minecraft in 5s...")
+    time.sleep(5)
+    active_window=gw.getActiveWindow()
+    if 'minecraft 1.' in active_window.title.lower():
+        print("ALT-F4 on MC Window...")
+        altf4()
+    else:
+        raise Exception("Minecraft 1.* window is not focused! Cannot close it.")
 
 
-    # print("killing mmc in 10s...")
-    # time.sleep(10)
-    # mmc_proc.kill() # kill MMC after 10s for testing
-    # print("killed mmc.")
-
-    exit(1)
