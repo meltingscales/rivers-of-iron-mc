@@ -1,11 +1,9 @@
-<book title="Rivers of Iron Guide" cover="gbook:demo" fontSize="0.6" home="0:0"
-      xmlns="http://localhost/gbook/base"
-      xmlns:minecraft="http://localhost/gbook/minecraft-addons">
+<book title="Rivers of Iron Guide" cover="gbook:demo" fontSize="0.6" home="0:0" xmlns="http://localhost/gbook/base" xmlns:minecraft="http://localhost/gbook/minecraft-addons">
 
-    <include ref="gbook:xml/standard.xml"/>
+    <include ref="gbook:xml/standard.xml" />
 
     <conditions>
-    <!--
+        <!--
         <all name="water_and_earth">
             <item-exists registry-name="minecraft:iron_ingot"/>
             <true/>
@@ -22,12 +20,28 @@
         <stage-unlocked name="test1" stage="test1" />
     -->
     </conditions>
-
-    <chapter>
+    <chapter id="toc">
         <section>
-            <link ref="0:1">Test</link>
-            <link ref="chapter2">Test</link>
+            <link ref="toc">Table of Contents</link>
+            <link ref="introAndQuirks">Intro and Modpack Quirks</link>
+            <link ref="chapter2">test link</link>
         </section>
+    </chapter>
+    <chapter id="introAndQuirks">
+        <section>
+            <title>Before You Play: Controls and quirks</title>
+            <p>You might notice the FOV is...different.</p>
+            <p>
+                So are a lot of things. Blame one of the contributors to
+                <a href="https://github.com/HenryFBP/rivers-of-iron-mc">this repo</a>
+                . Maybe open an angry pull request.
+            </p>
+            <p>C: Crouch</p>
+            <p>SHIFT: Toggle Sprint</p>
+            <p>F: Dodge</p>
+        </section>
+    </chapter>
+    <chapter>
         <section condition="test1">
             <p scale="1.0">Left</p>
             <p align="center">Center</p>
@@ -45,10 +59,10 @@
                 <span color="#306090">up</span>
                 <span bold="true" italics="true" underline="true" color="#123456" align="center">the Styles!</span>
             </p>
-            <space height="20"/>
+            <space height="20" />
             <p space="20">A</p>
             <p>B</p>
-            <space height="25%"/>
+            <space height="25%" />
             <p>C</p>
             <p indent="60">D</p>
             <link indent="10" ref="intro:1">ааааааа ббббббббббббб вввв</link>
@@ -57,11 +71,23 @@
         </section>
         <section>
             <p>Page 2</p>
-            <p>Test (<link ref="chapter2">Click me</link>) test</p>
+            <p>
+                Test (
+                <link ref="chapter2">Click me</link>
+                ) test
+            </p>
             <link href="https://minecraft.curseforge.com/projects/guidebook">Click me 2</link>
             <link action="copyText" text="Text to copy to the clipboard">Click me 3</link>
-            <p>An image <image src="minecraft:items/coal" tw="16" th="16"/> mixed into the text.</p>
-            <p>An image <image src="minecraft:items/coal" tw="16" th="16" scale="3.0"/> mixed into the text.</p>
+            <p>
+                An image
+                <image src="minecraft:items/coal" tw="16" th="16" />
+                mixed into the text.
+            </p>
+            <p>
+                An image
+                <image src="minecraft:items/coal" tw="16" th="16" scale="3.0" />
+                mixed into the text.
+            </p>
         </section>
     </chapter>
     <chapter id="chapter2" condition="test1">
@@ -69,33 +95,33 @@
             <title>Using the template system</title>
 
             <big_recipe>
-                <stack item="minecraft:iron_ingot"/>
-                <stack item="minecraft:iron_ingot"/>
-                <stack item="minecraft:iron_ingot"/>
-                <space/>
-                <stack item="minecraft:stick"/>
-                <space/>
-                <space/>
-                <stack item="minecraft:stick"/>
-                <space/>
-                <stack item="minecraft:iron_pickaxe"/>
+                <stack item="minecraft:iron_ingot" />
+                <stack item="minecraft:iron_ingot" />
+                <stack item="minecraft:iron_ingot" />
+                <space />
+                <stack item="minecraft:stick" />
+                <space />
+                <space />
+                <stack item="minecraft:stick" />
+                <space />
+                <stack item="minecraft:iron_pickaxe" />
             </big_recipe>
 
             <small_recipe>
-                <stack item="minecraft:quartz"/>
-                <stack item="minecraft:quartz"/>
-                <stack item="minecraft:quartz"/>
-                <stack item="minecraft:quartz"/>
-                <stack item="minecraft:quartz_block"/>
+                <stack item="minecraft:quartz" />
+                <stack item="minecraft:quartz" />
+                <stack item="minecraft:quartz" />
+                <stack item="minecraft:quartz" />
+                <stack item="minecraft:quartz_block" />
             </small_recipe>
         </section>
         <section>
             <title>Using the recipe tag</title>
-            <minecraft:recipe type="gbook:crafting" key="minecraft:iron_pickaxe"/>
-            <recipe type="gbook:crafting" key="minecraft:quartz_block"/>
+            <minecraft:recipe type="gbook:crafting" key="minecraft:iron_pickaxe" />
+            <recipe type="gbook:crafting" key="minecraft:quartz_block" />
             <recipe type="shaped">
                 <recipe.result>
-                    <stack item="minecraft:comparator"/>
+                    <stack item="minecraft:comparator" />
                 </recipe.result>
             </recipe>
         </section>
@@ -149,7 +175,7 @@
                 facilisis. Nam at tortor quis nisl vestibulum semper nec malesuada sapien. Vestibulum et enim tristique
                 diam varius imperdiet non at nisl.
             </p>
-            <section-break/>
+            <section-break />
             <p>
                 Praesent consectetur ante turpis, non scelerisque felis iaculis vestibulum. Duis ut ipsum libero. Fusce
                 congue posuere urna ultrices luctus. Nullam tincidunt enim vitae tempus euismod. Ut iaculis facilisis
