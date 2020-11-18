@@ -153,25 +153,27 @@ if __name__ == '__main__':
 
     # Our focused window is NOT 'MultiMC'...SHIFT-ALT-TAB.
     if 'multimc' not in gw.getActiveWindow().title.lower():
+        print("Not seeing MultiMC. Alt-Shift-Tab in 1 second.")
         time.sleep(1)
         cycle_windows_backwards()
 
     # Our focused window is STILL NOT 'MultiMC'...Abort.
     if 'multimc' not in gw.getActiveWindow().title.lower():
         raise Exception("NOT FOCUSED ON MultiMC! Aborting. Currently focused window: {}".format(gw.getActiveWindow().title.lower()))
+
+    pag.press('esc') #close any initial dialogues
+
+    # TODO press kitty
     
-    '''
-    <ESC>
-    Add instance
-    Import from zip
-    paste path
-    click on ok
-    wait for import
-    launch
-    wait and check for main menu, wait for crashes
-    terminate mmc
-    exit 0 or 1!
-    '''
+
+    # TODO Add instance
+    # TODO Import from zip
+    # TODO paste path
+    # TODO click on ok
+    # TODO wait for import
+    # TODO launch
+    # TODO wait and check for main menu, wait for crashes
+
 
     print("killing mmc in 10s...")
     time.sleep(10)
