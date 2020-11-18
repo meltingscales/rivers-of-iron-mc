@@ -34,7 +34,7 @@ hash = "cba1d88b4188f8018959500bb6898ce401c1e375cc90834ad4bb6d86919d5f3e"
 
 [[files]]
 file = "config/books/riversOfIronGuide.xml"
-hash = "d58ad1bcfc8e64b61d69c9c49d05c8201b14114788413cef3f03bf2ad5bc778e"
+hash = "8c537a0fdaf45a57b5b8e82dce99de462fea39fe31c38e204215dd80eda624ab"
 
 [[files]]
 file = "config/botania.cfg"
@@ -46,7 +46,7 @@ hash = "37f5bead96f44d360fff75192f4bf834d9a2fc550f00d3b817af86e8433ee38e"
 
 [[files]]
 file = "config/defaultworldgenerator-port/worldsettings.data"
-hash = "c139e17baa6cd6ba5283ba912733e357c887bce7c9cc4c889901ed7f87611949"
+hash = "7a217b6322f30d8c7d01339e0c520a90554915b0397336c1bdbe050353822916"
 
 [[files]]
 file = "config/dimdoors.cfg"
@@ -313,6 +313,10 @@ file = "config/gregtech/worldgen_extracted"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
+file = "config/huds.cfg"
+hash = "39bf7971a7046f30e1874af1502c48ebba86094e3ac38aa54ad9666a2113317b"
+
+[[files]]
 file = "config/oreexcavation.cfg"
 hash = "b22e45a66223073733767a9d2d5ad4bcd2f1921b66aa8d05b7bd4f659f9c253a"
 
@@ -330,7 +334,7 @@ hash = "852ef76b336e10eeeefd94815d1b2b9fff1368f91a9a4d18f8469495008f16ac"
 
 [[files]]
 file = "config/walljump.cfg"
-hash = "8ec3410a0b9d90a863d31974cb645ba71aa5831291f461f7776c510ba15c748d"
+hash = "3be0f7e499402ba6099f7518c30484883fabc499141d93a0646cb5259dd34f6f"
 
 [[files]]
 file = "config/xaerominimap.txt"
@@ -518,6 +522,11 @@ metafile = true
 [[files]]
 file = "mods/crafttweaker.toml"
 hash = "a572379bd1f3f014e991b1747e7792783ad9b73df30e4e622e3f3188c83ed671"
+metafile = true
+
+[[files]]
+file = "mods/creativecore.toml"
+hash = "bd992be23d83c10750367f810540bc7cf19c2a2fb3665c93fac1deb7a7bed7f4"
 metafile = true
 
 [[files]]
@@ -1182,7 +1191,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "4e20b8e5f1b207c14d24c560ac50c6682af4da157b887615e24cac3cf6f69098"
+hash = "5a8d3024cf0bfc7bfe3de62bd24a6cc9cb1c0a58d076d5e2554d9ecd215aadea"
 
 [[files]]
 file = "optionsof.txt"
