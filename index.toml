@@ -965,11 +965,6 @@ hash = "29ce143f70349e1ac86c6b729669d48e89a09de156986db33fa4655e0bdf2e8b"
 metafile = true
 
 [[files]]
-file = "mods/ompd.toml"
-hash = "2f1c84c831013f987342f656fb24d228a671433d6aa0f69fce3be5cf8d18c319"
-metafile = true
-
-[[files]]
 file = "mods/openblocks-elevator.toml"
 hash = "0089fdc36429a87393d5acf11b0784f364abd879aa573784d74a7ce3a9c2e84a"
 metafile = true
