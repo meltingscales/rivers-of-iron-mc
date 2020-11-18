@@ -1276,6 +1276,11 @@ hash = "b725577f37462da10dc185bcc14228d3b1e5de5ce06a852ebfefc8c507e82571"
 metafile = true
 
 [[files]]
+file = "mods/tick-dynamic.toml"
+hash = "524be2c7e81deaddec011b007df42b08773ef4f4c73e98b09e7106510507c7df"
+metafile = true
+
+[[files]]
 file = "mods/torohealth-damage-indicators.toml"
 hash = "6364c011679a0f842791f00244889e4b3d864db8d683c5242534119b257d4fa3"
 metafile = true
