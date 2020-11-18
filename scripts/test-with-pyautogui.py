@@ -4,6 +4,7 @@ Test the modpack by launching MultiMC, importing and running the pack.
 Exits with different error codes depending on what went wrong.
 '''
 
+from os import remove
 import pyautogui
 import time
 import os
@@ -15,6 +16,9 @@ from pprint import pprint
 
 IS_WINDOWS = platform.system() == 'Windows'
 
+ZIP_NAME = '.PYAUTOGUI-TEST-MODPACK-EXPORT.tmp.zip'
+DEFAULT_ZIP_NAME='export.zip'
+
 MMC_PATHS = [
     '/opt/multimc/run.sh',
 
@@ -22,6 +26,10 @@ MMC_PATHS = [
     'C:/Program Files (x86)/MultiMC/MultiMC.exe',
     'C:/Program Files/MultiMC/MultiMC.exe',
 ]
+
+def remove_file(fp):
+    if os.path.exists(fp):
+        os.remove(fp)
 
 def get_multimc_path():
     for path in MMC_PATHS:
@@ -73,7 +81,13 @@ def open_multimc() -> subprocess.Popen:
 
 def generate_modpack_zip():
     if not os.path.exists("./pack.toml"):
-        raise Exception("Could not find pack.toml in current working directory!")
+        raise Exception("Could not find pack.toml in current working directory '{}'!".format(os.getcwd()))
+
+    remove_file(ZIP_NAME)
+    remove_file(DEFAULT_ZIP_NAME)
+
+    subprocess.check_output(['packwiz','cf','export'])
+    os.rename(DEFAULT_ZIP_NAME, ZIP_NAME)
 
     
 
