@@ -30,6 +30,16 @@ MMC_PATHS = [
     'C:/Program Files/MultiMC/MultiMC.exe',
 ]
 
+def cycle_windows_backwards():
+    """Alt shift tab."""
+    pag.keyDown('alt') 
+    pag.keyDown('shift')
+    pag.press('tab')
+
+    pag.keyUp('alt') 
+    pag.keyUp('shift')
+
+
 
 def is_multimc(p: Process) -> bool:
     ismmc = False
@@ -40,17 +50,16 @@ def is_multimc(p: Process) -> bool:
         name = p.name()
         cmdline = p.cmdline()
     except (PermissionError, psutil.AccessDenied) as e:  # Windows can do this
-        # print("Not allowed to view process {}".format(p.pid))
+        print("Not allowed to view process {}".format(p.pid))
         pass
 
     # print(name, cmdline)
-
-    if 'MultiMC' in name or 'MultiMC' in ' '.join(cmdline):
-        # if 'MultiMC' in name:
+    # if 'MultiMC' in name:
+    if 'multimc' in name.lower() or 'multimc' in ' '.join(cmdline).lower():
         print(p)
-        ismmc = True
+        return True
 
-    return ismmc
+    return False
 
 
 def remove_file(fp):
@@ -94,7 +103,6 @@ def open_multimc() -> subprocess.Popen:
     # os.system(path) # NOTE: this blocks.
     return subprocess.Popen([path])
 
-
 def get_multimc_window_title() -> str:
     windowTitles = gw.getAllTitles()
 
@@ -107,10 +115,9 @@ def get_multimc_window_title() -> str:
     raise Exception("Could not find window title containing 'MultiMC'!")
 
 
-def focus_multimc() -> BaseWindow:
-
+def get_multimc_window() -> BaseWindow:
     w: BaseWindow = gw.getWindowsWithTitle(get_multimc_window_title())[0]
-    w.activate()
+    pprint(w)
     return w
 
 
@@ -138,10 +145,21 @@ if __name__ == '__main__':
     generate_modpack_zip()
 
     mmc_proc = open_multimc()
-    time.sleep(10)
+    time.sleep(3) # wait 3s for mmc to open
 
-    mmc_window = focus_multimc()
+    mmc_window = get_multimc_window()
+    # mmc_window.activate() # Also doesn't focus... Crashes.
 
+
+    # Our focused window is NOT 'MultiMC'...SHIFT-ALT-TAB.
+    if 'multimc' not in gw.getActiveWindow().title.lower():
+        time.sleep(1)
+        cycle_windows_backwards()
+
+    # Our focused window is STILL NOT 'MultiMC'...Abort.
+    if 'multimc' not in gw.getActiveWindow().title.lower():
+        raise Exception("NOT FOCUSED ON MultiMC! Aborting. Currently focused window: {}".format(gw.getActiveWindow().title.lower()))
+    
     '''
     <ESC>
     Add instance
@@ -155,8 +173,9 @@ if __name__ == '__main__':
     exit 0 or 1!
     '''
 
-    # time.sleep(10)
-    # mmc_proc.kill() # kill MMC after 10s for testing
+    print("killing mmc in 10s...")
+    time.sleep(10)
+    mmc_proc.kill() # kill MMC after 10s for testing
     print("killed mmc.")
 
     exit(1)
