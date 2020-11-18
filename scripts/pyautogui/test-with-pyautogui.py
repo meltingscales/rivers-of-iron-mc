@@ -22,6 +22,10 @@ IS_WINDOWS = platform.system() == 'Windows'
 ZIP_NAME = '.PYAUTOGUI-TEST-MODPACK-EXPORT.tmp.zip'
 DEFAULT_ZIP_NAME = 'export.zip'
 
+SCRIPTS_FOLDER='scripts/pyautogui'
+
+KITTY_DISABLED_IMAGE_FILE=os.path.join(SCRIPTS_FOLDER,'kitty-disabled.png')
+
 MMC_PATHS = [
     '/opt/multimc/run.sh',
 
@@ -163,8 +167,14 @@ if __name__ == '__main__':
 
     pag.press('esc') #close any initial dialogues
 
-    # TODO press kitty
-    
+    # This very critical code ensures the kitty is always activated.
+    kittylocation = pag.locateOnScreen(KITTY_DISABLED_IMAGE_FILE)
+    if kittylocation:
+        print("Enabling kitty.")
+        pag.moveTo(kittylocation)
+        pag.click()
+    else:
+        print("Kitty already enabled.")
 
     # TODO Add instance
     # TODO Import from zip
