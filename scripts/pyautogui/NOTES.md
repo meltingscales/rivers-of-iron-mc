@@ -12,6 +12,16 @@
 - AWS pricing for GPU is garbage, cheaper to buy another PC
 - Azure pricing for GPU is garbage, cheaper to buy another PC
 
+## VirtualBox Jenkins Modpack CI/CT Notes
+
+- You don't need a GPU. Minecraft will start black. The script takes this into account.
+- 5120MB RAM
+- Give Minecraft ~4GB RAM
+- You must log into MultiMC.
+- Disable VBox Guest Addition mouse integrations.
+
+## Setup Commands
+
     Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
     choco install git golang multimc python3 microsoft-visual-cpp-build-tools

@@ -3,3 +3,6 @@ rivers-of-iron/overrides/mods/**/*.jar
 
 Pipfile.lock
 index.toml
+
+__pycache__/
+*.pyc
