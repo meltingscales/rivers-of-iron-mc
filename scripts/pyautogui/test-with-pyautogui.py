@@ -30,7 +30,9 @@ if __name__ == '__main__':
     generate_modpack_zip()
 
     mmc_proc = open_multimc()
-    time.sleep(2)  # wait for mmc to open
+    print(mmc_proc)
+    pprint(mmc_proc)
+    time.sleep(10)  # wait for mmc to open
 
     mmc_window = get_multimc_window()
     # mmc_window.activate() # Also doesn't focus... Crashes.
