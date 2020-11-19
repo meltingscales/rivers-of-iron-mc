@@ -190,6 +190,8 @@ def get_multimc_window() -> BaseWindow:
     pprint(w)
     return w
 
+def get_active_window_title()->str:
+    return gw.getActiveWindow().title
 
 def generate_modpack_zip():
 

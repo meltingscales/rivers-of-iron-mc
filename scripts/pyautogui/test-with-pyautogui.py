@@ -39,15 +39,15 @@ if __name__ == '__main__':
     # mmc_window.activate() # Also doesn't focus... Crashes.
 
     # Our focused window is NOT 'MultiMC'...SHIFT-ALT-TAB.
-    if 'multimc' not in gw.getActiveWindow().title.lower():
+    if 'multimc' not in get_active_window_title().lower():
         print("Not seeing MultiMC. Alt-Shift-Tab in 1 second.")
         time.sleep(1)
         cycle_windows_backwards()
 
     # Our focused window is STILL NOT 'MultiMC'...Abort.
-    if 'multimc' not in gw.getActiveWindow().title.lower():
+    if 'multimc' not in get_active_window_title().lower():
         raise Exception("NOT FOCUSED ON MultiMC! Aborting. Currently focused window: {}".format(
-            gw.getActiveWindow().title.lower()))
+            get_active_window_title().lower()))
 
     pag.press('esc')  # close any initial dialogues
 
@@ -89,7 +89,7 @@ if __name__ == '__main__':
     time.sleep(n)
     print("Waiting for modpack install.")
     while True:
-        if 'please wait' in gw.getActiveWindow().title.lower():
+        if 'please wait' in get_active_window_title().lower():
             print("Window is telling me to wait, I think I will...")
         else:
             print("We're done waiting! Modpack installed.")
@@ -108,13 +108,19 @@ if __name__ == '__main__':
     n = 5
     time.sleep(n)
     while True:
-        if 'minecraft' in gw.getActiveWindow().title.lower():
+        if 'minecraft' in get_active_window_title().lower():
             print("Minecraft window has been opened!")
 
             print("Timer started!")
             START_TIME = time.time()
 
             break
+        elif 'console window for' in get_active_window_title.lower():
+            print("Console window open! Minecraft must have crashed!")
+
+            # TODO copy error log  and save file in current dir
+
+            exit(1)
         else:
             print("Waiting {} seconds for minecraft window...".format(n))
         time.sleep(n)
