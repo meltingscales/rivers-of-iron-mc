@@ -6,7 +6,7 @@ from typing import List
 try:
     from scripts.pyautogui.config import *
 except Exception:
-    pass #lol thanks IDE, you know what local paths are
+    pass  # lol thanks IDE, you know what local paths are
 from config import *
 import psutil
 import subprocess
@@ -39,16 +39,24 @@ def is_vm():
         raise Exception(
             "Checking if I'm in a VM is not implemented for Linux.")
 
+
 def has_gpu():
     # TODO This is flawed. Actually check OpenGL version.
     if is_windows():
         if is_vm():
             return False
-        else: #not a vm but windows
+        else:  # not a vm but windows
             return True
-    else: #linux, vm? maybe
-        return True 
-            
+    else:  # linux, vm? maybe
+        return True
+
+
+def write_time_file(i: float):
+    if os.path.exists("TIME.txt"):
+        os.remove("TIME.txt")
+    with open("TIME.txt", 'w') as f:
+        f.write(str(i))
+
 
 def cycle_windows_backwards():
     """Alt shift tab."""
@@ -196,7 +204,8 @@ def generate_modpack_zip():
 
     os.rename(DEFAULT_ZIP_NAME, ZIP_NAME)
 
-def line_in_file_matches_rexp(path:str, rexps: Union[List[str],str])->bool:
+
+def line_in_file_matches_rexp(path: str, rexps: Union[List[str], str]) -> bool:
     """Does a line in a file match one or more regular expressions?"""
 
     if isinstance(rexps, str):
@@ -209,8 +218,9 @@ def line_in_file_matches_rexp(path:str, rexps: Union[List[str],str])->bool:
 
                 if len(results) > 0:
                     return True
-    
+
     return False
+
 
 def logfile_says_done_loading_mods():
     """Does the logfile indicate forge is done loading mods?"""
