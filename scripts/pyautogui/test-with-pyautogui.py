@@ -115,7 +115,7 @@ if __name__ == '__main__':
             START_TIME = time.time()
 
             break
-        elif 'console window for' in get_active_window_title.lower():
+        elif 'console window for' in get_active_window_title().lower():
             print("Console window open! Minecraft must have crashed!")
 
             # TODO copy error log  and save file in current dir
