@@ -3,6 +3,8 @@ from pprint import pprint
 import distutils.spawn
 import re
 from typing import List
+
+from numpy.lib.arraysetops import isin
 try:
     from scripts.pyautogui.config import *
 except Exception:
@@ -80,15 +82,17 @@ def ensure_path_exists(p, err_msg=None) -> Exception:
 
 
 def is_multimc(p: Process) -> bool:
-    ismmc = False
 
     name, cmdline = "", ""
 
     try:
         name = p.name()
         cmdline = p.cmdline()
-    except (PermissionError, psutil.AccessDenied) as e:  # Windows can do this
-        # print("Not allowed to view process {}".format(p.pid))
+    except (PermissionError, psutil.AccessDenied, ProcessLookupError, psutil.NoSuchProcess) as e:  # Windows can do this
+        if isinstance(e, PermissionError) or isinstance(e, psutil.AccessDenied):
+            print("Not allowed to view process {}".format(p.pid))
+        if isinstance(e, ProcessLookupError) or isinstance(e, psutil.NoSuchProcess):
+            print("Process {} does not exist. Race condition?".format(p.pid))
         pass
 
     # print(name, cmdline)
