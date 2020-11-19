@@ -15,10 +15,11 @@
 ## VirtualBox Jenkins Modpack CI/CT Notes
 
 - You don't need a GPU. Minecraft will start black. The script takes this into account.
-- 4 Processors
-- 3D Acceleration
+- 2 Processors
 - 5120MB RAM
 - 256MB of VRAM
+- No 3D Acceleration
+- VBoxSVGA Graphics Controller
 - Give Minecraft ~4GB RAM
 - You must log into MultiMC.
 - Disable VBox Guest Addition mouse integrations.
@@ -27,7 +28,7 @@
 
     Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
-    choco install git golang multimc python3 microsoft-visual-cpp-build-tools
+    choco install git jre8 golang jenkins multimc python3 microsoft-visual-cpp-build-tools
 
     git clone https://github.com/comp500/packwiz
     git clone https://github.com/HenryFBP/rivers-of-iron-mc
