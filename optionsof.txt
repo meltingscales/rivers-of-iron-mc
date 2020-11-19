@@ -28,7 +28,7 @@ ofAnimatedTerrain:false
 ofAnimatedTextures:false
 ofRainSplash:false
 ofLagometer:false
-ofShowFps:false
+ofShowFps:true
 ofAutoSaveTicks:4000
 ofBetterGrass:3
 ofConnectedTextures:2
@@ -37,7 +37,7 @@ ofSky:true
 ofStars:true
 ofSunMoon:true
 ofVignette:0
-ofChunkUpdates:5
+ofChunkUpdates:1
 ofChunkUpdatesDynamic:true
 ofTime:0
 ofClearWater:false
@@ -64,7 +64,7 @@ ofDynamicLights:3
 ofScreenshotSize:1
 ofCustomEntityModels:true
 ofCustomGuis:true
-ofShowGlErrors:true
+ofShowGlErrors:false
 ofFullscreenMode:Default
 ofFastMath:true
 ofFastRender:true
