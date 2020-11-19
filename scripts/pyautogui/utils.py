@@ -3,8 +3,6 @@ from pprint import pprint
 import distutils.spawn
 import re
 from typing import List
-
-from numpy.lib.arraysetops import isin
 try:
     from scripts.pyautogui.config import *
 except Exception:
