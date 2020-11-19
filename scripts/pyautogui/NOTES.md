@@ -23,6 +23,15 @@
 - Give Minecraft ~4GB RAM
 - You must log into MultiMC.
 - Disable VBox Guest Addition mouse integrations.
+- SET PIPENV_SKIP_LOCK env var to True
+
+### yay, displays
+
+<!-- - You must enable the service Jenkins to log on as a user (`services.msc`). This allows it to open GUI programs. -->
+    - <https://github.com/winsw/winsw/blob/master/doc/xmlConfigFile.md#interactive>
+    - https://github.com/jenkinsci/jenkins/blob/master/core/src/main/resources/windows-service/jenkins.xml#L45
+    - https://interworks.com.mk/jenkins-setup-for-executing-windows-forms-automated-tests/
+    - https://exceptionshub.com/jenkins-selenium-gui-tests-are-not-visible-on-windows.html
 
 ## Setup Commands
 
@@ -41,3 +50,14 @@
     pip install pipenv
     cd rivers-of-iron-mc
     pipenv install
+
+## Build Commands
+
+If any of these exit other than exit code 0, or take >30 minutes, fail the build.
+
+Poll SCM every 30 minutes.
+
+    git clone https://github.com/HenryFBP/rivers-of-iron-mc
+    cd rivers-of-iron-mc
+    pipenv install
+    python scripts/pyautogui/test-with-pyautogui.py
