@@ -33,7 +33,8 @@ if __name__ == '__main__':
     print(mmc_proc)
     pprint(mmc_proc)
     time.sleep(10)  # wait for mmc to open
-
+    
+    im2 = pag.screenshot('before_mmc_window.png')
     mmc_window = get_multimc_window()
     # mmc_window.activate() # Also doesn't focus... Crashes.
 
