@@ -29,7 +29,7 @@
     </chapter>
     <chapter id="introAndQuirks">
         <section>
-            <title>Before You Play: Controls and quirks</title>
+            <title>Controls and quirks</title>
             <p>You might notice the FOV is...different.</p>
             <p>
                 So are a lot of things. Blame one of the contributors to
@@ -37,8 +37,20 @@
                 . Maybe open an angry pull request.
             </p>
             <p>C: Crouch</p>
-            <p>SHIFT: Toggle Sprint</p>
-            <p>F: Dodge</p>
+            <p>Left Click: Attack with no cooldown. Abuse this.</p>
+            <p>CTRL: Toggle Sprint</p>
+            <p>SHIFT: Toggle Sprint, Wallclimb. </p>
+            <p>Hold SHIFT when in the air near a wall to cling to it.</p>
+            <p>When clinging, and still holding shift, start holding W/A/S/D. Then release SHIFT. You will walljump. Abuse this.</p>
+            <p>F: Dodge. Abuse it.</p>
+            <p>Q: Unbound. Because Diamond Pickaxes deserve better than lava.</p>
+            <p>Space: Jump, double jump. Abuse this.</p>
+            <p>Tilde (~): Veinmine anything. Consumes hunger. Abuse this.</p>
+            <p>Alt: Open extended building.</p>
+        </section>
+        <section>
+            <title>Non-gameplay (UI) controls, other features</title>
+            <p>Disable PVP: /scoreboard teams join nopvp</p>
         </section>
     </chapter>
     <chapter>
