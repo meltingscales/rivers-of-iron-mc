@@ -142,7 +142,6 @@ if __name__ == '__main__':
                 print("Waiting {} seconds for Java logo...".format(n))
             time.sleep(n)
 
-
     def printfn(): print("Waiting for '{}' in\nlog file {}...".format(
         FORGE_LOADED_REXP, get_multimc_instance_logfile_path()))
 
@@ -155,7 +154,7 @@ if __name__ == '__main__':
         else:
             printfn()
         time.sleep(n)
-    
+
     print("Logfile says we're done loading mods!")
 
     END_TIME = time.time()
@@ -164,6 +163,8 @@ if __name__ == '__main__':
     TIME_TO_LOAD_INTO_MAIN_MENU = (END_TIME - START_TIME)
     print("Pack took {:.2f} sec or {:.2f} min to load.".format(
         TIME_TO_LOAD_INTO_MAIN_MENU, TIME_TO_LOAD_INTO_MAIN_MENU/60))
+
+    write_time_file(END_TIME - START_TIME)
 
     print("killing mmc in 5s...")
     time.sleep(5)
