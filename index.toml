@@ -349,8 +349,12 @@ file = "config/smoothfont/smoothfont.cfg"
 hash = "852ef76b336e10eeeefd94815d1b2b9fff1368f91a9a4d18f8469495008f16ac"
 
 [[files]]
+file = "config/squeedometer.cfg"
+hash = "3e1e06d437f45b51b6bcf5d24f206f6225565384d7ca6717e1c741489ddb9de3"
+
+[[files]]
 file = "config/walljump.cfg"
-hash = "3be0f7e499402ba6099f7518c30484883fabc499141d93a0646cb5259dd34f6f"
+hash = "ead7c369162cc545dade65899fe6fe25409312413911296042bd303d55f2e964"
 
 [[files]]
 file = "config/xaerominimap.txt"
@@ -753,11 +757,6 @@ metafile = true
 [[files]]
 file = "mods/guidebook.toml"
 hash = "d3a73b2aa8260e376b26afd4f2cfdc4f427259726f7c1dc41452ecd148c7e738"
-metafile = true
-
-[[files]]
-file = "mods/hardcore-battle-towers.toml"
-hash = "d8418ff499c4781aaf13e8ff20cc6b944f43e2a5a7ba146b0ca5582ff0c2cfc1"
 metafile = true
 
 [[files]]
