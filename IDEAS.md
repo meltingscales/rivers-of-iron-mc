@@ -54,6 +54,4 @@ Crashes/doesn't work with other mods.
 https://www.curseforge.com/minecraft/mc-mods/opencubicchunks
 https://www.curseforge.com/minecraft/mc-mods/cubicworldgen
 
-### Candidates
 
-Chunk Gen Limiter local testing.
