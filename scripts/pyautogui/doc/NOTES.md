@@ -36,13 +36,13 @@ That's right. You need to turn a Windows User who's logged on into a slave that 
     - https://exceptionshub.com/jenkins-selenium-gui-tests-are-not-visible-on-windows.html
 
 Jenkins View:
-![](jenkins-view.png)
+![](jenkins-view.PNG)
 
 Slave View:
-![](slave-view.png)
+![](slave-view.PNG)
 
 Tag the build and the slave too:
-![](build-config-needed.png)
+![](build-config-needed.PNG)
 
 
 ## Setup Commands
