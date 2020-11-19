@@ -4,6 +4,11 @@ Test the modpack by launching MultiMC, importing and running the pack.
 Exits with different error codes depending on what went wrong.
 '''
 from pprint import pprint
+try:
+    from scripts.pyautogui.utils import *
+    from scripts.pyautogui.config import *
+except Exception:
+    pass  # lol thanks IDE, you know what local paths are
 from config import *
 from utils import *
 import shutil
@@ -123,21 +128,38 @@ if __name__ == '__main__':
             print("Waiting {} seconds for mojang logo...".format(n))
         time.sleep(n)
 
-    # detect java logo in title
-    print("Waiting for 'Java' logo in title...")
-    n = 5
+    if has_gpu():
+        # detect java logo in title
+        print("Waiting for 'Java' logo in title...")
+        n = 5
+        time.sleep(n)
+        while True:
+            if pag.locateOnScreen(png_path('java.png')):
+                print("Java logo visible! We're on the main menu!")
+
+                break
+            else:
+                print("Waiting {} seconds for Java logo...".format(n))
+            time.sleep(n)
+
+
+    def printfn(): print("Waiting for '{}' in\nlog file {}...".format(
+        FORGE_LOADED_REXP, get_multimc_instance_logfile_path()))
+
+    printfn()
+    n = 10
     time.sleep(n)
     while True:
-        if pag.locateOnScreen(png_path('java.png')):
-            print("Java logo visible! We're on the main menu!")
-
-            END_TIME = time.time()
-            print("Timer ended.")
-
+        if logfile_says_done_loading_mods():
             break
         else:
-            print("Waiting {} seconds for Java logo...".format(n))
+            printfn()
         time.sleep(n)
+    
+    print("Logfile says we're done loading mods!")
+
+    END_TIME = time.time()
+    print("Timer ended.")
 
     TIME_TO_LOAD_INTO_MAIN_MENU = (END_TIME - START_TIME)
     print("Pack took {:.2f} sec or {:.2f} min to load.".format(

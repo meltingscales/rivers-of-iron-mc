@@ -1,6 +1,13 @@
+from typing import Union
 from pprint import pprint
 import distutils.spawn
-from config import DEFAULT_ZIP_NAME, MMC_BINARY_PATHS, ZIP_NAME
+import re
+from typing import List
+try:
+    from scripts.pyautogui.config import *
+except Exception:
+    pass #lol thanks IDE, you know what local paths are
+from config import *
 import psutil
 import subprocess
 import shutil
@@ -32,6 +39,16 @@ def is_vm():
         raise Exception(
             "Checking if I'm in a VM is not implemented for Linux.")
 
+def has_gpu():
+    # TODO This is flawed. Actually check OpenGL version.
+    if is_windows():
+        if is_vm():
+            return False
+        else: #not a vm but windows
+            return True
+    else: #linux, vm? maybe
+        return True 
+            
 
 def cycle_windows_backwards():
     """Alt shift tab."""
@@ -41,6 +58,17 @@ def cycle_windows_backwards():
 def altf4():
     """Alt-F4."""
     pag.hotkey('alt', 'f4')
+
+
+def ensure_path_exists(p, err_msg=None) -> Exception:
+
+    msg = "Path {} does not exist! Halting! ".format(p)
+
+    if err_msg:
+        msg += err_msg
+
+    if not os.path.exists(p):
+        raise Exception(msg)
 
 
 def is_multimc(p: Process) -> bool:
@@ -70,6 +98,7 @@ def remove_file(fp):
 
 
 def get_multimc_binary_path():
+    """Ex. C:/tools/MultiMC/MultiMC.exe"""
     for path in MMC_BINARY_PATHS:
         if os.path.exists(path):
             return path
@@ -77,13 +106,31 @@ def get_multimc_binary_path():
 
 
 def get_multimc_instances_path():
+    """Ex. C:/tools/MultiMC/instances/"""
     multimc_instances_folder = os.path.join(
         os.path.dirname(get_multimc_binary_path()), 'instances')
-    if not os.path.exists(multimc_instances_folder):
-        raise Exception(
-            "MMC Instances folder, {}, does not exist! Halting.", multimc_instances_folder)
+
+    ensure_path_exists(multimc_instances_folder, "MMC Instances folder")
 
     return multimc_instances_folder
+
+
+def get_multimc_instance_path():
+    """Ex. C:/tools/MultiMC/instances/.TMP.PYAUTOGUI-TEST-MODPACK-EXPORT.tmp/"""
+    p = os.path.join(get_multimc_instances_path(), MODPACK_NAME)
+
+    ensure_path_exists(p)
+
+    return p
+
+
+def get_multimc_instance_logfile_path():
+    """Ex. C:/tools/MultiMC/instances/.TMP.PYAUTOGUI-TEST-MODPACK-EXPORT.tmp/minecraft/logs/latest.log"""
+    p = os.path.join(get_multimc_instance_path(), 'minecraft/logs/latest.log')
+
+    ensure_path_exists(p)
+
+    return p
 
 
 def ensure_packwiz_installed():
@@ -148,3 +195,24 @@ def generate_modpack_zip():
     print("Done!")
 
     os.rename(DEFAULT_ZIP_NAME, ZIP_NAME)
+
+def line_in_file_matches_rexp(path:str, rexps: Union[List[str],str])->bool:
+    """Does a line in a file match one or more regular expressions?"""
+
+    if isinstance(rexps, str):
+        rexps = [rexps]
+
+    with open(path, 'r') as f:
+        for line in f:
+            for rexp in rexps:
+                results = re.findall(rexp, line)
+
+                if len(results) > 0:
+                    return True
+    
+    return False
+
+def logfile_says_done_loading_mods():
+    """Does the logfile indicate forge is done loading mods?"""
+
+    return line_in_file_matches_rexp(get_multimc_instance_logfile_path(), FORGE_LOADED_REXP)
