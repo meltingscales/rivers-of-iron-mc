@@ -685,6 +685,11 @@ hash = "0eddea09517f0920b8e462d2f91e9c216425040927398970947a3ddbfe9bd60f"
 metafile = true
 
 [[files]]
+file = "mods/extreme-reactors.toml"
+hash = "4db0b15ae9f877789c30e7fc54a0431cbe257eae1dd8654c0983df1e6c61d3e3"
+metafile = true
+
+[[files]]
 file = "mods/fast-leaf-decay.toml"
 hash = "8239fcc9487edacf660e8a72b2fb9b9a2757c77df232a0ff409e5a8d9dadcc77"
 metafile = true
@@ -817,6 +822,11 @@ metafile = true
 [[files]]
 file = "mods/jeid.toml"
 hash = "7464349efadf214e7e15c2dd335cf5dbb2e50a2de9f168b7371bc5a24616764a"
+metafile = true
+
+[[files]]
+file = "mods/just-enough-buttons.toml"
+hash = "4e383537cadb268806513164fd702df5c63059d61a1ab05b0521434ef2d5e56e"
 metafile = true
 
 [[files]]
@@ -992,6 +1002,11 @@ metafile = true
 [[files]]
 file = "mods/openscreens.toml"
 hash = "bb15ca86dd7e29f2506d4a368badc2303add9d9140657ff3658452deb336ce24"
+metafile = true
+
+[[files]]
+file = "mods/optifine-capes.toml"
+hash = "9fca54f0fd4fe5964582a8038c4d9e73ceeca7a99a7f89713b3ae8a627239ffd"
 metafile = true
 
 [[files]]
@@ -1245,6 +1260,11 @@ hash = "6364c011679a0f842791f00244889e4b3d864db8d683c5242534119b257d4fa3"
 metafile = true
 
 [[files]]
+file = "mods/trashslot.toml"
+hash = "4098b05edb7a626b54ddab4e301bb365bfdc977b9eaebf4ae68cd71e0d89dc9d"
+metafile = true
+
+[[files]]
 file = "mods/traverse-legacy-continued.toml"
 hash = "3a2238e8a8b099b5245723c4db1d06ea93a655ec8d30d7c2ad711a8b14c6c925"
 metafile = true
@@ -1302,6 +1322,11 @@ metafile = true
 [[files]]
 file = "mods/xl-food-mod.toml"
 hash = "4b29537eb79904f79060246d48b5fca879674fd65a3bb88d8783e20cb7d619b4"
+metafile = true
+
+[[files]]
+file = "mods/zerocore.toml"
+hash = "dc0141e97dfe91b0c5335ac0ab99394d656cff763ab8053f0f615c79f5e3c0c9"
 metafile = true
 
 [[files]]
