@@ -201,10 +201,13 @@ def generate_modpack_zip():
     remove_file(ZIP_NAME)
     remove_file(DEFAULT_ZIP_NAME)
 
-    subprocess.check_output(['packwiz', 'cf', 'export'])
+    print(subprocess.check_output(['packwiz', 'refresh'])) # Make index.toml
+    print(subprocess.check_output(['packwiz', 'cf', 'export']))
     print("Done!")
 
     os.rename(DEFAULT_ZIP_NAME, ZIP_NAME)
+
+    # exit(1)
 
 
 def line_in_file_matches_rexp(path: str, rexps: Union[List[str], str]) -> bool:
