@@ -52,9 +52,9 @@ def has_gpu():
 
 
 def write_time_file(i: float):
-    if os.path.exists("TIME.txt"):
-        os.remove("TIME.txt")
-    with open("TIME.txt", 'w') as f:
+    if os.path.exists(LOADING_TIME_FILE):
+        os.remove(LOADING_TIME_FILE)
+    with open(LOADING_TIME_FILE, 'w') as f:
         f.write(str(i))
 
 

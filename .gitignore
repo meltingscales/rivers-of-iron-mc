@@ -1,4 +1,5 @@
 *.zip
+*.TMP.*
 rivers-of-iron/overrides/mods/**/*.jar
 
 Pipfile.lock
