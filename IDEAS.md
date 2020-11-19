@@ -55,3 +55,82 @@ https://www.curseforge.com/minecraft/mc-mods/opencubicchunks
 https://www.curseforge.com/minecraft/mc-mods/cubicworldgen
 
 
+## From jon
+
+ae2 stuff
+applecore
+applied energistics 2
+avaritia
+b0bgary’s growable ores
+baublelicious
+bd lib
+betterstorage
+big reactors
+binnie core
+binne patcher
+blood magic: alchemical wizardry
+botania
+buildcraft
+chococraft
+clockwork phase
+code chicken core
+cofh core
+craftable nether star+
+dense ores
+enchiridion 2
+ender io
+endercore
+enderstorage
+enhanced portals
+extra cells 2
+extra utilities
+extratic
+fast craft
+fluxed-crystals 2
+forbidden magic
+forestry
+*fossils and archeology revival
+galacticraft
+growthcraft
+iguana tinker tweaks
+industrialcraft 2
+inventory tweaks
+jabba
+journeymap
+llibrary
+magic bees
+mantle
+mariculture
+micdoodlecore
+minechem
+minefactory reloaded
+minetweaker 3
+mobius core
+mouse tweaks
+*mystcraft
+natura
+*nei addons
+nei integration
+not enough items
+ore dictionary converter
+pam’s harvest
+pneumaticcraft
+storage drawers
+super massive tech
+tainted magic
+technomancy
+thaumcraft
+thaumic energistics
+thaumic exploration
+thaumic horizons
+thaumic tinkerer
+*thermal dynamics
+*thermal expansion
+*thermal foundation
+tic tooltips
+tinker’s construct
+twilight forest
+waila
+waila harvestability
+wasliecore
+wawla
