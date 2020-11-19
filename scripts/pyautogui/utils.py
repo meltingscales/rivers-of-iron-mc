@@ -201,6 +201,11 @@ def generate_modpack_zip():
     remove_file(ZIP_NAME)
     remove_file(DEFAULT_ZIP_NAME)
 
+    # For some odd reason, packwiz refresh fails if this file doesn't exist.
+    if not os.path.exists("./index.toml"):
+        with open('./index.toml', 'w') as _:
+            pass
+
     print(subprocess.check_output(['packwiz', 'refresh'])) # Make index.toml
     print(subprocess.check_output(['packwiz', 'cf', 'export']))
     print("Done!")
