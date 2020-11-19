@@ -381,11 +381,6 @@ hash = "f815fc71b4638215d66904425bbf779127192c530f480bb8134b68b2ad29d60e"
 metafile = true
 
 [[files]]
-file = "mods/advanced-generators.toml"
-hash = "1815793b03e5e2ad0b23709b9cd3e8cabb55c60f29423576b8238d4ba5f0ce8b"
-metafile = true
-
-[[files]]
 file = "mods/advanced-rocketry.toml"
 hash = "21b2bbbaf642c0fb2de50ef8b20cab75c5e4aea007efe35155247a5d076aff1e"
 metafile = true
@@ -398,16 +393,6 @@ metafile = true
 [[files]]
 file = "mods/armor-underwear-mod.toml"
 hash = "332316e63d8951e9819ce605b9e510cd9858329042e0d1516b05d6e3960dbf6f"
-metafile = true
-
-[[files]]
-file = "mods/aroma1997core.toml"
-hash = "31421272d186b674a6df39752231b49e6b3213f4b624a1e20a5ef449c97809ea"
-metafile = true
-
-[[files]]
-file = "mods/aromabackup.toml"
-hash = "6645c15620cc363fea1fea21a7cd199f38c11481634c688866cf59050922a271"
 metafile = true
 
 [[files]]
@@ -448,11 +433,6 @@ metafile = true
 [[files]]
 file = "mods/baubles.toml"
 hash = "c753e5872ef229ff88ad5e1e0aeee78a8db2084017acee1bf9a45c4807037250"
-metafile = true
-
-[[files]]
-file = "mods/bdlib.toml"
-hash = "f27e8eb3b896f8771ce9a83c7ba5bde35590a4e9ac1f019b244b5d72a7f669f5"
 metafile = true
 
 [[files]]
@@ -523,11 +503,6 @@ metafile = true
 [[files]]
 file = "mods/chameleon.toml"
 hash = "0c8fb1975d4eb96fcf5fdaf6cc0f77b2312f24bbbbea9316c424029eb9f047d6"
-metafile = true
-
-[[files]]
-file = "mods/chunkgenlimited.toml"
-hash = "3b9d43d2a751b9fe7961b8a5c2ed85661af3d2f7ff21bbf4efd3301da32cfa0c"
 metafile = true
 
 [[files]]
@@ -736,11 +711,6 @@ hash = "43f0e754ab26b5434510719dcf9ace01eef1b54df72efc54d962861754261eac"
 metafile = true
 
 [[files]]
-file = "mods/ftb-backups.toml"
-hash = "c98b6793744c0c1be408e63bd99962846cbe3b5572304250f0c786c6656789b4"
-metafile = true
-
-[[files]]
 file = "mods/ftb-library.toml"
 hash = "016bc703be18098ed8b1f4ff840f3aa4b97154a2bcbae48ca53d3bc28e2f588a"
 metafile = true
@@ -888,11 +858,6 @@ metafile = true
 [[files]]
 file = "mods/long-fall-boots.toml"
 hash = "8b32fa5d49b1d52b60b894da0bd376a146a7e44c6bc4fe9ba2f35aebaa77205c"
-metafile = true
-
-[[files]]
-file = "mods/ltta.toml"
-hash = "a1fc148bb393eb24b0c2469ecc8f23b3cc66a3cc1f52f81306874f3d89a039f8"
 metafile = true
 
 [[files]]
@@ -1103,11 +1068,6 @@ metafile = true
 [[files]]
 file = "mods/raiders.toml"
 hash = "f65bb36a9d574dd4f3a3859589d269f79d9a2544362414b326f8ecf6ea6b949e"
-metafile = true
-
-[[files]]
-file = "mods/realistic-item-drops.toml"
-hash = "6a13fb67d86d396c9604521a71513f80e161cf23dd1516c99cdde6ebb3dc6e17"
 metafile = true
 
 [[files]]
