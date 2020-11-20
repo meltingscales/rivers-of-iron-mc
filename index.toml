@@ -878,6 +878,11 @@ hash = "d683929fb11eb223d1fa0e3dbfed21fe735ae1bd5a1d2a2f9273cbfead4a7f7c"
 metafile = true
 
 [[files]]
+file = "mods/iron-backpacks.toml"
+hash = "1d00bfd812b73021e00ba1a100600a6df3487d2104f7b1c5a5ac961bbcc2ce33"
+metafile = true
+
+[[files]]
 file = "mods/iron-chests.toml"
 hash = "73bf12232de7a35bed950fd474e151b6e9ad324d677ea8357c04e392f9b657f9"
 metafile = true
