@@ -80,15 +80,17 @@ def ensure_path_exists(p, err_msg=None) -> Exception:
 
 
 def is_multimc(p: Process) -> bool:
-    ismmc = False
 
     name, cmdline = "", ""
 
     try:
         name = p.name()
         cmdline = p.cmdline()
-    except (PermissionError, psutil.AccessDenied) as e:  # Windows can do this
-        # print("Not allowed to view process {}".format(p.pid))
+    except (PermissionError, psutil.AccessDenied, ProcessLookupError, psutil.NoSuchProcess) as e:  # Windows can do this
+        if isinstance(e, PermissionError) or isinstance(e, psutil.AccessDenied):
+            print("Not allowed to view process {}".format(p.pid))
+        if isinstance(e, ProcessLookupError) or isinstance(e, psutil.NoSuchProcess):
+            print("Process {} does not exist. Race condition?".format(p.pid))
         pass
 
     # print(name, cmdline)
@@ -188,6 +190,8 @@ def get_multimc_window() -> BaseWindow:
     pprint(w)
     return w
 
+def get_active_window_title()->str:
+    return gw.getActiveWindow().title
 
 def generate_modpack_zip():
 
@@ -199,10 +203,18 @@ def generate_modpack_zip():
     remove_file(ZIP_NAME)
     remove_file(DEFAULT_ZIP_NAME)
 
-    subprocess.check_output(['packwiz', 'cf', 'export'])
+    # For some odd reason, packwiz refresh fails if this file doesn't exist.
+    if not os.path.exists("./index.toml"):
+        with open('./index.toml', 'w') as _:
+            pass
+
+    print(subprocess.check_output(['packwiz', 'refresh'])) # Make index.toml
+    print(subprocess.check_output(['packwiz', 'cf', 'export']))
     print("Done!")
 
     os.rename(DEFAULT_ZIP_NAME, ZIP_NAME)
+
+    # exit(1)
 
 
 def line_in_file_matches_rexp(path: str, rexps: Union[List[str], str]) -> bool:
