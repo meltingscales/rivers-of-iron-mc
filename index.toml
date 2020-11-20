@@ -1198,6 +1198,11 @@ hash = "f65bb36a9d574dd4f3a3859589d269f79d9a2544362414b326f8ecf6ea6b949e"
 metafile = true
 
 [[files]]
+file = "mods/randompatches.toml"
+hash = "ca786fe1eb47fa61a0ed63ac12dc53470736dcb9b9e306c5d875d80fc361769f"
+metafile = true
+
+[[files]]
 file = "mods/reauth.toml"
 hash = "be8ce0a6292dd1bc62cfd066f7317ad29e3e3eb050631369c2d9a1022562347f"
 metafile = true
@@ -1425,6 +1430,11 @@ metafile = true
 [[files]]
 file = "mods/vampirism-become-a-vampire.toml"
 hash = "104777c34a3ec45e02d1f46e07ddf2197522fcc6c1c08cb09f4c4a41e8f61173"
+metafile = true
+
+[[files]]
+file = "mods/vanillafix.toml"
+hash = "2e63937b2fc07197c86bb2502d04c9b8681aede59d8071fa51388292ef5404ee"
 metafile = true
 
 [[files]]
