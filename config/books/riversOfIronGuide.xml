@@ -37,20 +37,21 @@
                 . Maybe open an angry pull request.
             </p>
             <p>C: Crouch</p>
+            <p>Hold C when in the air near a wall to cling to it.</p>
             <p>Left Click: Attack with no cooldown. Abuse this.</p>
             <p>CTRL: Toggle Sprint</p>
-            <p>SHIFT: Toggle Sprint, Wallclimb. </p>
-            <p>Hold SHIFT when in the air near a wall to cling to it.</p>
+            <p>SHIFT: Toggle Sprint</p>
             <p>When clinging, and still holding shift, start holding W/A/S/D. Then release SHIFT. You will walljump. Abuse this.</p>
             <p>F: Dodge. Abuse it.</p>
             <p>Q: Unbound. Because Diamond Pickaxes deserve better than lava.</p>
             <p>Space: Jump, double jump. Abuse this.</p>
             <p>Tilde (~): Veinmine anything. Consumes hunger. Abuse this.</p>
-            <p>Alt: Open extended building.</p>
         </section>
         <section>
             <title>Non-gameplay (UI) controls, other features</title>
             <p>Disable PVP: /scoreboard teams join nopvp</p>
+            <p>ALT: Open extended building.</p>
+            <p>DELETE: Open AOA (Advent of Ascension) GUI</p>
         </section>
     </chapter>
     <chapter>
