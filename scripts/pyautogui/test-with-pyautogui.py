@@ -122,7 +122,8 @@ if __name__ == '__main__':
         elif 'console window for' in get_active_window_title().lower():
             print("Console window open! Minecraft must have crashed!")
 
-            # TODO copy error log  and save file in current dir
+            logfile_data = get_file_data(get_multimc_instance_logfile_path())
+            dump_list_str_to_stdout(logfile_data)
 
             exit(1)
         else:
@@ -162,8 +163,14 @@ if __name__ == '__main__':
     n = 10
     time.sleep(n)
     while True:
-        if logfile_says_done_loading_mods():
+
+        logfile_data = get_file_data(get_multimc_instance_logfile_path())
+
+        if logdata_says_done_loading_mods(logfile_data):
             break
+        elif logdata_says_minecraft_crash_report(logfile_data):
+            dump_list_str_to_stdout(logfile_data)
+            raise Exception("Logfile says minecraft crashed!")
         else:
             printfn()
         time.sleep(n)

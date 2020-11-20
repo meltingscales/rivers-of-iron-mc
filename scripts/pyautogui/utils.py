@@ -217,6 +217,29 @@ def generate_modpack_zip():
     # exit(1)
 
 
+def line_in_data_matches_rexp(data: List[str], rexps: Union[List[str], str]) -> bool:
+    """Does a line in a list of data match one or more regular expressions?"""
+    if isinstance(rexps, str):
+        rexps = [rexps]
+
+    for line in data:
+        for rexp in rexps:
+            results = re.findall(rexp, line)
+
+            if len(results) > 0:
+                return True
+
+    return False
+
+
+def get_file_data(path:str)->List[str]:
+    with open(path, 'r') as f:
+        data = f.readlines()
+
+def dump_list_str_to_stdout(l:List[str]):
+    for line in l:
+        print(line)
+
 def line_in_file_matches_rexp(path: str, rexps: Union[List[str], str]) -> bool:
     """Does a line in a file match one or more regular expressions?"""
 
@@ -224,17 +247,16 @@ def line_in_file_matches_rexp(path: str, rexps: Union[List[str], str]) -> bool:
         rexps = [rexps]
 
     with open(path, 'r') as f:
-        for line in f:
-            for rexp in rexps:
-                results = re.findall(rexp, line)
+        data = f.readlines()
 
-                if len(results) > 0:
-                    return True
+    return line_in_data_matches_rexp(data, rexps)
 
-    return False
-
-
-def logfile_says_done_loading_mods():
+# TODO these ping the filesystem more than necessary. optimize.
+def logdata_says_done_loading_mods(data:List[str]):
     """Does the logfile indicate forge is done loading mods?"""
 
-    return line_in_file_matches_rexp(get_multimc_instance_logfile_path(), FORGE_LOADED_REXP)
+    return line_in_data_matches_rexp(data, FORGE_LOADED_REXP)
+
+def logdata_says_minecraft_crash_report(data:List[str]):
+    """Does the logfile indicate Minecraft has crashes?"""
+    return line_in_data_matches_rexp(data, MINECRAFT_CRASHED_REXP)

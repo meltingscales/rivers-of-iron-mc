@@ -9,6 +9,7 @@ IMAGES_FOLDER=os.path.join(SCRIPTS_FOLDER, 'images')
 
 FORGE_IDENT_REXP=r'Forge Mod Loader has identified \d+? mods to load'
 FORGE_LOADED_REXP=r'Forge Mod Loader has successfully loaded \d+? mods'
+MINECRAFT_CRASHED_REXP=r'---- Minecraft Crash Report ----'
 
 LOADING_TIME_FILE='.TMP.LOADING_TIME.TXT'
 
