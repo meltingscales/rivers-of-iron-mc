@@ -583,6 +583,11 @@ hash = "0c8fb1975d4eb96fcf5fdaf6cc0f77b2312f24bbbbea9316c424029eb9f047d6"
 metafile = true
 
 [[files]]
+file = "mods/charset-lib.toml"
+hash = "ebc3a1f294e34395b74d2e4670a992c4539bd7abb1570b2119cc4b4a8eb4b0cc"
+metafile = true
+
+[[files]]
 file = "mods/chickens.toml"
 hash = "b607499a4788b7e062b2e61bd9f4d27094a65fff6fff09b0b5d0b5710725c1fb"
 metafile = true
