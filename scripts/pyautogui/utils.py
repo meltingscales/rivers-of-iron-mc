@@ -238,9 +238,9 @@ def get_file_data(path:str)->List[str]:
     
     return data
 
-def dump_list_str_to_stdout(l:List[str]):
+def dump_list_str_to_stdout(l:List[str],endl=''):
     for line in l:
-        print(line)
+        print(line,end=endl)
 
 def line_in_file_matches_rexp(path: str, rexps: Union[List[str], str]) -> bool:
     """Does a line in a file match one or more regular expressions?"""
