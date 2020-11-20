@@ -235,6 +235,8 @@ def line_in_data_matches_rexp(data: List[str], rexps: Union[List[str], str]) -> 
 def get_file_data(path:str)->List[str]:
     with open(path, 'r') as f:
         data = f.readlines()
+    
+    return data
 
 def dump_list_str_to_stdout(l:List[str]):
     for line in l:
