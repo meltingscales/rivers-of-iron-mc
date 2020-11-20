@@ -61,6 +61,10 @@ Download slave agent JNLP from (URL may be different):
 -   Set task to run on login
 -   Restart and test
 
+#### Etc
+
+-   <https://stackoverflow.com/questions/14274293/show-current-state-of-jenkins-build-on-github-repo>
+
 ## Setup Commands
 
     Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
