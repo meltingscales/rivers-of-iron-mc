@@ -4,7 +4,7 @@ See <rivers-of-iron/modlist.html>.
 
 ## CI
 
-See <https://github.com/HenryFBP/rivers-of-iron-mc-jenkins>.
+See <https://github.com/HenryFBP/gooeyiron>.
 
 ## Scripts
 
