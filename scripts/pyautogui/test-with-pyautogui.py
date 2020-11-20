@@ -108,6 +108,10 @@ if __name__ == '__main__':
     n = 5
     time.sleep(n)
     while True:
+
+        # cycle backwards through windows as sometimes MultiMC steals focus
+        cycle_windows_backwards()
+
         if 'minecraft' in get_active_window_title().lower():
             print("Minecraft window has been opened!")
 
