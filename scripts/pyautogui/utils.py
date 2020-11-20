@@ -253,12 +253,15 @@ def line_in_file_matches_rexp(path: str, rexps: Union[List[str], str]) -> bool:
 
     return line_in_data_matches_rexp(data, rexps)
 
-# TODO these ping the filesystem more than necessary. optimize.
+def logfile_says_ran_out_of_VRAM_while_stitching(data:List[str]):
+    """Does the logfile indicate Minecraft has crashed due to running out of VRAM while stitching textures?"""
+    return line_in_data_matches_rexp(data, MINECRAFT_TEXTURE_STITCHER_OUT_OF_VRAM)
+
 def logdata_says_done_loading_mods(data:List[str]):
     """Does the logfile indicate forge is done loading mods?"""
 
     return line_in_data_matches_rexp(data, FORGE_LOADED_REXP)
 
 def logdata_says_minecraft_crash_report(data:List[str]):
-    """Does the logfile indicate Minecraft has crashes?"""
+    """Does the logfile indicate Minecraft has crashed?"""
     return line_in_data_matches_rexp(data, MINECRAFT_CRASHED_REXP)

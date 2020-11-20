@@ -59,7 +59,7 @@ if __name__ == '__main__':
     else:
         print("Kitty already enabled.")
 
-    # TODO: Delete old instances if they exist.
+    # Delete old instances if they exist.
     multimc_instances_folder = get_multimc_instances_path()
 
     old_pack_folder = os.path.join(multimc_instances_folder, MODPACK_NAME)
@@ -168,6 +168,17 @@ if __name__ == '__main__':
 
         if logdata_says_done_loading_mods(logfile_data):
             break
+        elif logfile_says_ran_out_of_VRAM_while_stitching(logfile_data):
+
+            if is_vm():
+                print("I'm a VM, I have like, no VRAM...so...Just going to exit with status 0...Don't mind me... TODO Actually buy a machine for this!") 
+                #TODO Actually invest in a bare metal machine to test lol.
+                exit(0)
+            else:
+                dump_list_str_to_stdout(logfile_data)
+                raise Exception("Logfile says MC ran out of VRAM while stictching textures.")
+
+
         elif logdata_says_minecraft_crash_report(logfile_data):
             dump_list_str_to_stdout(logfile_data)
             raise Exception("Logfile says minecraft crashed!")
@@ -186,10 +197,11 @@ if __name__ == '__main__':
 
     write_time_file(END_TIME - START_TIME)
 
-    print("killing mmc in 5s...")
-    time.sleep(5)
-    mmc_proc.kill()  # kill MMC after 10s for testing
-    print("killed mmc.")
+    # unnecessary, MMC process gets killed when this (parent) dies
+    # print("killing mmc in 5s...")
+    # time.sleep(5)
+    # mmc_proc.kill()  # kill MMC after 10s for testing
+    # print("killed mmc.")
 
     print("killing minecraft in 5s...")
     time.sleep(5)
