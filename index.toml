@@ -4,3 +4,8 @@ hash-format = "sha256"
 file = "mods/building-gadgets.toml"
 hash = "900bb218406480dc270fe0f42f1f0e66c52ae5a85d8934c404d10ce64e803354"
 metafile = true
+
+[[files]]
+file = "mods/iron-chests.toml"
+hash = "73bf12232de7a35bed950fd474e151b6e9ad324d677ea8357c04e392f9b657f9"
+metafile = true
