@@ -2,6 +2,10 @@
 
 See <rivers-of-iron/modlist.html>.
 
+## CI
+
+See <https://github.com/HenryFBP/rivers-of-iron-mc-jenkins>.
+
 ## Scripts
 
 Mostly deprecated. Use `packwiz`.
