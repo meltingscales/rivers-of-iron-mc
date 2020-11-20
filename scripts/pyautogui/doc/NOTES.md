@@ -44,6 +44,13 @@ Slave View:
 Tag the build and the slave too:
 ![](build-config-needed.PNG)
 
+Download slave agent JNLP from (URL may be different):
+
+    http://localhost:8080/computer/gui%20slave/slave-agent.jnlp
+
+### Other Jenkins VM Tweaks
+
+    netplwiz
 
 ## Setup Commands
 
