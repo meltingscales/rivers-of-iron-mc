@@ -52,6 +52,10 @@ Download slave agent JNLP from (URL may be different):
 
 ### Other Jenkins VM Tweaks
 
+#### Polling every minute
+
+    * * * * *
+
 #### Auto login
 
     netplwiz
