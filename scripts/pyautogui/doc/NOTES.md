@@ -1,5 +1,8 @@
 # Notes about pyautogui MultiMC Testing
 
+"xvfb with mesa should work on linux"
+"actually I remember reading a post about dolphin's rendering testing automation, that might have some useful ideas"
+
 - Use AWS/Jenkins VM/Bare metal Jenkins and poll main branch to see if modpack would work
 - VM with VBox Guest Additions and DirectX support for OpenGL...
     - No OpenGL. This means no main menu. But, forge loading screen shows.
