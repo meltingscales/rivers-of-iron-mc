@@ -29,11 +29,10 @@
 
 That's right. You need to turn a Windows User who's logged on into a slave that Jenkins uses to build.
 
-<!-- - You must enable the service Jenkins to log on as a user (`services.msc`). This allows it to open GUI programs. -->
-    - <https://github.com/winsw/winsw/blob/master/doc/xmlConfigFile.md#interactive>
-    - https://github.com/jenkinsci/jenkins/blob/master/core/src/main/resources/windows-service/jenkins.xml#L45
-    - https://interworks.com.mk/jenkins-setup-for-executing-windows-forms-automated-tests/
-    - https://exceptionshub.com/jenkins-selenium-gui-tests-are-not-visible-on-windows.html
+- <https://github.com/winsw/winsw/blob/master/doc/xmlConfigFile.md#interactive>
+- <https://github.com/jenkinsci/jenkins/blob/master/core/src/main/resources/windows-service/jenkins.xml#L45>
+- <https://interworks.com.mk/jenkins-setup-for-executing-windows-forms-automated-tests/>
+- <https://exceptionshub.com/jenkins-selenium-gui-tests-are-not-visible-on-windows.html>
 
 Jenkins View:
 ![](jenkins-view.PNG)
@@ -46,11 +45,21 @@ Tag the build and the slave too:
 
 Download slave agent JNLP from (URL may be different):
 
-    http://localhost:8080/computer/gui%20slave/slave-agent.jnlp
+<http://localhost:8080/computer/gui%20slave/slave-agent.jnlp>
 
 ### Other Jenkins VM Tweaks
 
+#### Auto login
+
     netplwiz
+
+#### Auto run slave-agent.jnlp
+
+-   Download JNLP file
+-   Open Task Scheduler
+-   Make task with command `slave-agent.jnlp`
+-   Set task to run on login
+-   Restart and test
 
 ## Setup Commands
 
