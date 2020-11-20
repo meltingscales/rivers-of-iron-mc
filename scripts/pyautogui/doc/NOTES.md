@@ -67,6 +67,7 @@ Download slave agent JNLP from (URL may be different):
 #### Etc
 
 -   <https://stackoverflow.com/questions/14274293/show-current-state-of-jenkins-build-on-github-repo>
+-   May have to forward port under network adapters if you want to visit Jenkins Web UI from host machine.
 
 ## Setup Commands
 
