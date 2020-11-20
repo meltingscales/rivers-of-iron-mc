@@ -9,3 +9,13 @@ metafile = true
 file = "mods/iron-chests.toml"
 hash = "73bf12232de7a35bed950fd474e151b6e9ad324d677ea8357c04e392f9b657f9"
 metafile = true
+
+[[files]]
+file = "mods/libraryex.toml"
+hash = "e8ac968bc58428ae95a5257232614dc7b77c69f83cf3ecb46c953c090b8ba868"
+metafile = true
+
+[[files]]
+file = "mods/netherex.toml"
+hash = "56978cf0bccadf5516943b5b232f8a46ff1bd6f3d2a3c305308cd369217ff521"
+metafile = true
