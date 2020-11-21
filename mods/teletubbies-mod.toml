@@ -1,0 +1,14 @@
+name = "Teletubbies Mod"
+filename = "Teletubbies-1.12-4.0.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2834/742/Teletubbies-1.12-4.0.0.jar"
+hash-format = "murmur2"
+hash = "1576063620"
+
+[update]
+[update.curseforge]
+file-id = 2834742
+project-id = 236040
+release-channel = "beta"

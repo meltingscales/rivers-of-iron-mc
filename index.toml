@@ -561,21 +561,6 @@ hash = "e223c7fe07335ac5a40538dd4fcdc99fbac50a7ec6f551411a7160f182ef0cdb"
 metafile = true
 
 [[files]]
-file = "mods/buildcraft-builders.toml"
-hash = "f3be31ec25b34f3e8dfb3fde11de92d8b0e9c7beaf9b0eac55bfc50057af08c5"
-metafile = true
-
-[[files]]
-file = "mods/buildcraft-compat.toml"
-hash = "50858e09fdae679ce49afa36ede32172b48e5edaade138a744e474b74addd29d"
-metafile = true
-
-[[files]]
-file = "mods/buildcraft-core.toml"
-hash = "90d9fcdf0d0bcd6744f54739e62f8da2a2d799402f5754153b69679dfc1aed4e"
-metafile = true
-
-[[files]]
 file = "mods/building-gadgets.toml"
 hash = "900bb218406480dc270fe0f42f1f0e66c52ae5a85d8934c404d10ce64e803354"
 metafile = true
@@ -633,6 +618,11 @@ metafile = true
 [[files]]
 file = "mods/colossal-chests.toml"
 hash = "c40b5b6750f07c51b035ce48126003fee8c4b0c2cd6515e8bb97d1185ed19d8f"
+metafile = true
+
+[[files]]
+file = "mods/compact-machines.toml"
+hash = "35b3ec5d512db2cd12af6335203cd318bb78a87ffb7f5d346e8f10dba683e9ca"
 metafile = true
 
 [[files]]
@@ -878,16 +868,6 @@ metafile = true
 [[files]]
 file = "mods/huds-armor-status-damage-indicators.toml"
 hash = "7355aaa3c5be93ffc7e7e80b25985cf1ae1cccacd1cfbf6a799e8ee7c187d11d"
-metafile = true
-
-[[files]]
-file = "mods/immersive-cables.toml"
-hash = "021aa607165a283d0d0428197d9ddccb326a1afb89f15483ef49a795cfd85047"
-metafile = true
-
-[[files]]
-file = "mods/immersive-engineering.toml"
-hash = "cfe4ad7dcf98edc97bd5f5349a871aaa7b42c6f5a84752f65f4e1282a4697881"
 metafile = true
 
 [[files]]
@@ -1216,6 +1196,11 @@ hash = "19e54f56be909d7236e88943c3faada5b3388e5438a5b8e0507d8306f6ceb408"
 metafile = true
 
 [[files]]
+file = "mods/pipe-master-2000.toml"
+hash = "5e0bf29e022c8a6a8bd0648a60905aa81bc22875adc98c0f88362026f53c82e8"
+metafile = true
+
+[[files]]
 file = "mods/placebo.toml"
 hash = "d922cb34f5cdfab26ad314521f2c0dda694bddf9b640e19492d363e9979d69ef"
 metafile = true
@@ -1426,6 +1411,11 @@ hash = "0f0b46af34c8cd2b98e384a0ebe54570f3bf9dbead8be46a531cc4f30a642bef"
 metafile = true
 
 [[files]]
+file = "mods/teletubbies-mod.toml"
+hash = "a28c70f12283b2ee0d9631f7aa2b5bd4edc575137148be88ae4d04ba1943b89e"
+metafile = true
+
+[[files]]
 file = "mods/the-one-probe.toml"
 hash = "439e3f7e6e7fa3160fd46739826258107fb9d465f32b658f6102aabc34a03b37"
 metafile = true
@@ -1453,6 +1443,11 @@ metafile = true
 [[files]]
 file = "mods/torohealth-damage-indicators.toml"
 hash = "6364c011679a0f842791f00244889e4b3d864db8d683c5242534119b257d4fa3"
+metafile = true
+
+[[files]]
+file = "mods/translocators-1-8.toml"
+hash = "0543a107b6fd1b7050841e6c8b4760a6fb38e0f01795b836d5c988058018e4c1"
 metafile = true
 
 [[files]]

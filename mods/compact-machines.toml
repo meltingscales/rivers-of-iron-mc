@@ -1,0 +1,14 @@
+name = "Compact Machines"
+filename = "compactmachines3-1.12.2-3.0.18-b278.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2707/509/compactmachines3-1.12.2-3.0.18-b278.jar"
+hash-format = "murmur2"
+hash = "2656999452"
+
+[update]
+[update.curseforge]
+file-id = 2707509
+project-id = 224218
+release-channel = "beta"
