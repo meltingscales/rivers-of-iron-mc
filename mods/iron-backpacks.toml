@@ -1,0 +1,14 @@
+name = "Iron Backpacks"
+filename = "IronBackpacks-1.12.2-3.0.8-12.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2564/573/IronBackpacks-1.12.2-3.0.8-12.jar"
+hash-format = "murmur2"
+hash = "4196584130"
+
+[update]
+[update.curseforge]
+file-id = 2564573
+project-id = 227049
+release-channel = "beta"
