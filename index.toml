@@ -74,7 +74,7 @@ hash = "cba1d88b4188f8018959500bb6898ce401c1e375cc90834ad4bb6d86919d5f3e"
 
 [[files]]
 file = "config/books/riversOfIronGuide.xml"
-hash = "8350535872f7c444f87ab3eec766d855299f7992df8ea2daef5f6fc9cd7334b9"
+hash = "177d9ffdae620af560f15dfc8a0f591dd4087df31722a2e7df30879c852987a4"
 
 [[files]]
 file = "config/botania.cfg"
@@ -383,6 +383,14 @@ hash = "aa2d125660ad731dff9aec92c745a6947e204dba56ecc95d6907f1883d26ec33"
 [[files]]
 file = "config/jei/worldSettings.cfg"
 hash = "8c9202e1b4a7244e5c8b1f61996de0481f7c29e9844fbae3694e9e2e0cddff88"
+
+[[files]]
+file = "config/justenoughbuttons.cfg"
+hash = "e922420a934feff4c4517c4ed30d209aaafc3499d093e514a3f5face381e5fcc"
+
+[[files]]
+file = "config/netherex/netherex.cfg"
+hash = "f6171f8d9f89dee862403964c3384c119ad86fedbfb48610596611c23b2d8654"
 
 [[files]]
 file = "config/oreexcavation.cfg"
@@ -853,8 +861,23 @@ hash = "6035bb9561488c7c191c41fbd465d88fa5b7e46909909e1423a64bc3aebec82a"
 metafile = true
 
 [[files]]
+file = "mods/howling-moon.toml"
+hash = "7b991eda5d69bb8c43406546fa778c41942388d68a5b607e42276698b610e130"
+metafile = true
+
+[[files]]
 file = "mods/huds-armor-status-damage-indicators.toml"
 hash = "7355aaa3c5be93ffc7e7e80b25985cf1ae1cccacd1cfbf6a799e8ee7c187d11d"
+metafile = true
+
+[[files]]
+file = "mods/immersive-cables.toml"
+hash = "021aa607165a283d0d0428197d9ddccb326a1afb89f15483ef49a795cfd85047"
+metafile = true
+
+[[files]]
+file = "mods/immersive-engineering.toml"
+hash = "cfe4ad7dcf98edc97bd5f5349a871aaa7b42c6f5a84752f65f4e1282a4697881"
 metafile = true
 
 [[files]]
@@ -1365,6 +1388,11 @@ metafile = true
 [[files]]
 file = "mods/surge.toml"
 hash = "f9ed03a5878d4dc86fd19bc1ab0657425d5f3fdbdc3011e49852a7ce2ac2f5bb"
+metafile = true
+
+[[files]]
+file = "mods/tails.toml"
+hash = "54decf63b2b9a20ea377a05757899556646ca6357aaf9462af1eb94fd58b7096"
 metafile = true
 
 [[files]]
