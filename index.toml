@@ -42,7 +42,7 @@ hash = "d7263f7ce18a95a8cac371789eaedc74b01019d8d78ee2346ecfdad62bee7733"
 
 [[files]]
 file = "config/aoa3/main_config.cfg"
-hash = "5aec31ec158ff22c0f2ff13c94be745fcee2252ce3de6674810eccbfb76a4e0d"
+hash = "0f440bab6acd93415daba41923c01887e076b2ae82cbf6f66d5368c305aebfcd"
 
 [[files]]
 file = "config/aoa3/ore_config.cfg"
@@ -713,46 +713,6 @@ metafile = true
 [[files]]
 file = "mods/elenai-dodge.toml"
 hash = "1d47289a5b25420e4bbee9a19aaa23594d47d4e29a674ffac9e12ffaf53d74f4"
-metafile = true
-
-[[files]]
-file = "mods/ender-io-base.toml"
-hash = "5f3c3b67bd020726c660707cc73372b355d1bb9b840e541d076a8e5808e954a4"
-metafile = true
-
-[[files]]
-file = "mods/ender-io-conduits.toml"
-hash = "f844d62a2e3f989913a1760f0cc904d69bb69b47d6d1086e2815eab88b2fe42b"
-metafile = true
-
-[[files]]
-file = "mods/ender-io-endergy.toml"
-hash = "ef318b074581e960d8d3a64c32d0cd10ada7902d176da8c33887235918977c08"
-metafile = true
-
-[[files]]
-file = "mods/ender-io-machines.toml"
-hash = "0003e1ba34e6537078fb698718fb2959018b7c2dbe6358f65213de8b0c10dae5"
-metafile = true
-
-[[files]]
-file = "mods/ender-io-rs-conduits.toml"
-hash = "6cb46f63468e3a91d88e8cc2e6a864a95de4fa2e8f763bcc3e6e380f48d38e4d"
-metafile = true
-
-[[files]]
-file = "mods/ender-io-zoo.toml"
-hash = "6ee1e8d01da8d8907d61371d3f2b6c8ec06e9616b783a1cdb9e2c4d44d31788a"
-metafile = true
-
-[[files]]
-file = "mods/ender-storage-1-8.toml"
-hash = "62a88b7e34ac364b52f892b8d7fafd2ab51c1ed138010f39dbf50e26bfafc272"
-metafile = true
-
-[[files]]
-file = "mods/endercore.toml"
-hash = "29fab396bfc16400541918c2afa8d504da54046639e6555d8f52dbd02de72923"
 metafile = true
 
 [[files]]
