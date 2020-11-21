@@ -1,0 +1,14 @@
+name = "Technomancy 2"
+filename = "technomancy-1.12-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2583/502/technomancy-1.12-1.1.0.jar"
+hash-format = "murmur2"
+hash = "835658098"
+
+[update]
+[update.curseforge]
+file-id = 2583502
+project-id = 289442
+release-channel = "beta"

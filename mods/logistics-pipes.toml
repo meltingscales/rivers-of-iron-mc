@@ -1,14 +1,14 @@
 name = "Logistics Pipes"
-filename = "logisticspipes-0.10.3.40.jar"
+filename = "logisticspipes-0.10.3.73.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/2982/930/logisticspipes-0.10.3.40.jar"
+url = "https://edge.forgecdn.net/files/3108/729/logisticspipes-0.10.3.73.jar"
 hash-format = "murmur2"
-hash = "4118797864"
+hash = "1278084538"
 
 [update]
 [update.curseforge]
-file-id = 2982930
+file-id = 3108729
 project-id = 232838
 release-channel = "beta"

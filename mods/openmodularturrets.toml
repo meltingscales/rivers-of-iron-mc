@@ -1,0 +1,14 @@
+name = "Open Modular Turrets"
+filename = "openmodularturrets-1.12.2-3.2.0-379.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3092/964/openmodularturrets-1.12.2-3.2.0-379.jar"
+hash-format = "murmur2"
+hash = "3307066359"
+
+[update]
+[update.curseforge]
+file-id = 3092964
+project-id = 224663
+release-channel = "beta"

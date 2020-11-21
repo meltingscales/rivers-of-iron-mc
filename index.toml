@@ -561,6 +561,21 @@ hash = "e223c7fe07335ac5a40538dd4fcdc99fbac50a7ec6f551411a7160f182ef0cdb"
 metafile = true
 
 [[files]]
+file = "mods/buildcraft-builders.toml"
+hash = "f3be31ec25b34f3e8dfb3fde11de92d8b0e9c7beaf9b0eac55bfc50057af08c5"
+metafile = true
+
+[[files]]
+file = "mods/buildcraft-compat.toml"
+hash = "50858e09fdae679ce49afa36ede32172b48e5edaade138a744e474b74addd29d"
+metafile = true
+
+[[files]]
+file = "mods/buildcraft-core.toml"
+hash = "90d9fcdf0d0bcd6744f54739e62f8da2a2d799402f5754153b69679dfc1aed4e"
+metafile = true
+
+[[files]]
 file = "mods/building-gadgets.toml"
 hash = "900bb218406480dc270fe0f42f1f0e66c52ae5a85d8934c404d10ce64e803354"
 metafile = true
@@ -588,11 +603,6 @@ metafile = true
 [[files]]
 file = "mods/chameleon.toml"
 hash = "0c8fb1975d4eb96fcf5fdaf6cc0f77b2312f24bbbbea9316c424029eb9f047d6"
-metafile = true
-
-[[files]]
-file = "mods/charset-lib.toml"
-hash = "ebc3a1f294e34395b74d2e4670a992c4539bd7abb1570b2119cc4b4a8eb4b0cc"
 metafile = true
 
 [[files]]
@@ -982,7 +992,7 @@ metafile = true
 
 [[files]]
 file = "mods/logistics-pipes.toml"
-hash = "10dd168dab50f0e1b7eea4778d7045af95dcedfd40e8d9a22255895d7d06e78e"
+hash = "2e795cfc2dbcde2479f8295c22d43b804b7e382fc8e65b05e3a8d83f78210bef"
 metafile = true
 
 [[files]]
@@ -1133,6 +1143,11 @@ metafile = true
 [[files]]
 file = "mods/opencomputers.toml"
 hash = "851c192825d06e355cc870b6cf643910b4c34dd7e248a7f844f465d361609f04"
+metafile = true
+
+[[files]]
+file = "mods/openmodularturrets.toml"
+hash = "cc9dd1d41c1ce470b99b9dd87363cfed3a26644f742620e3162c059ed10f521e"
 metafile = true
 
 [[files]]
@@ -1396,6 +1411,11 @@ hash = "54decf63b2b9a20ea377a05757899556646ca6357aaf9462af1eb94fd58b7096"
 metafile = true
 
 [[files]]
+file = "mods/technomancy-2.toml"
+hash = "aed329d5791cf39ab99ac9296c20db0189fe173c8ad4b3bd91e629f7e831af63"
+metafile = true
+
+[[files]]
 file = "mods/tektopia-information.toml"
 hash = "3e7e6b8d89034841f3651fc78e49beeb174b7c7555a75834091ea40d5ed2fe99"
 metafile = true
@@ -1413,6 +1433,11 @@ metafile = true
 [[files]]
 file = "mods/thermal-dynamics.toml"
 hash = "d43bea3e65cd2ac34bd918091846f16bafed4099c0fac95a023d32a33e547b64"
+metafile = true
+
+[[files]]
+file = "mods/thermal-expansion.toml"
+hash = "34a802e247e08ec1a37fea54e3e07322b12b7654852162e81e4578b94e8e47c2"
 metafile = true
 
 [[files]]
