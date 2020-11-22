@@ -51,4 +51,5 @@ deploy:
   skip_cleanup: true
   on:
     tags: true
+    repo: henryfbp/rivers-of-iron-mc
     branch: release
