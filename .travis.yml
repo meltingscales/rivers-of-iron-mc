@@ -22,7 +22,7 @@ before_deploy:
   - echo "Latest commit's tag - `cat HEAD_TAG`"
   
   # Make sure the tag of the most recent commit is the same as the file...
-  - >
+  - |
     if cmp -s "VERSION_TAG" "HEAD_TAG"; then
       echo 'Last commit was tagged correctly.'
     else
