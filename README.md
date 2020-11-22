@@ -48,7 +48,7 @@ See <https://github.com/HenryFBP/gooeyiron>.
 3.  Update the `VERSION` file to the new release version.
 4.  Update the `RELEASE-NOTES.md` file. This is a log of all release notes.
 5.  Make a commit for the `VERSION` file.
-6.  Run `git tag vXXX`, `XXX` being the new release version.
+6.  Run `git tag -a vXXX -m "Releasing version XXX"`, `XXX` being the new release version.
 7.  `git push`. Travis should make a .zip and upload it to Github.
 
 ### Comparing releases (tags)
