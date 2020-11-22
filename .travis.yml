@@ -13,10 +13,10 @@ before_deploy:
   - git tag "${VERSION_TAG}"
 
   # - apt install golang-go
-  - git clone https://github.com/comp500/packwiz
-  - pushd packwiz
-  - go install .
-  - popd
+  # - git clone https://github.com/comp500/packwiz
+  # - pushd packwiz
+  - go get -v github.com/comp500/packwiz...
+  # - popd
 
   - packwiz refresh
   - packwiz cf export
