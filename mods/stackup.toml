@@ -1,0 +1,14 @@
+name = "StackUp!"
+filename = "StackUp-0.2.5.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3015/268/StackUp-0.2.5.jar"
+hash-format = "murmur2"
+hash = "339618020"
+
+[update]
+[update.curseforge]
+file-id = 3015268
+project-id = 299488
+release-channel = "beta"

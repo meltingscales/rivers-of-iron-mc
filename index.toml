@@ -401,6 +401,10 @@ file = "config/justenoughbuttons.cfg"
 hash = "e922420a934feff4c4517c4ed30d209aaafc3499d093e514a3f5face381e5fcc"
 
 [[files]]
+file = "config/mca.cfg"
+hash = "31d088294979d19e4937239c99ab1384dbd9db68131737b6272c9a59cd05e3af"
+
+[[files]]
 file = "config/netherex/netherex.cfg"
 hash = "f6171f8d9f89dee862403964c3384c119ad86fedbfb48610596611c23b2d8654"
 
@@ -467,21 +471,6 @@ hash = "733ad8b4a6c9fd7571f54d2460918d66ea7fd93470cbbb2f2d18a2341b0d98ee"
 [[files]]
 file = "mods/a-block-of-charcoal.toml"
 hash = "65f088f762f167efa9747c9ddcbce6533852097a333d391a18f794646cc2c679"
-metafile = true
-
-[[files]]
-file = "mods/actually-additions.toml"
-hash = "93ae689c922329e679854659f8385a90e425ff9fadf09b13a3b96d2ea9cd7402"
-metafile = true
-
-[[files]]
-file = "mods/actually-baubles.toml"
-hash = "04ed0f734da36fecb0cb34321da00c3c6d9410a27295fae461b7b903edd6e128"
-metafile = true
-
-[[files]]
-file = "mods/actuallycomputers.toml"
-hash = "f815fc71b4638215d66904425bbf779127192c530f480bb8134b68b2ad29d60e"
 metafile = true
 
 [[files]]
@@ -617,6 +606,11 @@ metafile = true
 [[files]]
 file = "mods/chickens.toml"
 hash = "b607499a4788b7e062b2e61bd9f4d27094a65fff6fff09b0b5d0b5710725c1fb"
+metafile = true
+
+[[files]]
+file = "mods/chunkgenlimited.toml"
+hash = "3b9d43d2a751b9fe7961b8a5c2ed85661af3d2f7ff21bbf4efd3301da32cfa0c"
 metafile = true
 
 [[files]]
@@ -772,11 +766,6 @@ metafile = true
 [[files]]
 file = "mods/fence-jumper.toml"
 hash = "d876d44686f48813bd06953df733c0244889e9ba03f500c232611d06260f5aa6"
-metafile = true
-
-[[files]]
-file = "mods/foamfix-optimization-mod.toml"
-hash = "0473430ad8d5f380cf514741a4231acbc2a6b73cd0226c9a275e2efe36c89f94"
 metafile = true
 
 [[files]]
@@ -1045,11 +1034,6 @@ hash = "56978cf0bccadf5516943b5b232f8a46ff1bd6f3d2a3c305308cd369217ff521"
 metafile = true
 
 [[files]]
-file = "mods/no-mob-spawning-on-trees.toml"
-hash = "34da030a34d20f6a90be9df13b4ee9f9509e2f7ac39391a3c98ec54f9b0aadf6"
-metafile = true
-
-[[files]]
 file = "mods/nodami.toml"
 hash = "354ebbc5bff60e9dd598859786fc985f472c9a34b62e15012dc56af35f4ca797"
 metafile = true
@@ -1062,11 +1046,6 @@ metafile = true
 [[files]]
 file = "mods/novam-terram.toml"
 hash = "6df7c802b5e0f4152f80ae76cab1bac68737346699931f0d80e6036ef50023f9"
-metafile = true
-
-[[files]]
-file = "mods/nukepowered-utils.toml"
-hash = "c716485781ff5bbdb80c83ddf6b6f56ba01cd1c0bc37aed55725f598bef9651b"
 metafile = true
 
 [[files]]
@@ -1305,11 +1284,6 @@ hash = "c1ecd1478acc63c403587c6bdd5963cc1dbb710252041177c5a02931f4ed04b1"
 metafile = true
 
 [[files]]
-file = "mods/solar-panels-reforged.toml"
-hash = "88c5759969485434e3c9fdde7408275e0660e132cdd893cba4ab577feea625ae"
-metafile = true
-
-[[files]]
 file = "mods/special-ai.toml"
 hash = "952b29d5a6cdae6428f404691415dbb8d2df6faf3e315f20726ebf523c761227"
 metafile = true
@@ -1317,6 +1291,11 @@ metafile = true
 [[files]]
 file = "mods/squeedometer.toml"
 hash = "88889da03de942c9e127e26559ff61595777f12ea5f46b4c7f2eb75e4e68d840"
+metafile = true
+
+[[files]]
+file = "mods/stackup.toml"
+hash = "d22fa897f37f83f301559032b8789c62d23a3d684b6feb14877ac42713ef4a28"
 metafile = true
 
 [[files]]
@@ -1360,28 +1339,8 @@ hash = "439e3f7e6e7fa3160fd46739826258107fb9d465f32b658f6102aabc34a03b37"
 metafile = true
 
 [[files]]
-file = "mods/thermal-dynamics.toml"
-hash = "d43bea3e65cd2ac34bd918091846f16bafed4099c0fac95a023d32a33e547b64"
-metafile = true
-
-[[files]]
-file = "mods/thermal-expansion.toml"
-hash = "34a802e247e08ec1a37fea54e3e07322b12b7654852162e81e4578b94e8e47c2"
-metafile = true
-
-[[files]]
-file = "mods/thermal-foundation.toml"
-hash = "b725577f37462da10dc185bcc14228d3b1e5de5ce06a852ebfefc8c507e82571"
-metafile = true
-
-[[files]]
 file = "mods/tick-dynamic.toml"
 hash = "524be2c7e81deaddec011b007df42b08773ef4f4c73e98b09e7106510507c7df"
-metafile = true
-
-[[files]]
-file = "mods/tiquality.toml"
-hash = "5d9f337c845691089ce2f86d34c687800702ef48b1b4abc43dfe5d60e5fce7d5"
 metafile = true
 
 [[files]]
