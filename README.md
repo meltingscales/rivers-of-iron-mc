@@ -1,5 +1,7 @@
 # Rivers of Iron (RoI)
 
+![Rivers of Iron (RoI)](icon.png)
+
 Minecraft version 1.12.2
 
 <https://www.curseforge.com/minecraft/modpacks/rivers-of-iron/>
