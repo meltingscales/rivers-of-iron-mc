@@ -34,6 +34,10 @@ You want to download the ZIP files called 'rivers-of-iron-release-*.zip'.
 
     packwiz cf export
 
+Or...
+
+    python3 Makefile.py
+
 ### Twitch
 
 Look it up on Twitch (`Mods > MC > Browse Modpacks > Search > [Rivers of Iron]`)
