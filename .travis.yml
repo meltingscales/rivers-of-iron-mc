@@ -1,6 +1,10 @@
 # require the branch name to be release (note for PRs this is the base branch name)
-if: branch = release
+branches:
+  only:
+    - release
 language: go
+go:
+  - "1.13"
 os: linux
 dist: xenial
 install:
