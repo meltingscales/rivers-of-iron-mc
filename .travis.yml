@@ -1,5 +1,8 @@
 # require the branch name to be release (note for PRs this is the base branch name)
 if: branch = release
+language: go
+os: linux
+dist: xenial
 before_deploy:
   # Set up git user name and tag this commit
   - git config --local user.name "Henry Post"
@@ -9,7 +12,7 @@ before_deploy:
   - echo "Releasing RoI ${VERSION_TAG}..."
   - git tag "${VERSION_TAG}"
 
-  - apt install golang-go
+  # - apt install golang-go
   - git clone https://github.com/comp500/packwiz
   - pushd packwiz
   - go install .
