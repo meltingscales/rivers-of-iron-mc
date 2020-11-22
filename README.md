@@ -2,6 +2,8 @@
 
 Minecraft version 1.12.2
 
+<https://www.curseforge.com/minecraft/modpacks/rivers-of-iron/>
+
 ## RELEASE Status (Not build.)
 
 [![Release Status](https://travis-ci.com/HenryFBP/rivers-of-iron-mc.svg?branch=master)](https://travis-ci.com/HenryFBP/rivers-of-iron-mc)
