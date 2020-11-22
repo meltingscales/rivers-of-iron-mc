@@ -1,6 +1,7 @@
 import os
 import shutil
 import subprocess
+from subprocess import CalledProcessError
 
 
 def get_git_revision_hash():
@@ -12,7 +13,10 @@ def get_git_revision_short_hash():
 
 
 def get_latest_git_tag():
-    return subprocess.check_output(['git', 'describe', '--tags', '--abbrev=0']).decode().strip()
+    try:
+        return subprocess.check_output(['git', 'describe', '--tags', '--abbrev=0']).decode().strip()
+    except CalledProcessError as e: # They don't have tags... Not really an issue.
+        return "v???"
 
 
 subprocess.check_output(["packwiz", "cf", "export"])
