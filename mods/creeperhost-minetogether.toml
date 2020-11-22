@@ -1,0 +1,14 @@
+name = "MineTogether"
+filename = "MineTogether-1.12.2-2.4.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3118/779/MineTogether-1.12.2-2.4.0.jar"
+hash-format = "murmur2"
+hash = "3827324769"
+
+[update]
+[update.curseforge]
+file-id = 3118779
+project-id = 267172
+release-channel = "beta"

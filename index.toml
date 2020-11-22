@@ -429,6 +429,14 @@ file = "config/treecapitator.cfg"
 hash = "078f060bc39f2f03ca1e8e769d379c8c21437bce5e7ef99949ffc19424f2a1db"
 
 [[files]]
+file = "config/vanillafix/config_version"
+hash = "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+
+[[files]]
+file = "config/vanillafix/methods-stable_39.csv"
+hash = "0a583eb8a8f4e8f797e965fdecb5d72ec4d33fc7e8d6002a82a4e62d35abe9c2"
+
+[[files]]
 file = "config/walljump.cfg"
 hash = "ead7c369162cc545dade65899fe6fe25409312413911296042bd303d55f2e964"
 
@@ -643,6 +651,11 @@ metafile = true
 [[files]]
 file = "mods/creativecore.toml"
 hash = "bd992be23d83c10750367f810540bc7cf19c2a2fb3665c93fac1deb7a7bed7f4"
+metafile = true
+
+[[files]]
+file = "mods/creeperhost-minetogether.toml"
+hash = "bc2a7344ad117190ac8198432f3cb8df7f5d2a61ead85aad0d9510c432a52de2"
 metafile = true
 
 [[files]]
@@ -911,6 +924,11 @@ hash = "be56915346d8fd17fd0551448dce9a48c99c10316203fe2cd317958869ef694c"
 metafile = true
 
 [[files]]
+file = "mods/letsencryptcraft.toml"
+hash = "b53b8b47cbd954562648e1db967bb57caf4e42ec78a94f4c27ba391e3da299d8"
+metafile = true
+
+[[files]]
 file = "mods/libraryex.toml"
 hash = "e8ac968bc58428ae95a5257232614dc7b77c69f83cf3ecb46c953c090b8ba868"
 metafile = true
@@ -968,6 +986,11 @@ metafile = true
 [[files]]
 file = "mods/minecolonies.toml"
 hash = "ba86ddd0b3c07986f073442668a89360473191d7cbc8e4ae5f2a032ac9cfc10b"
+metafile = true
+
+[[files]]
+file = "mods/minecraft-comes-alive-mca.toml"
+hash = "a2929460a902e8a9964731dd86ce0fd8572414896a2ebcb7810c38ef62fbd344"
 metafile = true
 
 [[files]]
@@ -1348,16 +1371,6 @@ metafile = true
 [[files]]
 file = "mods/technomancy-2.toml"
 hash = "aed329d5791cf39ab99ac9296c20db0189fe173c8ad4b3bd91e629f7e831af63"
-metafile = true
-
-[[files]]
-file = "mods/tektopia-information.toml"
-hash = "3e7e6b8d89034841f3651fc78e49beeb174b7c7555a75834091ea40d5ed2fe99"
-metafile = true
-
-[[files]]
-file = "mods/tektopia.toml"
-hash = "0f0b46af34c8cd2b98e384a0ebe54570f3bf9dbead8be46a531cc4f30a642bef"
 metafile = true
 
 [[files]]

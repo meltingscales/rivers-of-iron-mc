@@ -1,0 +1,14 @@
+name = "Minecraft Comes Alive (MCA)"
+filename = "MCA-1.12.2-6.1.0-universal.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2824/328/MCA-1.12.2-6.1.0-universal.jar"
+hash-format = "murmur2"
+hash = "1872737006"
+
+[update]
+[update.curseforge]
+file-id = 2824328
+project-id = 59693
+release-channel = "beta"
