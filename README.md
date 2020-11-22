@@ -1,5 +1,9 @@
 # Rivers of Iron (RoI)
 
+## RELEASE Status (Not build.)
+
+[![Release Status](https://travis-ci.com/HenryFBP/rivers-of-iron-mc.svg?branch=master)](https://travis-ci.com/HenryFBP/rivers-of-iron-mc)
+
 ## Mods
 
 See <rivers-of-iron/modlist.html>.
