@@ -1,0 +1,14 @@
+name = "Entity NaN Health Fix"
+filename = "nanfix-final-absorbtion.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2611/882/nanfix-final-absorbtion.jar"
+hash-format = "murmur2"
+hash = "3512725236"
+
+[update]
+[update.curseforge]
+file-id = 2611882
+project-id = 301932
+release-channel = "beta"

@@ -744,6 +744,11 @@ hash = "ac4979e47682e8853388f0b5d75bda0be2f3055402244748c528d8220f1e53bb"
 metafile = true
 
 [[files]]
+file = "mods/entity-nan-health-fix.toml"
+hash = "f343614ba5de479a3966453a6785c6cdb21c083d453a6f2773b707222f3f1930"
+metafile = true
+
+[[files]]
 file = "mods/expandable-inventory.toml"
 hash = "0eddea09517f0920b8e462d2f91e9c216425040927398970947a3ddbfe9bd60f"
 metafile = true
@@ -766,6 +771,11 @@ metafile = true
 [[files]]
 file = "mods/fence-jumper.toml"
 hash = "d876d44686f48813bd06953df733c0244889e9ba03f500c232611d06260f5aa6"
+metafile = true
+
+[[files]]
+file = "mods/foamfix-optimization-mod.toml"
+hash = "0473430ad8d5f380cf514741a4231acbc2a6b73cd0226c9a275e2efe36c89f94"
 metafile = true
 
 [[files]]
@@ -1331,6 +1341,11 @@ metafile = true
 [[files]]
 file = "mods/teletubbies-mod.toml"
 hash = "a28c70f12283b2ee0d9631f7aa2b5bd4edc575137148be88ae4d04ba1943b89e"
+metafile = true
+
+[[files]]
+file = "mods/texfix.toml"
+hash = "a73f813e2ed679c4c14bdbc43be195629a39a54074c0a24c5a0a8e8de4e063c5"
 metafile = true
 
 [[files]]

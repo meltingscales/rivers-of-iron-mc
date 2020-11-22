@@ -1,0 +1,14 @@
+name = "TexFix"
+filename = "TexFix V-1.12-4.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2518/68/TexFix V-1.12-4.0.jar"
+hash-format = "murmur2"
+hash = "2238970718"
+
+[update]
+[update.curseforge]
+file-id = 2518068
+project-id = 283344
+release-channel = "beta"
