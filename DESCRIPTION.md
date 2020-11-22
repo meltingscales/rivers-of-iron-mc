@@ -1,5 +1,9 @@
 # Rivers of Iron
 
+## Short Desc
+
+Fast-start no-nonsense Greggy Tech Pack
+
 ## Modpack Links
 
 You can view the source and alternative releases for this modpack here:
