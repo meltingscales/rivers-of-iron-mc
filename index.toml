@@ -2,15 +2,15 @@ hash-format = "sha256"
 
 [[files]]
 file = ".travis.yml"
-hash = "5f56de330beb8b3152e4c7da40e49c9f031a22e634dfb22453481f31080c2dd9"
+hash = "00d958edd514f285d1f1c9714f6c8d1745a10eecf56821e41da18ecae4958b56"
 
 [[files]]
 file = "DUMMY"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
-file = "MODS.md"
-hash = "85bf459caf4fbffd8418955b4703460394cfe40d4ecb1ec2f4f0302807f2ac4c"
+file = "OPTIMIZATION.md"
+hash = "e9f12ff4db02f945a6af73de763234925e7e1fd35f952a4a23d727eb2d867da0"
 
 [[files]]
 file = "Pipfile"
@@ -18,7 +18,7 @@ hash = "f8c6f3d75e1ed333a0f7118ea4bfef2175a866e6e4a02d1e935a5009036b19b3"
 
 [[files]]
 file = "RELEASE-NOTES.md"
-hash = "08b2fe684dd17e34045687637121c9fce6b34893438fc01092097b15cbd55827"
+hash = "32614206485acade244d232de48d484f60849acecb8c25d3a646f9b8a5c47916"
 
 [[files]]
 file = "config/EffortlessBuilding.cfg"
@@ -415,6 +415,10 @@ hash = "857da78d17e9b66df7d19fc5fc879e137725a487fec4f04984cad931a4aa6188"
 [[files]]
 file = "config/projectvibrantjourneys.cfg"
 hash = "0f572cdce2bccd7b017f68fea7b3906f3a9ab957a3068ec778bfa90f73040b58"
+
+[[files]]
+file = "config/randompatches.cfg"
+hash = "a8787eba2be643254b083c8a22619aa8acb19bd4e0c09cba779b93b4f0e353cc"
 
 [[files]]
 file = "config/refinedstorage.cfg"
