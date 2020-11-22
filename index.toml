@@ -791,11 +791,6 @@ hash = "3f1f1101005bcd5d1e57a80224f74ecfbcc2d2a19b93139f9c93634e7736a771"
 metafile = true
 
 [[files]]
-file = "mods/gas-conduits.toml"
-hash = "ff5c326f9600916df3a2d65ff3c417292c40c6358dd4abe246b985ffa4a70765"
-metafile = true
-
-[[files]]
 file = "mods/gravestone-mod.toml"
 hash = "606fa0cc1c0f1695b9f445e4b0d030f403483fb9c185c4c2441142bfcb2eed31"
 metafile = true
@@ -1273,11 +1268,6 @@ metafile = true
 [[files]]
 file = "mods/rsinfinitewireless.toml"
 hash = "79e02f0b95043716d57aa0a3efe345f3b33f796cd606a964a55570a86b4f13f2"
-metafile = true
-
-[[files]]
-file = "mods/secure-enderstorage.toml"
-hash = "8b699f9a50c3bf4c29611f85bdf45f955c33a9181eed5d03ea170358b17e49b9"
 metafile = true
 
 [[files]]
