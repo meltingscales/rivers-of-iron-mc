@@ -10,11 +10,11 @@ See <rivers-of-iron/modlist.html>.
 
 ## Playing
 
-### Multiplayer
+### Download it from here
 
-By default, port `25565` is used.
+See <https://github.com/HenryFBP/rivers-of-iron-mc/releases>.
 
-Try ZeroTier or just port forward.
+You want to download the ZIP files called 'rivers-of-iron-release-*.zip'.
 
 ### Generating ZIP file
 
@@ -32,6 +32,12 @@ Or...
 
 Import the .ZIP file in MultiMC.
 
+### Multiplayer
+
+By default, port `25565` is used.
+
+Try ZeroTier or just port forward.
+
 ## Redistributing this modpack
 
 Go ahead! No license.
@@ -44,14 +50,14 @@ See <https://github.com/HenryFBP/gooeyiron>.
 
 ## Releasing
 
-1.  Switch branch to `release`.
+1.  Switch branch to `release` -- i.e. `git checkout release`.
 2.  Update the `release` branch to a state you want to release from.
 
     Example: `git merge master` to update `release` with all the commits from `master`.
 
 3.  Update the `VERSION` file to the new release version.
 4.  Update the `RELEASE-NOTES.md` file. This is a log of all release notes.
-5.  Make a commit for the `VERSION` file.
+5.  Make a commit for the `VERSION` file, `RELEASE-NOTES.md` file, and all other files you wish to be released.
 6.  Run `git tag -a vXXX -m "Releasing version XXX"`, `XXX` being the new release version.
 7.  `git push origin release --tags`. Travis should make a .zip and upload it to Github.
 
