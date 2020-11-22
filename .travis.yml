@@ -1,5 +1,17 @@
 # require the branch name to be release (note for PRs this is the base branch name)
-if: branch = release
+branches:
+  only:
+    - release
+language: go
+go:
+  - "1.13"
+os: linux
+dist: xenial
+install:
+  # - go get -v github.com/comp500/packwiz
+  - echo 'lol install :)'
+script:
+  - echo "lol script :)"
 before_deploy:
   # Set up git user name and tag this commit
   - git config --local user.name "Henry Post"
@@ -9,7 +21,6 @@ before_deploy:
   - echo "Releasing RoI ${VERSION_TAG}..."
   - git tag "${VERSION_TAG}"
 
-  - apt install golang-go
   - git clone https://github.com/comp500/packwiz
   - pushd packwiz
   - go install .
@@ -17,12 +28,12 @@ before_deploy:
 
   - packwiz refresh
   - packwiz cf export
-  - mv export.zip "rivers-of-iron-release-${VERSION_TAG}"
+  - mv export.zip "rivers-of-iron-release-${VERSION_TAG}.zip"
 deploy:
   provider: releases
   api_key: "GITHUB OAUTH TOKEN"
   file:
-    - "rivers-of-iron-release-${VERSION_TAG}" #todo not this file, export.zip
+    - "rivers-of-iron-release-${VERSION_TAG}.zip" #todo not this file, export.zip
   skip_cleanup: true
   on:
     tags: true
