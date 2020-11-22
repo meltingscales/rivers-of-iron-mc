@@ -8,10 +8,10 @@ I forget. Some alpha version.
 
 I also forget. Some alpha version.
 
-## v0.0.2-a-travis-test
+## v0.0.2-*-travis-test
 
 Test to see if Travis works.
 
-## v1.0.1-work-damnit-a
+## v1.0.2
 
-The first version !
+The first version!
