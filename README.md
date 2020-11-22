@@ -2,6 +2,16 @@
 
 See <rivers-of-iron/modlist.html>.
 
+## Releasing
+
+1.  Switch branch to `release`.
+2.  Update the `release` branch to a state you want to release from.
+
+    Example: `git merge master` to update `release` to `master`.
+
+3.  Update the `VERSION` file. This file will be used by Jenkins to tag the release.
+4.  Make a commit for the `VERSION` file
+
 ## CI
 
 See <https://github.com/HenryFBP/gooeyiron>.
