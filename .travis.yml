@@ -4,7 +4,7 @@ language: go
 os: linux
 dist: xenial
 install:
-  - go get -v github.com/comp500/packwiz...
+  - go get -v github.com/comp500/packwiz
 script:
   - echo "lol script :)"
 before_deploy:
