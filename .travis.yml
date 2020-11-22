@@ -16,10 +16,23 @@ before_deploy:
   # Set up git user name and tag this commit
   - git config --local user.name "Henry Post"
   - git config --local user.email "HenryFBP@gmail.com"
-  - export TRAVIS_TAG=${TRAVIS_TAG:-$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)}
-  - export VERSION_TAG="v`cat VERSION`"
+  # - export TRAVIS_TAG=${TRAVIS_TAG:-$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)}
+  - export VERSION_TAG="`cat VERSION`"
+  - echo "$VERSION_TAG" > VERSION_TAG
+  - git tag -l --contains HEAD > HEAD_TAG
+
+  - echo "Version tag - `cat VERSION_TAG`"
+  - echo "Latest commit's tag - `cat HEAD_TAG`"
+  
+  # Make sure the tag of the most recent commit is the same as the file...
+  - if cmp -s "VERSION_TAG" "HEAD_TAG"; then
+      printf 'Last commit was tagged correctly.'
+    else
+      printf 'Last commit was not tagged correctly. It does not match.'
+    fi
+
   - echo "Releasing RoI ${VERSION_TAG}..."
-  - git tag "${VERSION_TAG}"
+  # - git tag "${VERSION_TAG}" # user does this themselves now...
 
   - git clone https://github.com/comp500/packwiz
   - pushd packwiz
@@ -29,6 +42,7 @@ before_deploy:
   - packwiz refresh
   - packwiz cf export
   - mv export.zip "rivers-of-iron-release-${VERSION_TAG}.zip"
+  - ls -lash
 deploy:
   provider: releases
   api_key: "GITHUB OAUTH TOKEN"
