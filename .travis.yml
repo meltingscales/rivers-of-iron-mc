@@ -1,7 +1,4 @@
 # require the branch name to be release (note for PRs this is the base branch name)
-branches:
-  only:
-    - release
 language: go
 go:
   - "1.13"
@@ -50,6 +47,7 @@ deploy:
     - "rivers-of-iron-release-${VERSION_TAG}.zip" #todo not this file, export.zip
   skip_cleanup: true
   on:
+    all_branches: true
     tags: true
     repo: HenryFBP/rivers-of-iron-mc
     branch: release
