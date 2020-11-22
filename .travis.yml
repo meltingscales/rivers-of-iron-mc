@@ -22,7 +22,8 @@ before_deploy:
   - echo "Latest commit's tag - `cat HEAD_TAG`"
   
   # Make sure the tag of the most recent commit is the same as the file...
-  - if cmp -s "VERSION_TAG" "HEAD_TAG"; then
+  - >
+    if cmp -s "VERSION_TAG" "HEAD_TAG"; then
       printf 'Last commit was tagged correctly.'
     else
       printf 'Last commit was not tagged correctly. It does not match.'
@@ -42,7 +43,8 @@ before_deploy:
   - ls -lash
 deploy:
   provider: releases
-  api_key: "GITHUB OAUTH TOKEN"
+  api_key:
+    secure: "AozltCNsfBqf8uC/MasoLd97BgTqjJmLo60eM5PIwFwcEqe4PAr9uJg2gPheus2M9WDrANgBtAPKcc0TjLOqKNlHe3/Js4qD8VN5RplEfJVGQi2rjrFDfFMq+rk/UG1mfeUtE1kNofCbNXrHSMUo32ZGd4MITOrmCSLx8HyPkwMahJjdxClrEGv2AQQR0LvjJxKQdhbpiU+okSNLj2AAKUWLU/6iqC13DpT7Ppq50i521dr1URQPh8Kx9AeG/fYzL5081G7/YlOGJeuU16ft3sUdN4UzF7XynPR4kaJpO6ZUNJ2tn7hwRw4RZBwEY1HhxviqCAq8xhBKtVdpdbKrnkj33ZfTWDNjDfh9wloHZLBUQUHzKo6mi1O9SGhmeoXXVNNdNzKrZkDHgG94T548wFPccNF3vOAFrYFR8RAev5IIPTkY5WSexEbNjr8yDYYwqBGhRhuBKsRAZ2hb1FenYpetVfM6/0t/5dFPkcamXZFBzsjp4gu0+E3WFd0wt15kcCkL65rkd9EDm0CFzVZFHo3K8iQMVIyXlTRvHktGh7f4ZuwULcqU3eVC7FWeg8cRHpo781sVt7nc6L6ZC38z9382n1OXg7sc0H0GLCGf8jpemAnJvFaQjLOHYvRkyBhOCAQW4YvRFFjyk6P75gGIrp0AYFPHkKAjkeMNRnvgA3s="
   file:
     - "rivers-of-iron-release-${VERSION_TAG}.zip" #todo not this file, export.zip
   skip_cleanup: true
