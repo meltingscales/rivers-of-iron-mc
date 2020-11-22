@@ -55,11 +55,10 @@ See <https://github.com/HenryFBP/gooeyiron>.
 
     Example: `git merge master` to update `release` with all the commits from `master`.
 
-3.  Update the `VERSION` file to the new release version.
-4.  Update the `RELEASE-NOTES.md` file. This is a log of all release notes.
-5.  Make a commit for the `VERSION` file, `RELEASE-NOTES.md` file, and all other files you wish to be released.
-6.  Run `git tag -a vXXX -m "Releasing version XXX"`, `XXX` being the new release version.
-7.  `git push origin release --tags`. Travis should make a .zip and upload it to Github.
+3.  Update the `RELEASE-NOTES.md` file. This is a log of all release notes.
+4.  Make a commit for the `RELEASE-NOTES.md` file, and all other files you wish to be released.
+5.  Run `git tag -a vXXX -m "Releasing version XXX"`, `XXX` being the new release version.
+6.  `git push origin release --tags`. Travis should make a .zip and upload it to Github.
 
 ### Comparing releases (tags)
 
