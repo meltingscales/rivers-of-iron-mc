@@ -15,3 +15,7 @@ Test to see if Travis works.
 ## v1.0.1-work-damnit
 
 The first version !
+
+## v1.0.1-ok-fine-bro
+
+First version except more version per version
