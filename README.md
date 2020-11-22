@@ -6,7 +6,7 @@
 
 ## Mods
 
-See <rivers-of-iron/modlist.html>.
+See <mods>.
 
 ### Optimization
 
