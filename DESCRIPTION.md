@@ -34,4 +34,4 @@ This modpack has quests intended to guide the player through many tech trees in 
 - OpenComputers
 - ComputerCraft
 - Refined Storage
-- * Worldgen mods that add biomes, rock formations, and dungeons
+- ...Worldgen mods that add biomes, rock formations, and dungeons
