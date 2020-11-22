@@ -1,3 +1,5 @@
+# require the branch name to be release (note for PRs this is the base branch name)
+if: branch = release
 before_deploy:
   # Set up git user name and tag this commit
   - git config --local user.name "Henry Post"
@@ -15,12 +17,12 @@ before_deploy:
 
   - packwiz refresh
   - packwiz cf export
-  - mv export.zip "rivers-of-iron-release-v${VERSION_TAG}"
+  - mv export.zip "rivers-of-iron-release-${VERSION_TAG}"
 deploy:
   provider: releases
   api_key: "GITHUB OAUTH TOKEN"
   file:
-    - "rivers-of-iron-release-v${VERSION_TAG}" #todo not this file, export.zip
+    - "rivers-of-iron-release-${VERSION_TAG}" #todo not this file, export.zip
   skip_cleanup: true
   on:
     tags: true
