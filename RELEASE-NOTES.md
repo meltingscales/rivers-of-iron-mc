@@ -12,6 +12,6 @@ I also forget. Some alpha version.
 
 Test to see if Travis works.
 
-## v1.0.0-first
+## v1.0.1-please-work-omg
 
 The first version !
