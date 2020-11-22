@@ -4,7 +4,8 @@ language: go
 os: linux
 dist: xenial
 install:
-  - go get -v github.com/comp500/packwiz
+  # - go get -v github.com/comp500/packwiz
+  - echo 'lol install :)'
 script:
   - echo "lol script :)"
 before_deploy:
@@ -16,19 +17,19 @@ before_deploy:
   - echo "Releasing RoI ${VERSION_TAG}..."
   - git tag "${VERSION_TAG}"
 
-  # - apt install golang-go
-  # - git clone https://github.com/comp500/packwiz
-  # - pushd packwiz
-  # - popd
+  - git clone https://github.com/comp500/packwiz
+  - pushd packwiz
+  - go install .
+  - popd
 
   - packwiz refresh
   - packwiz cf export
-  - mv export.zip "rivers-of-iron-release-${VERSION_TAG}"
+  - mv export.zip "rivers-of-iron-release-${VERSION_TAG}.zip"
 deploy:
   provider: releases
   api_key: "GITHUB OAUTH TOKEN"
   file:
-    - "rivers-of-iron-release-${VERSION_TAG}" #todo not this file, export.zip
+    - "rivers-of-iron-release-${VERSION_TAG}.zip" #todo not this file, export.zip
   skip_cleanup: true
   on:
     tags: true
