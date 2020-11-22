@@ -96,6 +96,9 @@ key_key.previous_item.desc:0
 key_key.open_danknull.desc:0
 key_key.togglehud.desc:0
 key_key.ftbquests.quests:0
+key_key.ironbackpacks.equip:35
+key_key.ironbackpacks.open:23
+key_minetogether.key.friends:50:CONTROL
 key_Open MPS Keybind GUI:0
 key_Go Down (MPS Flight Control):44
 key_Cycle Tool Backward (MPS):0
@@ -117,6 +120,8 @@ key_keys.vampirism.action2:3:ALT
 key_walljump.key.walljump:46
 key_key.infinity_armor.noclip:40
 key_key.pickup.item:0
+key_key.dismount:42
+key_key.narrator:48:CONTROL
 key_smoothfont.key.guiOpen:199
 key_key.clipboardPaste:210
 key_key.cofh.multimode:47
@@ -137,7 +142,21 @@ key_nei.options.keys.gui.botania_corporea_request:46
 key_bs.sprint.toggle:42
 key_bs.sneak.toggle:21
 key_bs.menu:0
+key_key.settings_menu:34
+key_key.range:19
+key_key.undo:22
+key_key.anchor:35
+key_key.fuzzy:0
+key_key.connected_area:0
+key_key.rotate_mirror:0
+key_key.material_list:50
 key_key.carry.desc:42
+key_key.refinedstorage.focusSearchBar:15
+key_key.refinedstorage.clearGridCraftingMatrix:45:CONTROL
+key_key.refinedstorage.openWirelessGrid:0
+key_key.refinedstorage.openWirelessFluidGrid:0
+key_key.refinedstorage.openPortableGrid:0
+key_key.refinedstorage.openWirelessCraftingMonitor:0
 key_key.craftingtweaks.rotate:0
 key_key.craftingtweaks.rotate_counter_clockwise:0
 key_key.craftingtweaks.balance:0
@@ -173,16 +192,10 @@ key_key.effortlessbuilding.undo.desc:44:CONTROL
 key_key.effortlessbuilding.redo.desc:21:CONTROL
 key_key.effortlessbuilding.altplacement.desc:29
 key_key.elenaidodge.dodge:33
-key_key.refinedstorage.focusSearchBar:15
-key_key.refinedstorage.clearGridCraftingMatrix:45:CONTROL
-key_key.refinedstorage.openWirelessGrid:0
-key_key.refinedstorage.openWirelessFluidGrid:0
-key_key.refinedstorage.openPortableGrid:0
-key_key.refinedstorage.openWirelessCraftingMonitor:0
-key_mekanism.key.mode:50
-key_mekanism.key.armorMode:34
-key_mekanism.key.feetMode:35
-key_mekanism.key.voice:22
+key_keys.howlingmoon.menu:37
+key_keys.howlingmoon.transform:36
+key_keys.howlingmoon.ability1:19
+key_keys.howlingmoon.ability2:34
 key_key.infinity.desc:43
 key_key.infinitycopy.desc:47
 key_key.infinitysave.desc:34
@@ -193,6 +206,10 @@ key_justenoughbuttons.key.chunkoverlay:62
 key_justenoughbuttons.key.moboverlay:65
 key_jecalculation.key.gui_craft:0
 key_jecalculation.key.gui_math:0
+key_mekanism.key.mode:50
+key_mekanism.key.armorMode:34
+key_mekanism.key.feetMode:35
+key_mekanism.key.voice:22
 key_Mo' Bends Menu:34
 key_Refresh Animations:68
 key_keybind.fovfixtoggle:0
@@ -207,6 +224,7 @@ key_key.debugDumpNBTItem:0
 key_key.debugDumpNBTBlock:0
 key_key.mcreator.speed_blast:0
 key_squeedometer.key.settings:25
+key_key.craftingGrid:0
 key_key.trashslot.toggle:20
 key_key.trashslot.delete:211
 key_key.trashslot.deleteAll:211:SHIFT
@@ -240,27 +258,6 @@ key_Move Vehicle Up:44
 key_Move Vehicle Down:46
 key_key.control:29
 key_Profile GUI:210
-key_enderio.keybind.inventory:23
-key_enderio.keybind.dsu:0
-key_enderio.keybind.glidertoggle:34
-key_enderio.keybind.soundlocator:0
-key_enderio.keybind.nightvision:25
-key_enderio.keybind.gogglesofrevealing:0
-key_enderio.keybind.stepassist:0
-key_enderio.keybind.speed:0
-key_enderio.keybind.jump:0
-key_enderio.keybind.top:0
-key_enderio.keybind.tnt:0
-key_enderio.keybind.yetawrenchmode:21
-key_enderio.keybind.magnet:0
-key_enderio.keybind.fovreset:0
-key_enderio.keybind.fovunreset:0
-key_enderio.keybind.fovstore:0
-key_enderio.keybind.fovrecall:0
-key_enderio.keybind.fovplus:0
-key_enderio.keybind.fovminus:0
-key_enderio.keybind.fovplusfast:0
-key_enderio.keybind.fovminusfast:0
 soundCategory_master:1.0
 soundCategory_music:0.15492958
 soundCategory_record:1.0
