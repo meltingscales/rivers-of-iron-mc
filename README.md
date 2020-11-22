@@ -22,6 +22,12 @@ Mostly deprecated. Use `packwiz`.
 
 ## Playing
 
+### Multiplayer
+
+By default, port `25565` is used.
+
+Try ZeroTier or just port forward.
+
 ### Generating ZIP file
 
     packwiz cf export
