@@ -1,0 +1,14 @@
+name = "BetterFps"
+filename = "BetterFps-1.4.8.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2483/393/BetterFps-1.4.8.jar"
+hash-format = "murmur2"
+hash = "3051920250"
+
+[update]
+[update.curseforge]
+file-id = 2483393
+project-id = 229876
+release-channel = "beta"

@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".travis.yml"
+hash = "0385134dd8980c2d9f0460c65d34c6eae6a691a4238ab659618712ec1ffb6c66"
+
+[[files]]
 file = "DUMMY"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
@@ -531,6 +535,11 @@ metafile = true
 [[files]]
 file = "mods/better-sprinting.toml"
 hash = "d6ec9f5364b2a9674d23e8520370c67732b14ae1a9a13a2a2f97fe0cee5c5d06"
+metafile = true
+
+[[files]]
+file = "mods/betterfps.toml"
+hash = "ad54cddb921f8cb3d737cee7eb078a64afc3d32e71e762c65c60660fd72bc69d"
 metafile = true
 
 [[files]]
