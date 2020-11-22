@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = ".travis.yml"
-hash = "8af7d8da8a22c714d82cc464a927660d40c027ac010ff0cf3d1bd6d9562bc0e7"
+hash = "5f56de330beb8b3152e4c7da40e49c9f031a22e634dfb22453481f31080c2dd9"
 
 [[files]]
 file = "DUMMY"
@@ -18,7 +18,7 @@ hash = "f8c6f3d75e1ed333a0f7118ea4bfef2175a866e6e4a02d1e935a5009036b19b3"
 
 [[files]]
 file = "RELEASE-NOTES.md"
-hash = "9bffee177ee95d5e718742fcaee611b1403d9edd59ef02059e2a1ebef92c43ed"
+hash = "d3b7f59f3953a7308c47452a57b3de3a1c6be2aacef3c9739f45292bfe20bf83"
 
 [[files]]
 file = "config/EffortlessBuilding.cfg"
@@ -67,6 +67,10 @@ hash = "cd7053d8ab22d71d1724d8c25cc9f2d9a4998f4fb176758e9c14144c1c25a5e9"
 [[files]]
 file = "config/bettercombatmod.cfg"
 hash = "0fcff9b80f74b2bdca543ba20359dec3a9892052c0d85242a7f4448fe0abe1c4"
+
+[[files]]
+file = "config/betterfps.json"
+hash = "77372bd99009982d0cb12f2c870a20706813750374237d7cb1f28376e8d46d40"
 
 [[files]]
 file = "config/betternether.cfg"
@@ -405,6 +409,10 @@ file = "config/oreexcavation.cfg"
 hash = "857da78d17e9b66df7d19fc5fc879e137725a487fec4f04984cad931a4aa6188"
 
 [[files]]
+file = "config/projectvibrantjourneys.cfg"
+hash = "0f572cdce2bccd7b017f68fea7b3906f3a9ab957a3068ec778bfa90f73040b58"
+
+[[files]]
 file = "config/refinedstorage.cfg"
 hash = "3dbd46b3134f01dbdbf8e119480dc86b7708d1abc70bda0b1b34b66cf2777e66"
 
@@ -477,11 +485,6 @@ hash = "f815fc71b4638215d66904425bbf779127192c530f480bb8134b68b2ad29d60e"
 metafile = true
 
 [[files]]
-file = "mods/advanced-rocketry.toml"
-hash = "21b2bbbaf642c0fb2de50ef8b20cab75c5e4aea007efe35155247a5d076aff1e"
-metafile = true
-
-[[files]]
 file = "mods/advent-of-ascension-nevermine.toml"
 hash = "2588088ce9ebc1da545201eef0df2b5fc5e5ae47e5524101d233b0052b97e942"
 metafile = true
@@ -547,11 +550,6 @@ hash = "ad54cddb921f8cb3d737cee7eb078a64afc3d32e71e762c65c60660fd72bc69d"
 metafile = true
 
 [[files]]
-file = "mods/betternether.toml"
-hash = "ad13606c7aa8e7f3a6e9c406c83968b090a5703c7b9b13f964801e8a6feca978"
-metafile = true
-
-[[files]]
 file = "mods/biomes-o-plenty.toml"
 hash = "da4d44b411b2fa2e13bb8de586cded42ae748ff57fc70c6a852b4cd622f49a7e"
 metafile = true
@@ -609,6 +607,11 @@ metafile = true
 [[files]]
 file = "mods/chameleon.toml"
 hash = "0c8fb1975d4eb96fcf5fdaf6cc0f77b2312f24bbbbea9316c424029eb9f047d6"
+metafile = true
+
+[[files]]
+file = "mods/charset-lib.toml"
+hash = "ebc3a1f294e34395b74d2e4670a992c4539bd7abb1570b2119cc4b4a8eb4b0cc"
 metafile = true
 
 [[files]]
@@ -752,11 +755,6 @@ hash = "0eddea09517f0920b8e462d2f91e9c216425040927398970947a3ddbfe9bd60f"
 metafile = true
 
 [[files]]
-file = "mods/extreme-reactors.toml"
-hash = "4db0b15ae9f877789c30e7fc54a0431cbe257eae1dd8654c0983df1e6c61d3e3"
-metafile = true
-
-[[files]]
 file = "mods/fast-leaf-decay.toml"
 hash = "8239fcc9487edacf660e8a72b2fb9b9a2757c77df232a0ff409e5a8d9dadcc77"
 metafile = true
@@ -839,11 +837,6 @@ metafile = true
 [[files]]
 file = "mods/headcrumbs.toml"
 hash = "6035bb9561488c7c191c41fbd465d88fa5b7e46909909e1423a64bc3aebec82a"
-metafile = true
-
-[[files]]
-file = "mods/howling-moon.toml"
-hash = "7b991eda5d69bb8c43406546fa778c41942388d68a5b607e42276698b610e130"
 metafile = true
 
 [[files]]
@@ -1007,11 +1000,6 @@ hash = "a2929460a902e8a9964731dd86ce0fd8572414896a2ebcb7810c38ef62fbd344"
 metafile = true
 
 [[files]]
-file = "mods/mo-bends.toml"
-hash = "eefc848fb4ca99edaa75b487e0dcf84e20a6b31499718427117c8979e13c9e5a"
-metafile = true
-
-[[files]]
 file = "mods/mobs-properties-randomness.toml"
 hash = "07e293e02fa876f0f71369c40066c20f823a17e06ee3aaf1054f623066387c75"
 metafile = true
@@ -1127,18 +1115,8 @@ hash = "bb15ca86dd7e29f2506d4a368badc2303add9d9140657ff3658452deb336ce24"
 metafile = true
 
 [[files]]
-file = "mods/ore-canes-mod.toml"
-hash = "b0f20d4638dd3d9b11fa5b409bca5a2a143f7631cefc3af7582f24df5ec2c823"
-metafile = true
-
-[[files]]
 file = "mods/ore-excavation.toml"
 hash = "45907d0db26bcee036a61d6ac11348f1d2c7ca13792d16a26a52347992943643"
-metafile = true
-
-[[files]]
-file = "mods/ore-sheep-mod.toml"
-hash = "b14c54b208f85d4d6937c7b70cbe9008623fa4142179d65f4732d5a1a9a6d81e"
 metafile = true
 
 [[files]]
@@ -1154,16 +1132,6 @@ metafile = true
 [[files]]
 file = "mods/overloaded.toml"
 hash = "a1d3ab9a5edad53e66d4ff662107be94b234a7db1610f882e7e01ba64f7d3325"
-metafile = true
-
-[[files]]
-file = "mods/overpowered-mending.toml"
-hash = "51207ad0573ea554b9496abafd37443d1dd16a74bfd94d8440fc95c523690fa2"
-metafile = true
-
-[[files]]
-file = "mods/overpowered-pickaxes-mod.toml"
-hash = "cc1991d7fce5cb85820e39bb31f72ca791a0923731d94e26832cba9b2c8e4805"
 metafile = true
 
 [[files]]
@@ -1209,11 +1177,6 @@ metafile = true
 [[files]]
 file = "mods/project-vibrant-journeys.toml"
 hash = "2be53295433e668e92580ae340e002c0b3743464874f9af8d1eee5208e876f19"
-metafile = true
-
-[[files]]
-file = "mods/pvptoggle.toml"
-hash = "3f69120d1cc38fa3c7a5a8a8416039c498fa0ae7fa7f1961065b9ba303680739"
 metafile = true
 
 [[files]]
@@ -1417,6 +1380,11 @@ hash = "524be2c7e81deaddec011b007df42b08773ef4f4c73e98b09e7106510507c7df"
 metafile = true
 
 [[files]]
+file = "mods/tiquality.toml"
+hash = "5d9f337c845691089ce2f86d34c687800702ef48b1b4abc43dfe5d60e5fce7d5"
+metafile = true
+
+[[files]]
 file = "mods/torohealth-damage-indicators.toml"
 hash = "6364c011679a0f842791f00244889e4b3d864db8d683c5242534119b257d4fa3"
 metafile = true
@@ -1459,6 +1427,11 @@ metafile = true
 [[files]]
 file = "mods/valkyrielib.toml"
 hash = "28642115a1b4b724f5fb6381fc6e3ec3ad89a6ef517bed16b0708f7651681164"
+metafile = true
+
+[[files]]
+file = "mods/vampires-need-umbrellas.toml"
+hash = "08afdb99ac32a5451830ed87d2f321b78c465c87a3b80df97427df242583d6e2"
 metafile = true
 
 [[files]]
@@ -1513,8 +1486,12 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "fcccdf856998e556714e85b8ff2f05b93085567119d2ac24cb12ecacd174a61c"
+hash = "c1534db4e07e4a9c9dc1c02aa8c40a8acebe4740b6ad184fba8efe490a4de8b7"
 
 [[files]]
 file = "optionsof.txt"
 hash = "2b066ec3456497a72599e510e2e3a2e975136419dcc4f8cf4bde0d32b2c72e47"
+
+[[files]]
+file = "testfile"
+hash = "2e08d1f6000aef541797d008c05ac36f4dbebfb36cbac5615788e6fcc5b300a7"

@@ -1,0 +1,14 @@
+name = "Vampires Need Umbrellas"
+filename = "VampiresNeedUmbrellas-1.12.2-1.5.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2946/161/VampiresNeedUmbrellas-1.12.2-1.5.jar"
+hash-format = "murmur2"
+hash = "1315995541"
+
+[update]
+[update.curseforge]
+file-id = 2946161
+project-id = 364129
+release-channel = "beta"
