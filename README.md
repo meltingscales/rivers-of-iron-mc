@@ -1,12 +1,18 @@
 # Rivers of Iron (RoI)
 
+Minecraft version 1.12.2
+
 ## RELEASE Status (Not build.)
 
 [![Release Status](https://travis-ci.com/HenryFBP/rivers-of-iron-mc.svg?branch=master)](https://travis-ci.com/HenryFBP/rivers-of-iron-mc)
 
+## Description
+
+See [DESCRIPTION.md](DESCRIPTION.md).
+
 ## Mods
 
-See <mods>.
+See [mods](mods).
 
 ### Optimization
 
