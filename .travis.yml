@@ -1,0 +1,27 @@
+before_deploy:
+  # Set up git user name and tag this commit
+  - git config --local user.name "Henry Post"
+  - git config --local user.email "HenryFBP@gmail.com"
+  - export TRAVIS_TAG=${TRAVIS_TAG:-$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)}
+  - export VERSION_TAG="v`cat VERSION`"
+  - echo "Releasing RoI ${VERSION_TAG}..."
+  - git tag "${VERSION_TAG}"
+
+  - apt install golang-go
+  - git clone https://github.com/comp500/packwiz
+  - pushd packwiz
+  - go install .
+  - popd
+
+  - packwiz refresh
+  - packwiz cf export
+  - mv export.zip "rivers-of-iron-release-v${VERSION_TAG}"
+deploy:
+  provider: releases
+  api_key: "GITHUB OAUTH TOKEN"
+  file:
+    - "rivers-of-iron-release-v${VERSION_TAG}" #todo not this file, export.zip
+  skip_cleanup: true
+  on:
+    tags: true
+    branch: release
