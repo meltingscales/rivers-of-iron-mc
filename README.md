@@ -8,6 +8,10 @@
 
 See <rivers-of-iron/modlist.html>.
 
+### Optimization
+
+See <OPTIMIZATION.md>
+
 ## Playing
 
 ### Download it from here
