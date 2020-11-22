@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = ".travis.yml"
-hash = "0385134dd8980c2d9f0460c65d34c6eae6a691a4238ab659618712ec1ffb6c66"
+hash = "8af7d8da8a22c714d82cc464a927660d40c027ac010ff0cf3d1bd6d9562bc0e7"
 
 [[files]]
 file = "DUMMY"
@@ -15,6 +15,10 @@ hash = "85bf459caf4fbffd8418955b4703460394cfe40d4ecb1ec2f4f0302807f2ac4c"
 [[files]]
 file = "Pipfile"
 hash = "f8c6f3d75e1ed333a0f7118ea4bfef2175a866e6e4a02d1e935a5009036b19b3"
+
+[[files]]
+file = "RELEASE-NOTES.md"
+hash = "9bffee177ee95d5e718742fcaee611b1403d9edd59ef02059e2a1ebef92c43ed"
 
 [[files]]
 file = "config/EffortlessBuilding.cfg"
