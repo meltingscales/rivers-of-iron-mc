@@ -27,6 +27,7 @@ before_deploy:
       echo 'Last commit was tagged correctly.'
     else
       echo 'Last commit was not tagged correctly. It does not match.'
+      exit 1
     fi
 
   - echo "Releasing RoI ${VERSION_TAG}..."
