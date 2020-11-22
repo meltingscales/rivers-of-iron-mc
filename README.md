@@ -1,24 +1,8 @@
+# Rivers of Iron (RoI)
+
 ## Mods
 
 See <rivers-of-iron/modlist.html>.
-
-## Releasing
-
-1.  Switch branch to `release`.
-2.  Update the `release` branch to a state you want to release from.
-
-    Example: `git merge master` to update `release` to `master`.
-
-3.  Update the `VERSION` file. This file will be used by Jenkins to tag the release.
-4.  Make a commit for the `VERSION` file
-
-## CI
-
-See <https://github.com/HenryFBP/gooeyiron>.
-
-## Scripts
-
-Mostly deprecated. Use `packwiz`.
 
 ## Playing
 
@@ -49,6 +33,32 @@ Import the .ZIP file in MultiMC.
 Go ahead! No license.
 
 Read <https://authors.curseforge.com/knowledge-base/game-specific-support/120-how-to-create-a-modpack> for more info.
+
+## CI
+
+See <https://github.com/HenryFBP/gooeyiron>.
+
+## Releasing
+
+1.  Switch branch to `release`.
+2.  Update the `release` branch to a state you want to release from.
+
+    Example: `git merge master` to update `release` to `master`.
+
+3.  Update the `VERSION` file. This file will be used by Jenkins to **tag the release**.
+4.  Update the `RELEASE-NOTES.md` file. This is a log of all release notes.
+5.  Make a commit for the `VERSION` file.
+
+### Comparing releases (tags)
+
+From <https://stackoverflow.com/questions/3211809/how-to-compare-two-tags-with-git>.
+
+- git diff v0.0.1 v0.0.3
+- git log v0.0.1..v0.0.3
+
+## Scripts
+
+Mostly deprecated. Use `packwiz`.
 
 ## Tools
 
