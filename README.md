@@ -1,5 +1,9 @@
 # Rivers of Iron (RoI)
 
+## RELEASE Status (Not build.)
+
+[![Release Status](https://travis-ci.com/HenryFBP/rivers-of-iron-mc.svg?branch=master)](https://travis-ci.com/HenryFBP/rivers-of-iron-mc)
+
 ## Mods
 
 See <rivers-of-iron/modlist.html>.
@@ -43,11 +47,13 @@ See <https://github.com/HenryFBP/gooeyiron>.
 1.  Switch branch to `release`.
 2.  Update the `release` branch to a state you want to release from.
 
-    Example: `git merge master` to update `release` to `master`.
+    Example: `git merge master` to update `release` with all the commits from `master`.
 
-3.  Update the `VERSION` file. This file will be used by Jenkins to **tag the release**.
+3.  Update the `VERSION` file to the new release version.
 4.  Update the `RELEASE-NOTES.md` file. This is a log of all release notes.
 5.  Make a commit for the `VERSION` file.
+6.  Run `git tag -a vXXX -m "Releasing version XXX"`, `XXX` being the new release version.
+7.  `git push origin release --tags`. Travis should make a .zip and upload it to Github.
 
 ### Comparing releases (tags)
 
