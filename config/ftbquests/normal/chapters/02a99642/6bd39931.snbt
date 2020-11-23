@@ -1,0 +1,18 @@
+{
+	x: 3.0d,
+	y: 0.5d,
+	tasks: [{
+		uid: "3427cd2c",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					Material: "darmstadtium"
+				}
+			},
+			Damage: 11s
+		}],
+		ignore_nbt: 1b
+	}]
+}

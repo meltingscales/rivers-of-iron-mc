@@ -1,0 +1,38 @@
+{
+	title: "Store it!",
+	x: 0.0d,
+	y: 1.5d,
+	shape: "diamond",
+	description: "* c r e a k *",
+	dependencies: [
+		"1b116f21"
+	],
+	tasks: [{
+		uid: "47bcacc3",
+		type: "item",
+		items: [{
+			item: "colossalchests:chest_wall"
+		}],
+		count: 24L
+	},
+	{
+		uid: "75773442",
+		type: "item",
+		items: [{
+			item: "colossalchests:colossal_chest"
+		}]
+	},
+	{
+		uid: "587c2fd9",
+		type: "item",
+		items: [{
+			item: "colossalchests:interface"
+		}]
+	}],
+	rewards: [{
+		uid: "480069f5",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 16
+	}]
+}

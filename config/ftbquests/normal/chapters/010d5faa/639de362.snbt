@@ -1,12 +1,14 @@
 {
-	title: "Test",
-	x: -1.5d,
-	y: -2.5d,
-	description: "Sub Test",
+	title: "Get your guides here!",
+	icon: "minecraft:book",
+	x: 0.0d,
+	y: -1.5d,
+	description: "Can be repeated",
 	text: [
 		"testy test"
 	],
 	can_repeat: true,
+	optional: true,
 	tasks: [{
 		uid: "33929b1e",
 		type: "item",
@@ -73,5 +75,10 @@
 				Book: "gbook:riversofironguide.xml"
 			}
 		}
+	},
+	{
+		uid: "009bab78",
+		type: "item",
+		item: "minecraft:dirt"
 	}]
 }

@@ -1,0 +1,7 @@
+{
+	title: "Refined Storage: Recursive Recurring Repositories",
+	icon: "refinedstorage:storage_part 1 2",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

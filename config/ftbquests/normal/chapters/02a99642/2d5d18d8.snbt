@@ -1,0 +1,30 @@
+{
+	title: "File under \"microcrafting\"...",
+	x: 1.5d,
+	y: -1.0d,
+	shape: "diamond",
+	dependencies: [
+		"8cc84944"
+	],
+	tasks: [{
+		uid: "3c3a37b9",
+		type: "item",
+		title: "Any craftingToolFile",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolFile",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9f8aecae",
+		type: "item",
+		item: "gregtech:meta_item_1 1 10095",
+		count: 16
+	}]
+}

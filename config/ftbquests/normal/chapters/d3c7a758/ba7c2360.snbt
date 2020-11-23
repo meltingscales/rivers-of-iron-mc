@@ -1,0 +1,21 @@
+{
+	x: -4.0d,
+	y: -0.5d,
+	tasks: [{
+		uid: "468965d2",
+		type: "kill",
+		title: "Y'know you need a way to sleep...",
+		entity: "minecraft:sheep",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "d24844fa",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "00723835",
+		type: "item",
+		item: "minecraft:bed"
+	}]
+}

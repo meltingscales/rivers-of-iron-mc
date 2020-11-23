@@ -1,6 +1,6 @@
 {
-	title: "General: Beginnings",
-	icon: "minecraft:grass",
+	title: "Slappin' Bacon",
+	icon: "xlfoodmod:bacon",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

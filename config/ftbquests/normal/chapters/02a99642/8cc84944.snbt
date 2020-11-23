@@ -1,0 +1,26 @@
+{
+	title: "Hammer time!",
+	x: 0.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "a3dd4544",
+		type: "item",
+		title: "Any craftingToolHardHammer",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolHardHammer",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ae10d18d",
+		type: "item",
+		item: "minecraft:iron_ore",
+		count: 8
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: -5.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "3a21b327",
+		type: "kill",
+		title: "Holy Cow!",
+		icon: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:cow"
+				}
+			}
+		},
+		entity: "minecraft:cow",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "3a7f23cd",
+		type: "item",
+		item: "minecraft:beef",
+		count: 32
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "You know the drill (axe)...",
+	x: 0.0d,
+	y: 0.0d,
+	description: "Punch it.",
+	text: [
+		""
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "73eadea7",
+		type: "item",
+		title: "Any logWood",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "38b363ba",
+		type: "item",
+		item: "mekanismtools:ironpaxel"
+	},
+	{
+		uid: "004344d6",
+		type: "item",
+		item: "gregtech:meta_item_2 1 3095"
+	}]
+}

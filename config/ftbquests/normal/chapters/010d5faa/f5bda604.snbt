@@ -1,0 +1,22 @@
+{
+	title: "Read the guide",
+	x: 1.0d,
+	y: -1.5d,
+	description: "It contains useful tips and also CONTROL changes.",
+	tasks: [{
+		uid: "e98639e4",
+		type: "item",
+		items: [{
+			id: "gbook:guidebook",
+			tag: {
+				Book: "gbook:riversofironguide.xml"
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3e6d8135",
+		type: "item",
+		item: "minecraft:egg"
+	}]
+}

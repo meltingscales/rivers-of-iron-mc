@@ -1,0 +1,33 @@
+{
+	title: "Strike the earth",
+	x: 1.5d,
+	y: 0.0d,
+	shape: "diamond",
+	description: "...and make love to the rock!",
+	dependencies: [
+		"1b116f21"
+	],
+	tasks: [{
+		uid: "affa69b9",
+		type: "item",
+		title: "Any cobblestone",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "cobblestone",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 64L,
+		consume_items: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c938384f",
+		type: "item",
+		item: "minecraft:iron_ore",
+		count: 8
+	}]
+}

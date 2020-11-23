@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "d62569f8",
+		type: "item",
+		items: [{
+			item: "minecraft:quartz"
+		}]
+	}],
+	rewards: [{
+		uid: "5ec33fad",
+		type: "item",
+		item: "refinedstorage:silicon",
+		count: 8
+	}]
+}

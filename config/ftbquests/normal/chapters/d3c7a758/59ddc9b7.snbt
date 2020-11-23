@@ -1,0 +1,18 @@
+{
+	x: -3.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "7f18236e",
+		type: "kill",
+		title: "Porkchop has never tasted so good!",
+		icon: "draconicevolution:mob_soul",
+		entity: "minecraft:pig",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "6354a6ff",
+		type: "item",
+		item: "minecraft:porkchop",
+		count: 32
+	}]
+}

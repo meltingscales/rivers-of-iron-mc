@@ -1,0 +1,17 @@
+{
+	title: "Information about the Vampirism mod",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"See https://github.com/TeamLapen/Vampirism/wiki/Getting-Started",
+		"",
+		"And http://teamlapen.github.io/Vampirism/"
+	],
+	tasks: [{
+		uid: "f5a2dbdf",
+		type: "item",
+		items: [{
+			item: "minecraft:book"
+		}]
+	}]
+}
