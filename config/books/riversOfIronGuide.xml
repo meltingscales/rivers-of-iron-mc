@@ -46,6 +46,7 @@
             <p>Q: Unbound. Because Diamond Pickaxes deserve better than lava.</p>
             <p>Space: Jump, double jump. Abuse this.</p>
             <p>Tilde (~): Veinmine anything. Consumes hunger. Abuse this.</p>
+            <p>V: Suck blood (as vampire)</p>
         </section>
         <section>
             <title>Non-gameplay (UI) controls, other features</title>
@@ -53,6 +54,12 @@
             <p>ALT: Open extended building.</p>
             <p>DELETE: Open AOA (Advent of Ascension) GUI</p>
             <p>V: Change OreExcavate shape.</p>
+            <p>R: Sort inventory.</p>
+            <p>R: View recipe for item.</p>
+            <p>U: View recipes item is used in.</p>
+            <p>Y: Open map settings. Can share waypoints from here.</p>
+            <p>N: Open map.</p>
+            <p>B: New waypoint.</p>
         </section>
     </chapter>
     <chapter>
