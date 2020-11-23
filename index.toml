@@ -5,8 +5,16 @@ file = ".travis.yml"
 hash = "00d958edd514f285d1f1c9714f6c8d1745a10eecf56821e41da18ecae4958b56"
 
 [[files]]
+file = "DESCRIPTION.md"
+hash = "68d2c9d289ad049e842562433770da0f5de133309fa0fade3ccb3e1581ad1b52"
+
+[[files]]
 file = "DUMMY"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "Makefile.py"
+hash = "2f2d0ffd447e0b36ad2a9919d49f430b3e92c325b5787c898a7be0a4083a7967"
 
 [[files]]
 file = "OPTIMIZATION.md"
@@ -445,12 +453,16 @@ file = "config/squeedometer.cfg"
 hash = "3e1e06d437f45b51b6bcf5d24f206f6225565384d7ca6717e1c741489ddb9de3"
 
 [[files]]
+file = "config/stackup.cfg"
+hash = "0311d417cde3bb467e0835c2526cca467f09283c4f618056d3a9eceee19a881e"
+
+[[files]]
 file = "config/torohealthmod.cfg"
 hash = "dd338086fda67c9c00cd5f90c7f80aeac4e95a7b9986506c78af284a8b082f91"
 
 [[files]]
 file = "config/treecapitator.cfg"
-hash = "078f060bc39f2f03ca1e8e769d379c8c21437bce5e7ef99949ffc19424f2a1db"
+hash = "95a32fb6af80cac0861ae3d7a25accb6f690c1ae342f4c3d0210f2430bf9a7a2"
 
 [[files]]
 file = "config/vanillafix/config_version"
@@ -471,6 +483,10 @@ hash = "a497e506337c7d7e6759ed57353063fb60767e14cca4dd6a9b368d79527268c0"
 [[files]]
 file = "config/xaeroworldmap.txt"
 hash = "733ad8b4a6c9fd7571f54d2460918d66ea7fd93470cbbb2f2d18a2341b0d98ee"
+
+[[files]]
+file = "icon.png"
+hash = "a629f2c2cad9cec9fb6d4eb9857f7996167823d3f4972d6aa97fa49ec318f890"
 
 [[files]]
 file = "mods/a-block-of-charcoal.toml"
@@ -845,6 +861,11 @@ metafile = true
 [[files]]
 file = "mods/huds-armor-status-damage-indicators.toml"
 hash = "7355aaa3c5be93ffc7e7e80b25985cf1ae1cccacd1cfbf6a799e8ee7c187d11d"
+metafile = true
+
+[[files]]
+file = "mods/industrial-foregoing.toml"
+hash = "9792756c5d76035a79ad49d5c4097ea4350efeacbe56401baaac2140587cc826"
 metafile = true
 
 [[files]]
@@ -1345,6 +1366,11 @@ metafile = true
 [[files]]
 file = "mods/teletubbies-mod.toml"
 hash = "a28c70f12283b2ee0d9631f7aa2b5bd4edc575137148be88ae4d04ba1943b89e"
+metafile = true
+
+[[files]]
+file = "mods/tesla-core-lib.toml"
+hash = "409f0661dbfc7ab38b36715daaa26cb0d7d31c7634715dfa4e077f201ef5d54f"
 metafile = true
 
 [[files]]
