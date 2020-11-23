@@ -1,5 +1,9 @@
 # Testing
 
+## Editing FTB Quests
+
+	/ftbquests editing_mode true
+
 ## Copying quests/configs over
 
 Just copy all the files you want new users of the modpack to use in `MC_INSTANCE_FOLDER_NAME/config` into `rivers-of-iron/overrides`.
