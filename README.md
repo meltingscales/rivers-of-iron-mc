@@ -68,6 +68,8 @@ See <https://github.com/HenryFBP/gooeyiron>.
 
 ## Releasing
 
+### Via Git
+
 1.  Switch branch to `release` -- i.e. `git checkout release`.
 2.  Update the `release` branch to a state you want to release from.
 
@@ -79,6 +81,17 @@ See <https://github.com/HenryFBP/gooeyiron>.
 6.  Make a commit for the `RELEASE-NOTES.md` file, and all other files you wish to be released.
 7.  Run `git tag -a vXXX -m "Releasing version XXX"`, `XXX` being the new release version.
 8.  `git push origin release --tags`. Travis should make a .zip and upload it to Github.
+
+### Via CurseForge
+
+This step requires a Git release to take place first.
+
+On <https://www.curseforge.com/project/421665/files/upload>,
+
+1.  Copy the release .ZIP file and upload it.
+2.  Copy the [DESCRIPTION.md](DESCRIPTION.md) if it has changed.
+3.  Copy the relevant parts of the [RELEASE-NOTES.md](RELEASE-NOTES.md).
+4.  Wait for a mod to wake up and approve.
 
 ### Comparing releases (tags)
 
