@@ -82,8 +82,9 @@ See <https://github.com/HenryFBP/gooeyiron>.
 
 From <https://stackoverflow.com/questions/3211809/how-to-compare-two-tags-with-git>.
 
-- git diff v0.0.1 v0.0.3
-- git log v0.0.1..v0.0.3
+- `git diff v0.0.1 v0.0.3`: Comparing file changes between tags:
+- `git log v1.0.2`: Comparing file changes between a tag and the HEAD
+- `git log v0.0.1..v0.0.3`: Comparing commits between tags
 
 ## Scripts
 
