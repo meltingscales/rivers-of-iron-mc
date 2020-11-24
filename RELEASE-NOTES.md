@@ -15,3 +15,9 @@ Test to see if Travis works.
 ## v1.0.2
 
 The first version!
+
+
+## v1.0.3
+
+MineFactory releaded, foamfix, and TexFix added.
+
