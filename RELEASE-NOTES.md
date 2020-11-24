@@ -21,3 +21,8 @@ The first version!
 
 MineFactory releaded, foamfix, and TexFix added.
 
+## v1.0.4
+
+Fixed TORCHES STARTING FIRES!... WHY, ITEMPHYSIC MOD, WHY IS `enableIgniting` TRUE BY DEFAULT???
+
+Old worlds will want to run `/gamerule doFireTick false`...
