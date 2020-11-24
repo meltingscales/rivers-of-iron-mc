@@ -20,7 +20,7 @@ See [mods](mods).
 
 ### Optimization
 
-See <OPTIMIZATION.md>
+See [OPTIMIZATION.md](OPTIMIZATION.md).
 
 ## Playing
 
@@ -73,10 +73,12 @@ See <https://github.com/HenryFBP/gooeyiron>.
 
     Example: `git merge master` to update `release` with all the commits from `master`.
 
-3.  Update the `RELEASE-NOTES.md` file. This is a log of all release notes.
-4.  Make a commit for the `RELEASE-NOTES.md` file, and all other files you wish to be released.
-5.  Run `git tag -a vXXX -m "Releasing version XXX"`, `XXX` being the new release version.
-6.  `git push origin release --tags`. Travis should make a .zip and upload it to Github.
+3.  Run `git [diff|log] MOST_RECENT_VERSION` to see what's changed since last release
+4.  Update the `RELEASE-NOTES.md` file. This is a log of all release notes.
+5.  Optionally, run `python3 Makefile.py` and test the modpack. Fix and repeat 1-5 until it works.
+6.  Make a commit for the `RELEASE-NOTES.md` file, and all other files you wish to be released.
+7.  Run `git tag -a vXXX -m "Releasing version XXX"`, `XXX` being the new release version.
+8.  `git push origin release --tags`. Travis should make a .zip and upload it to Github.
 
 ### Comparing releases (tags)
 
