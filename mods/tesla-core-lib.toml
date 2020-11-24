@@ -1,0 +1,14 @@
+name = "Tesla Core Lib"
+filename = "tesla-core-lib-1.12.2-1.0.17.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2891/841/tesla-core-lib-1.12.2-1.0.17.jar"
+hash-format = "murmur2"
+hash = "2382821517"
+
+[update]
+[update.curseforge]
+file-id = 2891841
+project-id = 254602
+release-channel = "beta"
