@@ -81,7 +81,7 @@ See <https://github.com/HenryFBP/gooeyiron>.
 6.  Make a commit for the `RELEASE-NOTES.md` file, and all other files you wish to be released.
 7.  Run `git tag -a vXXX -m "Releasing version XXX"`, `XXX` being the new release version.
 8.  `git push origin release --tags`. Travis should make a .zip and upload it to Github.
-9.  Run `git checkout master` and then `git merge release` to copy the tags and updates to the release notes over to `master` branch.
+9.  Run `git checkout master` and then `git merge release` and then `git push` to copy the tags and updates to the release notes over to `master` branch.
 
 ### Via CurseForge
 
