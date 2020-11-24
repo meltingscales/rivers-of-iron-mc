@@ -20,7 +20,7 @@ See [mods](mods).
 
 ### Optimization
 
-See <OPTIMIZATION.md>
+See [OPTIMIZATION.md](OPTIMIZATION.md).
 
 ## Playing
 
