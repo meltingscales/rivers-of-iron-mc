@@ -2,9 +2,11 @@ import glob
 import os
 import shutil
 
+GLOB='rivers-of-iro*/minecraft/config/ftbquests'
+
 PATH_GLOBS = [
-    'C:/tools/MultiMC/instances/rivers-of-iro*/minecraft/config/ftbquests',
-    # TODO linux
+    f'C:/tools/MultiMC/instances/{GLOB}',
+    '/root/.local/share/multimc/instances/instances/{GLOB}'
 ]
 
 LOCAL_CONFIG_PATH = './config/ftbquests'
