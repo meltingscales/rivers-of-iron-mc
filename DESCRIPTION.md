@@ -6,11 +6,21 @@ Fast-start no-nonsense Greggy Tech Pack
 
 ## Modpack Links
 
+### GitHub
+
 You can view the source and alternative releases for this modpack here:
 
-https://github.com/HenryFBP/rivers-of-iron-mc
+<https://github.com/HenryFBP/rivers-of-iron-mc>
 
-You can submit issues, questions, and errors there.
+You can submit issues, questions, comments, suggestions, and errors there.
+
+### CurseForge
+
+You can view releases here as well:
+
+<https://www.curseforge.com/minecraft/modpacks/rivers-of-iron>
+
+You can submit comments too.
 
 ## What's in this modpack?
 
@@ -23,6 +33,14 @@ This modpack loads in around 3 minutes and can be run on about 3GB of RAM.
 This modpack is centered around GregTech with a largely unmodified tech tree, but with alternative power and resource gathering options to speed up boring grinds.
 
 This modpack has quests intended to guide the player through many tech trees in mods, and an in-game guide explaining gameplay and control changes.
+
+## What's still being developed?
+
+- Extensive quests
+- Ore balance tweaks
+- Endgame tweaks
+- Recipe tweaks
+- Bugfixes, crash fixes.
 
 ## Key mods
 
