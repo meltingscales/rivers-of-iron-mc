@@ -10,6 +10,8 @@ Just copy all the files you want new users of the modpack to use in `MC_INSTANCE
 
 The quests are stored in `MC_INSTANCE_FOLDER_NAME/config/ftbquests/normal/` so they get copied too.
 
+Also see `copy-quests-from-multimc.py`.
+
 ## Testing configs
 
 You can just copy all the files `rivers-of-iron/overrides/**` into your Minecraft instance's config folder to test them.
