@@ -10,17 +10,13 @@ Minecraft version 1.12.2
 
 [![Release Status](https://travis-ci.com/HenryFBP/rivers-of-iron-mc.svg?branch=master)](https://travis-ci.com/HenryFBP/rivers-of-iron-mc)
 
-## Description
+## [Issues](ISSUES.md)
 
-See [DESCRIPTION.md](DESCRIPTION.md).
+## [Description](DESCRIPTION.md)
 
-## Mods
+## [Mods](mods)
 
-See [mods](mods).
-
-### Optimization
-
-See [OPTIMIZATION.md](OPTIMIZATION.md).
+### [Optimization](OPTIMIZATION.md)
 
 ## Playing
 

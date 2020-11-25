@@ -1,0 +1,5 @@
+- AoA3 scrap doesn't drop from all stone types
+- 'F' can blast you into orbit
+- Crashing on multiplayer when using vampire suck
+- simpleoregen spawning extra ore
+- Do we want to have multiple ore types? Can we use oredict?
