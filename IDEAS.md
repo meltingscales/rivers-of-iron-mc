@@ -5,6 +5,10 @@
 - A guide for literally mod available in game
   - Could be links or books, etc.
 
+## CI/CD
+
+- <https://authors.curseforge.com/knowledge-base/projects/3451-automatic-packaging>
+
 ## Mods
 
 ### Added
