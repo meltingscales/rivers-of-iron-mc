@@ -48,9 +48,22 @@ Import the .ZIP file in MultiMC.
 
 ### Multiplayer
 
+#### Singleplayer hosting
+
 By default, port `25565` is used.
 
 Try ZeroTier or just port forward.
+
+#### Dedicated server
+
+Taken from <https://www.reddit.com/r/MultiMC/comments/bfjbxr/multimc_modpack_server_how_to_do/elemvol?utm_source=share&utm_medium=web2x&context=3>
+
+1. Import the pack into MultiMC/Twitch.
+2. Download <https://adfoc.us/serve/sitelinks/?id=271228&url=https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12.2-14.23.5.2854/forge-1.12.2-14.23.5.2854-installer.jar> (from <https://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.12.2.html>)
+3. Run the installer.
+4. Change the path for the Forge installer to the installed modpack (e.g. `C:\tools\MultiMC\instances\rivers-of-iron-latest-v1.0.4-0714798\minecraft`)
+5. Make sure 'Install Server' is checked.
+6. Run the `.bat` or `.sh` file in the installed modpack folder.
 
 ## Redistributing this modpack
 
