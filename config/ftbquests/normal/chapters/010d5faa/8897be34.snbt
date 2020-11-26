@@ -1,0 +1,33 @@
+{
+	title: "Rivers...",
+	x: 3.0d,
+	y: 0.0d,
+	shape: "diamond",
+	tasks: [{
+		uid: "f8177525",
+		type: "item",
+		title: "Any ingotIron",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotIron",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 128L
+	}],
+	rewards: [{
+		uid: "b551f972",
+		type: "item",
+		item: "mekanism:ingot 1 6",
+		count: 16
+	},
+	{
+		uid: "a831566f",
+		type: "item",
+		item: "gregtech:meta_item_1 1 10018",
+		count: 48
+	}]
+}

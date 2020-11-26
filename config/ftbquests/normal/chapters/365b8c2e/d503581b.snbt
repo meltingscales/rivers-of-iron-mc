@@ -1,0 +1,13 @@
+{
+	x: 0.0d,
+	y: -0.5d,
+	tasks: [{
+		uid: "13c74f28",
+		type: "item",
+		items: [{
+			item: "structurize:sceptergold"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

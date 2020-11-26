@@ -4,15 +4,22 @@
 	tasks: [{
 		uid: "3427cd2c",
 		type: "item",
+		title: "Any craftingToolScrewdriver",
 		items: [{
-			id: "gregtech:meta_tool",
-			tag: {
-				GT.ToolStats: {
-					Material: "darmstadtium"
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolScrewdriver",
+					id: "ore"
 				}
 			},
-			Damage: 11s
+			id: "itemfilters:filter"
 		}],
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a19e5e75",
+		type: "item",
+		item: "gregtech:meta_item_1 1 17033",
+		count: 8
 	}]
 }

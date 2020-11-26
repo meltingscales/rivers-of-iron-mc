@@ -1,0 +1,19 @@
+{
+	title: "Hold it!",
+	x: 3.0d,
+	y: 1.5d,
+	shape: "diamond",
+	tasks: [{
+		uid: "91f8ff3f",
+		type: "item",
+		items: [{
+			item: "expandableinventory:iron_expander"
+		}]
+	}],
+	rewards: [{
+		uid: "62c406d3",
+		type: "item",
+		item: "mekanism:oreblock",
+		count: 8
+	}]
+}
