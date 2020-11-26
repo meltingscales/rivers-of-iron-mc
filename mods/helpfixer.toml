@@ -1,0 +1,14 @@
+name = "HelpFixer"
+filename = "HelpFixer-1.12.1-1.5.18.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2479/308/HelpFixer-1.12.1-1.5.18.jar"
+hash-format = "murmur2"
+hash = "2030288568"
+
+[update]
+[update.curseforge]
+file-id = 2479308
+project-id = 223797
+release-channel = "beta"
