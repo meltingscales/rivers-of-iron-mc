@@ -101,8 +101,8 @@ key_key.ironbackpacks.open:23
 key_minetogether.key.friends:50:CONTROL
 key_Open MPS Keybind GUI:0
 key_Go Down (MPS Flight Control):44
-key_Cycle Tool Backward (MPS):0
-key_Cycle Tool Forward (MPS):0
+key_Cycle Tool Backward (MPS):16:SHIFT
+key_Cycle Tool Forward (MPS):18:SHIFT
 key_Cosmetic (MPS):0
 key_neat.keybind.toggle:0
 key_oreexcavation.key.excavate:41
@@ -188,6 +188,10 @@ key_key.effortlessbuilding.undo.desc:44:CONTROL
 key_key.effortlessbuilding.redo.desc:21:CONTROL
 key_key.effortlessbuilding.altplacement.desc:29
 key_key.elenaidodge.dodge:33
+key_mekanism.key.mode:50
+key_mekanism.key.armorMode:34
+key_mekanism.key.feetMode:35
+key_mekanism.key.voice:22
 key_key.infinity.desc:43
 key_key.infinitycopy.desc:0
 key_key.infinitysave.desc:34
@@ -198,10 +202,6 @@ key_justenoughbuttons.key.chunkoverlay:62
 key_justenoughbuttons.key.moboverlay:65
 key_jecalculation.key.gui_craft:0
 key_jecalculation.key.gui_math:0
-key_mekanism.key.mode:50
-key_mekanism.key.armorMode:34
-key_mekanism.key.feetMode:35
-key_mekanism.key.voice:22
 key_keybind.fovfixtoggle:0
 key_key.clipboardPaste:210
 key_overloaded.key.noclip:0
