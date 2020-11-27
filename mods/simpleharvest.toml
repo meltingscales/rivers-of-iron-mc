@@ -1,0 +1,14 @@
+name = "SimpleHarvest"
+filename = "Harvest-1.12-1.2.8-25.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2897/811/Harvest-1.12-1.2.8-25.jar"
+hash-format = "murmur2"
+hash = "2373201553"
+
+[update]
+[update.curseforge]
+file-id = 2897811
+project-id = 240783
+release-channel = "beta"
