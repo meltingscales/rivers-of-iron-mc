@@ -77,6 +77,23 @@ See <https://github.com/HenryFBP/gooeyiron>.
 
 ## Releasing
 
+### Version conventions
+
+#### X.n.n - Major:
+
+- For massive game-breaking changes that warrant a new world.
+- For missing block IDs, broken factories.
+
+#### n.X.n - Minor:
+
+- For new mods that do NOT remove blocks or break factories.
+- For new quests.
+- For tweaks that do not remove items.
+
+#### n.n.X - Patch
+
+- For small bugfixes.
+
 ### Via Git
 
 1.  Switch branch to `release` -- i.e. `git checkout release`.
