@@ -3,3 +3,7 @@
 - Crashing on multiplayer when using vampire suck
 - simpleoregen spawning extra ore
 - Do we want to have multiple ore types? Can we use oredict?
+- Annoying villager noises + flames when blocks are broken in a colony
+  - IS THIS MINECOLONIES???
+  - <https://wiki.minecolonies.ldtteam.com/source/systems/protection>
+- Low osmium spawn rate. Maybe this is a balancing factor? IDK.
