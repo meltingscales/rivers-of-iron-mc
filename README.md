@@ -16,6 +16,10 @@ Minecraft version 1.12.2
 
 ## [Mods](mods)
 
+### Optifine
+
+<https://optifine.net/adloadx?f=OptiFine_1.12.2_HD_U_F5.jar>
+
 ### [Optimization](OPTIMIZATION.md)
 
 ## Playing
