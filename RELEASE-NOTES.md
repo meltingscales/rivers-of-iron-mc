@@ -27,7 +27,7 @@ Fixed TORCHES STARTING FIRES!... WHY, ITEMPHYSIC MOD, WHY IS `enableIgniting` TR
 
 Old worlds will want to run `/gamerule doFireTick false`...
 
-## v1.1.4
+## v1.1.5
 
 Add invtweaks rules.
 Minor quest tweaks.

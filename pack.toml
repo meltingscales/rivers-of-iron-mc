@@ -1,6 +1,6 @@
 name = "Rivers of Iron"
 author = "HenryFBP"
-version = "v1.1.4"
+version = "v1.1.5"
 
 [index]
 file = "index.toml"
