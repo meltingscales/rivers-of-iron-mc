@@ -1,0 +1,14 @@
+name = "Aroma1997s Dimensional World"
+filename = "Aroma1997s-Dimensional-World-1.12.2-2.0.0.2.b97.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2997/915/Aroma1997s-Dimensional-World-1.12.2-2.0.0.2.b97.jar"
+hash-format = "murmur2"
+hash = "2286442769"
+
+[update]
+[update.curseforge]
+file-id = 2997915
+project-id = 60092
+release-channel = "beta"
