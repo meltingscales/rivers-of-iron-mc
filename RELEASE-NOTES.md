@@ -26,3 +26,10 @@ MineFactory releaded, foamfix, and TexFix added.
 Fixed TORCHES STARTING FIRES!... WHY, ITEMPHYSIC MOD, WHY IS `enableIgniting` TRUE BY DEFAULT???
 
 Old worlds will want to run `/gamerule doFireTick false`...
+
+## v1.1.0
+
+Add invtweaks rules.
+Minor quest tweaks.
+Add server support, config files, and README entry.
+Add SimpleHarvest and Aroma1997sDimensionalWorld mod.
