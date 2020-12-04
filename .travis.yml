@@ -29,14 +29,14 @@ before_deploy:
 
   - packwiz refresh
   - packwiz cf export
-  - mv export.zip "rivers-of-iron-release-${TAG}.zip"
+  - mv "Rivers of Iron.zip" "rivers-of-iron-release-${TAG}.zip"
   - ls -lash
 deploy:
   provider: releases
   api_key:
     secure: "Cjpv3RqmbK/5EYzPhFPI4pitY3l5FMYDUJWLul89mQzcH1YC7mtxwDhX0Wb4jCQf5cXgyT1AkoLvueMZMxjAV5FFpGjRhiGamI3H51yo2nBB0lV2Ic8ckuQi0/gcoKVReN0nFFc90nNuIHEdyczfHMmyd7K/GROig1vOfM+NPyyezRrDs8sy9WhkyWUIZsYJSFegWSJtdldLCZc6KMtDDpUz7sNM7oL/js/pPNIR7AdVCDqMSS+lL5arifA+duuKcECd1C7dQRK9kTchdHl2Qvw4MAT9V4PIdI4JI/UewOYQCQ246BL2YXlQkMnJR5DiYOsU7rt4qvJzmcghwN5bGDPZRpg05HUfk345oYdt5MulPKG8ddBqwM+XXCimANSCV59GF/ZnmSz6A0VYA72njSybdFOBjUmMr0/GOPIHBAYLr8YxE0SWhm0fsYdK72Oyj2dPEkYR6NS6fh2HzrFRm/LOztPK4SVNvGHDtdZ8rKsiFD6wzKcCWkmrkNASJrNI+AaIzYrrw4UtSgs3ZoBluuonrrnq8RaapAkAFGygDi+lTP0y3AbxjYw7Fjk9Veu2HYVpsdVkxG8z4i8Hyhhce6Yz7UOYfXUi0JzwvsD6xUYRlhYHHn9cCzqgCwkA/zLhXAW/Lk5Kz1Kr3HgqPLlLP67KqFA1DeRa7/PVrKiik+4="
   file:
-    - "rivers-of-iron-release-${TAG}.zip" #todo not this file, export.zip
+    - "rivers-of-iron-release-${TAG}.zip"
   skip_cleanup: true
   on:
     all_branches: true

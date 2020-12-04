@@ -1,9 +1,11 @@
 name = "Rivers of Iron"
+author = "HenryFBP"
+version = "v1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "9c4115685f9a0c379a018ed3735281979f2c1055fab657b159a546520f8ffc11"
+hash = "4aa4220d6e4dbaa347ff59b5f42b76664d5c3ca1ddab31ca821e59f6b4e4350a"
 
 [versions]
 forge = "14.23.5.2854"

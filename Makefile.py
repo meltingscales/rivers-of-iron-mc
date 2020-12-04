@@ -23,6 +23,6 @@ subprocess.check_output(["packwiz", "cf", "export"])
 
 outzip = f'rivers-of-iron-latest-{get_latest_git_tag()}-{get_git_revision_short_hash()}.zip'
 
-shutil.move('export.zip', outzip)
+shutil.move('Rivers of Iron.zip', outzip)
 
 print(f"Enjoy your pack at {outzip}")
