@@ -1,4 +1,7 @@
-# require the branch name to be release (note for PRs this is the base branch name)
+branches:
+  except:
+  - release
+  - master
 language: go
 go:
   - "1.13"
@@ -29,7 +32,7 @@ before_deploy:
 
   - packwiz refresh
   - packwiz cf export
-  - mv "Rivers of Iron.zip" "rivers-of-iron-release-${TAG}.zip"
+  - mv "Rivers of Iron-v*.zip" "rivers-of-iron-release-${TAG}.zip"
   - ls -lash
 deploy:
   provider: releases
