@@ -7,3 +7,7 @@
   - IS THIS MINECOLONIES???
   - <https://wiki.minecolonies.ldtteam.com/source/systems/protection>
 - Low osmium spawn rate. Maybe this is a balancing factor? IDK.
+- MachineMuse Modular Powersuits glider death issue.
+- 'Biomesphere Portal Frame' -- THIS WILL CRASH and lock you in a dimension.
+  DO NOT CRAFT 'Biomesphere Portal Frame'. This will be disabled in a later release.
+  You must use <https://github.com/jaquadro/NBTExplorer> to fix the player.dat file -- Change their dimension ID.

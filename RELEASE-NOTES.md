@@ -33,3 +33,7 @@ Add invtweaks rules.
 Minor quest tweaks.
 Add server support, config files, and README entry.
 Add SimpleHarvest and Aroma1997sDimensionalWorld mod.
+
+NOTE: This version allows for the crafting of 'Biomesphere Portal Frame' -- THIS WILL CRASH and lock you in a dimension.
+
+DO NOT CRAFT 'Biomesphere Portal Frame'. This will be disabled in a later release.

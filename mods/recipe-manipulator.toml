@@ -1,0 +1,14 @@
+name = "Recipe Manipulator"
+filename = "RecipeManipulator-1.12-0.3.1.13.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2465/153/RecipeManipulator-1.12-0.3.1.13.jar"
+hash-format = "murmur2"
+hash = "2441261279"
+
+[update]
+[update.curseforge]
+file-id = 2465153
+project-id = 270252
+release-channel = "beta"
