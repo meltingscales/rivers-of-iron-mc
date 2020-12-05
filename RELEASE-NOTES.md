@@ -37,3 +37,7 @@ Add SimpleHarvest and Aroma1997sDimensionalWorld mod.
 NOTE: This version allows for the crafting of 'Biomesphere Portal Frame' -- THIS WILL CRASH and lock you in a dimension.
 
 DO NOT CRAFT 'Biomesphere Portal Frame'. This will be disabled in a later release.
+
+## v1.1.5-hotfix
+
+Disable crafting of Biomesphere Portal Frame.
