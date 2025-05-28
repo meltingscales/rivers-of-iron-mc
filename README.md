@@ -8,7 +8,7 @@ Minecraft version 1.12.2
 
 ## RELEASE Status (Not build.)
 
-[![Release Status](https://travis-ci.com/meltingscales/rivers-of-iron-mc.svg?branch=master)](https://travis-ci.com/meltingscales/rivers-of-iron-mc)
+[![Release Status](https://travis-ci.com/github/HenryFBP/rivers-of-iron-mc.svg?branch=master)](https://travis-ci.com/github/HenryFBP/rivers-of-iron-mc)
 
 ## [Issues](ISSUES.md)
 
